@@ -68,12 +68,24 @@ random.shuffle(filtered_questions)
 # ------------------------------------------------
 # Sidebar navigation
 # ------------------------------------------------
+if "current_index" not in st.session_state:
+    st.session_state.current_index = 1
+
 total = len(filtered_questions)
-index = st.sidebar.number_input("Question number", 1, total, 1, key="question_index")
+
+# Show current question index (read-only, not bound to session directly)
+st.sidebar.number_input(
+    "Question number",
+    1, total,
+    st.session_state.current_index,
+    key="question_display",
+    disabled=True
+)
 
 # ------------------------------------------------
 # Display flashcard
 # ------------------------------------------------
+index = st.session_state.current_index
 question = filtered_questions[index - 1]
 prompt = question["prompt"]
 answers = question["answers"]
@@ -109,10 +121,11 @@ with st.expander("📚 View metadata"):
     st.write(f"**Tags:** {', '.join(question.get('tags', []))}")
 
 col1, col2 = st.columns(2)
-if col1.button("⬅ Previous", disabled=index == 1):
-    st.session_state.question_index = max(1, index - 1)
-    st.experimental_rerun()
+if col1.button("⬅ Previous", disabled=st.session_state.current_index == 1):
+    st.session_state.current_index -= 1
+    st.rerun()
 
-if col2.button("Next ➡", disabled=index == total):
-    st.session_state.question_index = min(total, index + 1)
-    st.experimental_rerun()
+if col2.button("Next ➡", disabled=st.session_state.current_index == total):
+    st.session_state.current_index += 1
+    st.rerun()
+
