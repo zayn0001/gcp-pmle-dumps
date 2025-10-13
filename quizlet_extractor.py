@@ -5,7 +5,7 @@ import uuid
 from bs4 import BeautifulSoup
 
 # Read the HTML file
-with open('quizlet3.html', 'r', encoding='utf-8') as file:
+with open('quizlet1.html', 'r', encoding='utf-8') as file:
     html_content = file.read()
 
 # Parse the HTML
@@ -18,6 +18,9 @@ result = []
 for div in term_divs:
     spans = div.find_all('span', {'class': 'TermText'})
     question_text = spans[0].decode_contents()
+    question_soup = BeautifulSoup(question_text, 'html.parser')
+    question_text = question_soup.get_text(strip=True)
+
     if len(spans) < 2:
         print(f"⚠️ No answer span found for question: {question_text}")
         answer_text_raw = ""
@@ -78,6 +81,6 @@ for div in term_divs:
 # print(result)
 
 # Save to JSON
-with open("data/file5.json", "w", encoding="utf-8") as f:
+with open("data/file3.json", "w", encoding="utf-8") as f:
     json.dump(result, f, ensure_ascii=False, indent=2)
 print(f"✅ Extracted {len(result)} MCQs into quizlet_mcq_structured.json")

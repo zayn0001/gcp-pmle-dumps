@@ -1,56 +1,10 @@
 [
   {
-    "question_id": "e53389e4f13c4e939b27511a",
-    "prompt": "You are building an ML model to detect anomalies in real-time sensor data. You will use Pub/Sub to handle incoming requests. You want to store the results for analytics and visualization. How should you configure the pipeline?<br/>",
+    "question_id": "c05506ef53d14e8ba38d8c78",
+    "prompt": "You are building an ML model to detect anomalies in real-time sensor data. You will use Pub/Sub to handle incoming requests. You want to store the results for analytics and visualization. How should you configure the pipeline?",
     "answers": [
       {
-        "text": "1 = Dataflow, 2 = AI Platform, 3 = BigQuery",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "1 = DataProc, 2 = AutoML, 3 = Cloud Bigtable",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "1 = BigQuery, 2 = AutoML, 3 = Cloud Functions",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "1 = BigQuery, 2 = AI Platform, 3 = Cloud Storage",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [],
-    "question_choice_type": "multiple_choice",
-    "section_name": "",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
-    "question_id": "8454d6c4959e402182c12816",
-    "prompt": "During batch training of a neural network, you notice that there is an oscillation in the loss. How should you adjust your model to ensure that it converges?<br/>",
-    "answers": [
-      {
-        "text": "Increase the size of the training batch",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Decrease the size of the training batch",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Increase the learning rate hyperparameter",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Decrease the learning rate hyperparameter",
+        "text": "1 = Dataflow, 2 = AI Platform, 3 = BigQueryB. 1 = DataProc, 2 = AutoML, 3 = Cloud BigtableC. 1 = BigQuery, 2 = AutoML, 3 = Cloud FunctionsD. 1 = BigQuery, 2 = AI Platform, 3 = Cloud Storage",
         "isCorrect": true,
         "explanation": ""
       }
@@ -62,8 +16,24 @@
     "idea_text": ""
   },
   {
-    "question_id": "dab080ee50c94979a43e2a6e",
-    "prompt": "Your organization wants to make its internal shuttle service route more efficient. The shuttles currently stop at all pick-up points across the city every 30 minutes between 7 am and 10 am. The development team has already built an application on Google Kubernetes Engine that requires users to confirm their presence and shuttle station one day in advance. What approach should you take?<br/>",
+    "question_id": "f008b06603e04ce19ef1f8a8",
+    "prompt": "During batch training of a neural network, you notice that there is an oscillation in the loss. How should you adjust your model to ensure that it converges?",
+    "answers": [
+      {
+        "text": "Increase the size of the training batchB. Decrease the size of the training batchC. Increase the learning rate hyperparameterD. Decrease the learning rate hyperparameter",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [],
+    "question_choice_type": "multiple_choice",
+    "section_name": "",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "47ba23a79ca0436a88aae2bf",
+    "prompt": "Your organization wants to make its internal shuttle service route more efficient. The shuttles currently stop at all pick-up points across the city every 30 minutes between 7 am and 10 am. The development team has already built an application on Google Kubernetes Engine that requires users to confirm their presence and shuttle station one day in advance. What approach should you take?",
     "answers": [
       {
         "text": "1. Build a tree-based regression model that predicts how many passengers will be picked up at each shuttle station. 2. Dispatch an appropriately sized shuttle and provide the map with the required stops based on the prediction.",
@@ -88,8 +58,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "eea4942162ae4d37800afc8b",
-    "prompt": "You were asked to investigate failures of a production line component based on sensor readings. After receiving the dataset, you discover that less than 1% of the readings are positive examples representing failure incidents. You have tried to train several classification models, but none of them converge. How should you resolve the class imbalance problem?<br/>",
+    "question_id": "9aa3c2727eb045a6abab3f7c",
+    "prompt": "You were asked to investigate failures of a production line component based on sensor readings. After receiving the dataset, you discover that less than 1% of the readings are positive examples representing failure incidents. You have tried to train several classification models, but none of them converge. How should you resolve the class imbalance problem?",
     "answers": [
       {
         "text": "Use the class distribution to generate 10% positive examples.",
@@ -119,26 +89,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "8d845b8feed84898a5f6cc17",
-    "prompt": "You are going to train a DNN regression model with Keras APJs using this code:<br/>model - tf.keras.Sequential() model.add(tf.keras.layers.Oense(<br/>256,<br/>use_bias-True,<br/>activation-•relu',<br/>kernel_initializer-None,<br/>kernel_regularizer-None,<br/>input_shape-(500,)))<br/>model.add(tf.keras.layers.Oropout(rate-0.25))<br/>model.add(tf.keras.layers.Oense(<br/>128, use_bias-True,<br/>activation-•relu',<br/>kernel_initializer-'uniform',<br/>kernel_regularizer-'12'))<br/>model.add(tf.keras.layers.Oropout(rate-0.25))<br/>model.add(tf.keras.layers.Oense(<br/>2, use_bias-False,<br/>activation-•softriax'))<br/>model.cornpile(loss-•mse')<br/>How many trainable weights does your model have? (The arithmetic below is correct.)<br/>",
+    "question_id": "e8d48da3d43b498895d32ad6",
+    "prompt": "You are going to train a DNN regression model with Keras APJs using this code:model - tf.keras.Sequential() model.add(tf.keras.layers.Oense(256,use_bias-True,activation-•relu',kernel_initializer-None,kernel_regularizer-None,input_shape-(500,)))model.add(tf.keras.layers.Oropout(rate-0.25))model.add(tf.keras.layers.Oense(128, use_bias-True,activation-•relu',kernel_initializer-'uniform',kernel_regularizer-'12'))model.add(tf.keras.layers.Oropout(rate-0.25))model.add(tf.keras.layers.Oense(2, use_bias-False,activation-•softriax'))model.cornpile(loss-•mse')How many trainable weights does your model have? (The arithmetic below is correct.)",
     "answers": [
       {
-        "text": "501256+257128+2 = 161154",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "500256+256128+128*2 = 161024",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "501256+257128+128*2 = 161408",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "5002560(?)25+2561280(?)25+128*2 = 4044",
+        "text": "501256+257128+2 = 161154B. 500256+256128+128*2 = 161024C. 501256+257128+128*2 = 161408D. 5002560(?)25+2561280(?)25+128*2 = 4044",
         "isCorrect": false,
         "explanation": ""
       }
@@ -150,8 +105,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "47aab29cf18f4475819e5051",
-    "prompt": "You want to rebuild your ML pipeline for structured data on Google Cloud. You are using PySpark to conduct data transformations at scale, but your pipelines are taking over 12 hours to run. To speed up development and pipeline run time, you want to use a serverless tool and SQL syntax. You have already moved your raw data into Cloud Storage. How should you build the pipeline on Google Cloud while meeting the speed and processing requirements? ???<br/>",
+    "question_id": "e0a4efc5b1e9469988013d80",
+    "prompt": "You want to rebuild your ML pipeline for structured data on Google Cloud. You are using PySpark to conduct data transformations at scale, but your pipelines are taking over 12 hours to run. To speed up development and pipeline run time, you want to use a serverless tool and SQL syntax. You have already moved your raw data into Cloud Storage. How should you build the pipeline on Google Cloud while meeting the speed and processing requirements? ???",
     "answers": [
       {
         "text": "Use Data Fusion's GUI to build the transformation pipelines, and then write the data into BigQuery.",
@@ -181,27 +136,12 @@
     "idea_text": ""
   },
   {
-    "question_id": "5b34c200fc5a4f17934fe4b8",
-    "prompt": "You are an ML engineer in the contact center of a large enterprise. You need to build a sentiment analysis tool that predicts customer sentiment from recorded phone conversations. You need to identify the best approach to building a model while ensuring that the gender, age, and cultural differences of the customers who called the contact center do not impact any stage of the model development pipeline and results. What should you do?<br/>",
+    "question_id": "57d88b5b31094a2e847c7c70",
+    "prompt": "You are an ML engineer in the contact center of a large enterprise. You need to build a sentiment analysis tool that predicts customer sentiment from recorded phone conversations. You need to identify the best approach to building a model while ensuring that the gender, age, and cultural differences of the customers who called the contact center do not impact any stage of the model development pipeline and results. What should you do?",
     "answers": [
       {
-        "text": "Convert the speech to text and extract sentiments based on the sentences",
+        "text": "Convert the speech to text and extract sentiments based on the sentencesB. Convert the speech to text and extract sentiment using syntactical analysisC. Extract sentiment directly from the voice recordingsD. Convert the speech to text and build a model based on the words",
         "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "Convert the speech to text and extract sentiment using syntactical analysis",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Extract sentiment directly from the voice recordings",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Convert the speech to text and build a model based on the words",
-        "isCorrect": false,
         "explanation": ""
       }
     ],
@@ -212,8 +152,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "f4ef43f735f2459a87f2493e",
-    "prompt": "You manage a team of data scientists who use a cloud-based backend system to submit training jobs. This system has become very difficult to administer, and you want to use a managed service instead. The data scientists you work with use many different frameworks, including Keras, PyTorch, theano, Scikit-learn, and custom libraries. What should you do?<br/>",
+    "question_id": "d74688c1697d4c44afa793bd",
+    "prompt": "You manage a team of data scientists who use a cloud-based backend system to submit training jobs. This system has become very difficult to administer, and you want to use a managed service instead. The data scientists you work with use many different frameworks, including Keras, PyTorch, theano, Scikit-learn, and custom libraries. What should you do?",
     "answers": [
       {
         "text": "Use the AI Platform custom containers feature to receive training jobs using any framework.",
@@ -243,8 +183,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "2f2f64516b1e45aab90e5790",
-    "prompt": "You are building a linear model with over 100 input features, all with values between -1 and 1. You suspect that many features are non-informative. You want to remove the non-informative features from your model while keeping the informative ones in their original form. Which technique should you use?<br/>",
+    "question_id": "5fa1de33265e428ea4645b17",
+    "prompt": "You are building a linear model with over 100 input features, all with values between -1 and 1. You suspect that many features are non-informative. You want to remove the non-informative features from your model while keeping the informative ones in their original form. Which technique should you use?",
     "answers": [
       {
         "text": "Use Principal Component Analysis to eliminate the least informative features.",
@@ -274,8 +214,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "da9c2e68b581490bb6280bbc",
-    "prompt": "You work for an online retail company that is creating a visual search engine. You have set up an end-to-end ML pipeline on Google Cloud to classify whether an image contains your company's product. Expecting the release of new products in the near future, you configured a retraining functionality in the pipeline so that new data can be fed into your ML models. You also want to use AI Platform's continuous evaluation service to ensure that the models have high accuracy on your test dataset. What should you do?<br/>",
+    "question_id": "c1c8a95809f641d1a3a131b9",
+    "prompt": "You work for an online retail company that is creating a visual search engine. You have set up an end-to-end ML pipeline on Google Cloud to classify whether an image contains your company's product. Expecting the release of new products in the near future, you configured a retraining functionality in the pipeline so that new data can be fed into your ML models. You also want to use AI Platform's continuous evaluation service to ensure that the models have high accuracy on your test dataset. What should you do?",
     "answers": [
       {
         "text": "Keep the original test dataset unchanged even if newer products are incorporated into retraining.",
@@ -305,17 +245,12 @@
     "idea_text": ""
   },
   {
-    "question_id": "1d04f2de713444ed9b21d02d",
-    "prompt": "You work for a global footwear retailer and need to predict when an item will be out of stock based on historical inventory data. Customer behavior is highly dynamic since footwear demand is influenced by many different factors. You want to serve models that are trained on all available data, but track your performance on specific subsets of data before pushing to production. What is the most streamlined and reliable way to perform this validation?<br/>",
+    "question_id": "2ba695af0f64455da54f6795",
+    "prompt": "You work for a global footwear retailer and need to predict when an item will be out of stock based on historical inventory data. Customer behavior is highly dynamic since footwear demand is influenced by many different factors. You want to serve models that are trained on all available data, but track your performance on specific subsets of data before pushing to production. What is the most streamlined and reliable way to perform this validation?",
     "answers": [
       {
-        "text": "Use the TFX Mode!Validator tools to specify performance metrics for production readiness",
+        "text": "Use the TFX Mode!Validator tools to specify performance metrics for production readinessB. Use k-fold cross-validation as a validation strategy to ensure that your model is ready for production.",
         "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "Use k-fold cross-validation as a validation strategy to ensure that your model is ready for production.",
-        "isCorrect": false,
         "explanation": ""
       },
       {
@@ -336,8 +271,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "374bdc67f45348979d727c0d",
-    "prompt": "You need to build classification workflows over several structured datasets currently stored in BigQuery. Because you will be performing the classification several times, you want to complete the following steps without writing code: exploratory data analysis, feature selection, model building, training, and hyperparameter tuning and serving. What should you do?<br/>",
+    "question_id": "567ebc29bc7a4862b8059f8f",
+    "prompt": "You need to build classification workflows over several structured datasets currently stored in BigQuery. Because you will be performing the classification several times, you want to complete the following steps without writing code: exploratory data analysis, feature selection, model building, training, and hyperparameter tuning and serving. What should you do?",
     "answers": [
       {
         "text": "Configure AutoML Tables to perform the classification task.",
@@ -367,26 +302,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "403989f51b5a4ca5846ec90d",
-    "prompt": "You recently designed and built a custom neural network that uses critical dependencies specific to your organization's framework. You need to train the model using a managed training service on Google Cloud. However, the ML framework and related dependencies are not supported by Al Platform Training. Also, both your model and your data are too large to fit in memory on a single machine. Your ML framework of choice uses the scheduler, workers, and servers distribution structure. What should you do?<br/>",
+    "question_id": "0784a0898793498285693f68",
+    "prompt": "You recently designed and built a custom neural network that uses critical dependencies specific to your organization's framework. You need to train the model using a managed training service on Google Cloud. However, the ML framework and related dependencies are not supported by Al Platform Training. Also, both your model and your data are too large to fit in memory on a single machine. Your ML framework of choice uses the scheduler, workers, and servers distribution structure. What should you do?",
     "answers": [
       {
-        "text": "Build your custom container to run jobs on Al Platform Training",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Use a built-in model available on Al Platform Training",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Build your custom containers to run distributed training jobs on Al Platform Training",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "Reconfigure your code to a ML framework with dependencies that are supported by Al Platform Training",
+        "text": "Build your custom container to run jobs on Al Platform TrainingB. Use a built-in model available on Al Platform TrainingC. Build your custom containers to run distributed training jobs on Al Platform TrainingD. Reconfigure your code to a ML framework with dependencies that are supported by Al Platform Training",
         "isCorrect": false,
         "explanation": ""
       }
@@ -398,8 +318,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "40fc6680b5f04502afc1f1db",
-    "prompt": "You work for a public transportation company and need to build a model to estimate delay times for multiple transportation routes. Predictions are served directly to users in an app in real time. Because different seasons and population increases impact the data relevance, you will retrain the model every month. You want to follow Google-recommended best practices. How should you configure the end-to-end architecture of the predictive model?<br/>",
+    "question_id": "fb85d6d167d84fbbb305fff4",
+    "prompt": "You work for a public transportation company and need to build a model to estimate delay times for multiple transportation routes. Predictions are served directly to users in an app in real time. Because different seasons and population increases impact the data relevance, you will retrain the model every month. You want to follow Google-recommended best practices. How should you configure the end-to-end architecture of the predictive model?",
     "answers": [
       {
         "text": "Configure Kubeflow Pipelines to schedule your multi-step workflow from training to deploying your model.",
@@ -429,8 +349,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "1f73f817c7df43428ee8578d",
-    "prompt": "You are building an ML model to predict trends in the stock market based on a wide range of factors. While exploring the data, you notice that some features have a large range. You want to ensure that the features with the largest magnitude don't overfit the model. What should you do?<br/>",
+    "question_id": "c01734fbcffc4cc495f69432",
+    "prompt": "You are building an ML model to predict trends in the stock market based on a wide range of factors. While exploring the data, you notice that some features have a large range. You want to ensure that the features with the largest magnitude don't overfit the model. What should you do?",
     "answers": [
       {
         "text": "Normalice the data by scaling it to have values between 0 a 1.",
@@ -460,27 +380,12 @@
     "idea_text": ""
   },
   {
-    "question_id": "ad386ed78ad44b10a4636a3e",
-    "prompt": "You are developing an ML model intended to classify whether X-Ray images indicate bone fracture risk. You have trained on Api Resnet architecture on Vertex AI using a TPU as an accelerator, however you are unsatisfied with the trainning time and use memory usage. You want to quickly iterate your training code but make mininal changes to the code. You also want to minimize impact on the models accuracy. What should you do? ???<br/>",
+    "question_id": "64715de79537411991c9168c",
+    "prompt": "You are developing an ML model intended to classify whether X-Ray images indicate bone fracture risk. You have trained on Api Resnet architecture on Vertex AI using a TPU as an accelerator, however you are unsatisfied with the trainning time and use memory usage. You want to quickly iterate your training code but make mininal changes to the code. You also want to minimize impact on the models accuracy. What should you do? ???",
     "answers": [
       {
-        "text": "Configure your model to use bfloat16 instead 32",
+        "text": "Configure your model to use bfloat16 instead 32B. Reduce the global batch size from 1024 to 256C. Reduce the number of layers in the model architectureD. Recude the dimensions of the images used un the model",
         "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "Reduce the global batch size from 1024 to 256",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Reduce the number of layers in the model architecture",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Recude the dimensions of the images used un the model",
-        "isCorrect": false,
         "explanation": ""
       }
     ],
@@ -491,8 +396,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "799e1b0b20424cb1800adcbf",
-    "prompt": "Your task is classify if a company logo is present on an image. You found out that 96% of a data does not include a logo. You are dealing with data imbalance problem. Which metric do you use to evaluate to model?<br/>1. F1 Score<br/>2. RMSE<br/>3. F Score with higher precision weighting than recall<br/>4. F Score with higher recall weighted than precision",
+    "question_id": "26bca0eb9c794294aea9044e",
+    "prompt": "Your task is classify if a company logo is present on an image. You found out that 96% of a data does not include a logo. You are dealing with data imbalance problem. Which metric do you use to evaluate to model?1. F1 Score2. RMSE3. F Score with higher precision weighting than recall4. F Score with higher recall weighted than precision",
     "answers": [],
     "tags": [],
     "question_choice_type": "multiple_choice",
@@ -501,26 +406,16 @@
     "idea_text": ""
   },
   {
-    "question_id": "56ad8e53df5245acb91a0b5c",
-    "prompt": "Your team trained and tested a DNN regression model with good results. Six months after deployment, the model is performing poorly due to a change in the distribution of the input data. How should you address the input differences in production?<br/>",
+    "question_id": "6742f7a2218546eab031f0b6",
+    "prompt": "Your team trained and tested a DNN regression model with good results. Six months after deployment, the model is performing poorly due to a change in the distribution of the input data. How should you address the input differences in production?",
     "answers": [
       {
-        "text": "Perform feature selection on the model, and retrain the model with fewer features",
+        "text": "Perform feature selection on the model, and retrain the model with fewer featuresB. Create alerts to monitor for skew, and retrain the model.",
         "isCorrect": false,
         "explanation": ""
       },
       {
-        "text": "Create alerts to monitor for skew, and retrain the model.",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "Perform feature selection on the model, and retrain the model on a monthly basis with fewer features",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Retrain the model, and select an L2 regularization parameter with a hyperparameter tuning service",
+        "text": "Perform feature selection on the model, and retrain the model on a monthly basis with fewer featuresD. Retrain the model, and select an L2 regularization parameter with a hyperparameter tuning service",
         "isCorrect": false,
         "explanation": ""
       }
@@ -532,27 +427,12 @@
     "idea_text": ""
   },
   {
-    "question_id": "36f14786884947a68b789181",
-    "prompt": "You work for a toy manufacturer that has been experiencing a large increase in demand. You need to build an ML model to reduce the amount of time spent by quality control inspectors checking for product defects. Faster defect detection is a priority. The factory does not have reliable Wi-Fi. Your company wants to implement the new ML model as soon as possible. Which model should you use?<br/>",
+    "question_id": "a68bd048859b49d082461aa5",
+    "prompt": "You work for a toy manufacturer that has been experiencing a large increase in demand. You need to build an ML model to reduce the amount of time spent by quality control inspectors checking for product defects. Faster defect detection is a priority. The factory does not have reliable Wi-Fi. Your company wants to implement the new ML model as soon as possible. Which model should you use?",
     "answers": [
       {
-        "text": "AutoML Vision Edge mobile-high-accuracy-1 model",
+        "text": "AutoML Vision Edge mobile-high-accuracy-1 modelB. AutoML Vision Edge mobile-versatile-1 modelC. AutoML Vision modelD. AutoML Vision Edge mobile-low-latency-1 model",
         "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "AutoML Vision Edge mobile-versatile-1 model",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "AutoML Vision model",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "AutoML Vision Edge mobile-low-latency-1 model",
-        "isCorrect": true,
         "explanation": ""
       }
     ],
@@ -563,8 +443,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "11d5ccb6966c44f1ac0bcb52",
-    "prompt": "You are building a linear regression model on BigQuery ML to predict a customer's likelihood of purchasing your company's products. Your model uses a city name variable as a key predictive component. In order to train and serve the model, your data must be organized in columns. You want to prepare your data using the least amount of coding while maintaining the predictable variables. What should you do?<br/>",
+    "question_id": "f16b10574a094c0d98417564",
+    "prompt": "You are building a linear regression model on BigQuery ML to predict a customer's likelihood of purchasing your company's products. Your model uses a city name variable as a key predictive component. In order to train and serve the model, your data must be organized in columns. You want to prepare your data using the least amount of coding while maintaining the predictable variables. What should you do?",
     "answers": [
       {
         "text": "Create a new view with BigQuery that does not include a column with city information.",
@@ -594,26 +474,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "6395cd73cc0c411597a202a1",
-    "prompt": "Your data science team has requested a system that supports scheduled model retraining, Docker containers, and a service that supports autoscaling and monitoring for online prediction requests. Which platform components should you choose for this system?<br/>",
+    "question_id": "3af179812772459397b21ef2",
+    "prompt": "Your data science team has requested a system that supports scheduled model retraining, Docker containers, and a service that supports autoscaling and monitoring for online prediction requests. Which platform components should you choose for this system?",
     "answers": [
       {
-        "text": "Kubeflow Pipelines and App Engine",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Kubeflow Pipelines and Al Platform Prediction",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "Cloud Composer, BigQuery ML , and Al Platform Prediction",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Cloud Composer, Al Platform Training with custom containers , and App Engine",
+        "text": "Kubeflow Pipelines and App EngineB. Kubeflow Pipelines and Al Platform PredictionC. Cloud Composer, BigQuery ML , and Al Platform PredictionD. Cloud Composer, Al Platform Training with custom containers , and App Engine",
         "isCorrect": false,
         "explanation": ""
       }
@@ -625,8 +490,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "d4d89ee59d714c9c9f61eb56",
-    "prompt": "You need to train a regression model based on a dataset containing 50,000 records that is stored in BigQuery. The data includes a total of 20 categorical and numerical features with a target variable that can include negative values. You need to minimize effort and training time while maximizing model performance. What approach should you take to train this regression model?<br/>",
+    "question_id": "e9f0cfd35d464830a9a7cb52",
+    "prompt": "You need to train a regression model based on a dataset containing 50,000 records that is stored in BigQuery. The data includes a total of 20 categorical and numerical features with a target variable that can include negative values. You need to minimize effort and training time while maximizing model performance. What approach should you take to train this regression model?",
     "answers": [
       {
         "text": "Create a custom TensorFlow DNN model.",
@@ -634,13 +499,8 @@
         "explanation": ""
       },
       {
-        "text": "Use BQML XGBoost regression to train the model",
+        "text": "Use BQML XGBoost regression to train the modelC. Use AutoML Tables to train the model without early stopping.",
         "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "Use AutoML Tables to train the model without early stopping.",
-        "isCorrect": false,
         "explanation": ""
       },
       {
@@ -656,8 +516,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "0cb73d712d0c44f486003cf3",
-    "prompt": "You are an ML engineer at a bank that has a mobile application. Management has asked you to build an ML-based biometric authentication for the app that verifies a customer's identity based on their fingerprint. Fingerprints are considered highly sensitive personal information and cannot be downloaded and stored into the bank databases. Which learning strategy should you recommend to train and deploy this ML model?<br/>A Differential privacy<br/>B Federated learning<br/>C MD5 to encrypt data<br/>D Data Loss Prevention API",
+    "question_id": "3c276df4928d4c5eb5c545a9",
+    "prompt": "You are an ML engineer at a bank that has a mobile application. Management has asked you to build an ML-based biometric authentication for the app that verifies a customer's identity based on their fingerprint. Fingerprints are considered highly sensitive personal information and cannot be downloaded and stored into the bank databases. Which learning strategy should you recommend to train and deploy this ML model?A Differential privacyB Federated learningC MD5 to encrypt dataD Data Loss Prevention API",
     "answers": [],
     "tags": [],
     "question_choice_type": "multiple_choice",
@@ -666,8 +526,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "2777566702a046b292f6cab5",
-    "prompt": "You work for a large retailer. You want to use ML to forecast future sales leveraging 10 years of historical sales data. The historical data is stored in Cloud Storage in Avro format. You want to rapidly experiment with all the available data. How should you build and train your model for the sales forecast?<br/>",
+    "question_id": "a4c8f67280ed4280b56f677e",
+    "prompt": "You work for a large retailer. You want to use ML to forecast future sales leveraging 10 years of historical sales data. The historical data is stored in Cloud Storage in Avro format. You want to rapidly experiment with all the available data. How should you build and train your model for the sales forecast?",
     "answers": [
       {
         "text": "Load data into BigQuery and use the ARIMA model type on BigQuery ML.",
@@ -697,8 +557,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "21ec7696b26846bcb9210087",
-    "prompt": "You need to build an object detection model for a small startup company to identify if and where the company's logo appears in an image. You were given a large repository of images, some with logos and some without. These images are not yet labelled. You need to label these pictures, and then train and deploy the model. What should you do?<br/>",
+    "question_id": "25c7ae666a3f4e12a007f1a4",
+    "prompt": "You need to build an object detection model for a small startup company to identify if and where the company's logo appears in an image. You were given a large repository of images, some with logos and some without. These images are not yet labelled. You need to label these pictures, and then train and deploy the model. What should you do?",
     "answers": [
       {
         "text": "Use Google Cloud's Data Labelling Service to label your data. Use AutoML Object Detection to train and deploy the model.",
@@ -728,8 +588,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "d7b6e0b7c3dd43a1ab4639a9",
-    "prompt": "You work for a large financial institution that is planning to use Dialogflow to create a chatbot for the company's mobile app. You have reviewed old chat logs and tagged each conversation for intent based on each customer's stated intention for contacting customer service. About 70% of customer inquiries are simple requests that are solved within 10 intents. The remaining 30% of inquiries require much longer and more complicated requests. Which intents should you automate first?<br/>",
+    "question_id": "15faa4c2a53045c7999256c5",
+    "prompt": "You work for a large financial institution that is planning to use Dialogflow to create a chatbot for the company's mobile app. You have reviewed old chat logs and tagged each conversation for intent based on each customer's stated intention for contacting customer service. About 70% of customer inquiries are simple requests that are solved within 10 intents. The remaining 30% of inquiries require much longer and more complicated requests. Which intents should you automate first?",
     "answers": [
       {
         "text": "Automate a blend of the shortest and longest intents to be representative of all intents.",
@@ -759,8 +619,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "5de4f22f0c2e4364b00a83d5",
-    "prompt": "You work for a gaming company that develops and manages a popular massively multiplayer online (MMO) game. The game's environment is open-ended, and a large number of positions and moves can be taken by a player. Your team has developed an ML model with TensorFlow that predicts the next move of each player. Edge deployment is not possible, but low-latency serving is required. How should you configure the deployment?<br/>",
+    "question_id": "eb2a77f7d4954c9187b13e22",
+    "prompt": "You work for a gaming company that develops and manages a popular massively multiplayer online (MMO) game. The game's environment is open-ended, and a large number of positions and moves can be taken by a player. Your team has developed an ML model with TensorFlow that predicts the next move of each player. Edge deployment is not possible, but low-latency serving is required. How should you configure the deployment?",
     "answers": [
       {
         "text": "Use a Cloud TPU to optimize model training speed.",
@@ -790,8 +650,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "cb1d41cf4c304497821ccfb6",
-    "prompt": "You are developing ML models with AI Platform for image segmentation on CT scans. You frequently update your model architectures based on the newest available research papers, and have to rerun training on the same dataset to benchmark their performance. You want to minimize computation costs and manual intervention while having version control for your code. What should you do?<br/>",
+    "question_id": "8ac1b70b0f2945059dc6e194",
+    "prompt": "You are developing ML models with AI Platform for image segmentation on CT scans. You frequently update your model architectures based on the newest available research papers, and have to rerun training on the same dataset to benchmark their performance. You want to minimize computation costs and manual intervention while having version control for your code. What should you do?",
     "answers": [
       {
         "text": "Use Cloud Functions to identify changes to your code in Cloud Storage and trigger a retraining job.",
@@ -821,27 +681,12 @@
     "idea_text": ""
   },
   {
-    "question_id": "6a48e83aecca447a89347a62",
-    "prompt": "Your team needs to build a model that predicts whether images contain a driver's license, passport, or credit card. The data engineering team already built the pipeline and generated a dataset composed of 10,000 images with driver's licenses, 1,000 images with passports, and 1,000 images with credit cards. You now have to train a model with the following label map: [`˜drivers_license', `˜passport', `˜credit_card']. Which loss function should you use?<br/>",
+    "question_id": "96e3deca0ca54c62a564f977",
+    "prompt": "Your team needs to build a model that predicts whether images contain a driver's license, passport, or credit card. The data engineering team already built the pipeline and generated a dataset composed of 10,000 images with driver's licenses, 1,000 images with passports, and 1,000 images with credit cards. You now have to train a model with the following label map: [`˜drivers_license', `˜passport', `˜credit_card']. Which loss function should you use?",
     "answers": [
       {
-        "text": "Categorical hinge",
+        "text": "Categorical hingeB. Binary cross-entropyC. Categorical cross-entropyD. Sparse categorical cross-entropy",
         "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Binary cross-entropy",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Categorical cross-entropy",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Sparse categorical cross-entropy",
-        "isCorrect": true,
         "explanation": ""
       }
     ],
@@ -852,8 +697,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "c26815b639074f85b9beee31",
-    "prompt": "You are designing an ML recommendation model for shoppers on your company's ecommerce website. You will use Recommendations AI to build, test, and deploy your system. How should you develop recommendations that increase revenue while following best practices? ???<br/>",
+    "question_id": "b0afd505d4e24257bd7962ef",
+    "prompt": "You are designing an ML recommendation model for shoppers on your company's ecommerce website. You will use Recommendations AI to build, test, and deploy your system. How should you develop recommendations that increase revenue while following best practices? ???",
     "answers": [
       {
         "text": "Use the ג€Other Products You May Likeג€ recommendation type to increase the click-through rate.",
@@ -883,26 +728,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "d3f0bec9386b4dd2a2c7b5a5",
-    "prompt": "You are designing an architecture with a serverless ML system to enrich customer support tickets with informative metadata before they are routed to a support agent. You need a set of models to predict ticket priority, predict ticket resolution time, and perform sentiment analysis to help agents make strategic decisions when they process support requests. Tickets are not expected to have any domain-specific terms or jargon.<br/>The proposed architecture has the following flow:<br/><br/><br/>Which endpoints should the Enrichment Cloud Functions call?<br/>",
+    "question_id": "65827c77d45940068cded1f8",
+    "prompt": "You are designing an architecture with a serverless ML system to enrich customer support tickets with informative metadata before they are routed to a support agent. You need a set of models to predict ticket priority, predict ticket resolution time, and perform sentiment analysis to help agents make strategic decisions when they process support requests. Tickets are not expected to have any domain-specific terms or jargon.The proposed architecture has the following flow:Which endpoints should the Enrichment Cloud Functions call?",
     "answers": [
       {
-        "text": "1 = AI Platform, 2 = AI Platform, 3 = AutoML Vision",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "1 = AI Platform, 2 = AI Platform, 3 = AutoML Natural Language",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "1 = AI Platform, 2 = AI Platform, 3 = Cloud Natural Language API",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "1 = Cloud Natural Language API, 2 = AI Platform, 3 = Cloud Vision API",
+        "text": "1 = AI Platform, 2 = AI Platform, 3 = AutoML VisionB. 1 = AI Platform, 2 = AI Platform, 3 = AutoML Natural LanguageC. 1 = AI Platform, 2 = AI Platform, 3 = Cloud Natural Language APID. 1 = Cloud Natural Language API, 2 = AI Platform, 3 = Cloud Vision API",
         "isCorrect": false,
         "explanation": ""
       }
@@ -914,8 +744,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "8bd55d8dd88147fcbc8ad26e",
-    "prompt": "You have trained a deep neural network model on Google Cloud. The model has low loss on the training data, but is performing worse on the validation data. You want the model to be resilient to overfitting. Which strategy should you use when retraining the model?<br/>",
+    "question_id": "86bc2cfa060442a4a86ab48d",
+    "prompt": "You have trained a deep neural network model on Google Cloud. The model has low loss on the training data, but is performing worse on the validation data. You want the model to be resilient to overfitting. Which strategy should you use when retraining the model?",
     "answers": [
       {
         "text": "Apply a dropout parameter of 0.2, and decrease the learning rate by a factor of 10.",
@@ -945,26 +775,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "912ffd3883a24d1da57674ad",
-    "prompt": "ou built and manage a production system that is responsible for predicting sales numbers. Model accuracy is crucial, because the production model is required to keep up with market changes. Since being deployed to production, the model hasn't changed; however the accuracy of the model has steadily deteriorated.<br/>What issue is most likely causing the steady decline in model accuracy?<br/>",
+    "question_id": "0579a68c972f4904ab8c7941",
+    "prompt": "ou built and manage a production system that is responsible for predicting sales numbers. Model accuracy is crucial, because the production model is required to keep up with market changes. Since being deployed to production, the model hasn't changed; however the accuracy of the model has steadily deteriorated.What issue is most likely causing the steady decline in model accuracy?",
     "answers": [
       {
-        "text": "Poor data quality",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Lack of model retraining",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "Too few layers in the model for capturing information",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Incorrect data split ratio during model training, evaluation, validation, and test",
+        "text": "Poor data qualityB. Lack of model retrainingC. Too few layers in the model for capturing informationD. Incorrect data split ratio during model training, evaluation, validation, and test",
         "isCorrect": false,
         "explanation": ""
       }
@@ -976,8 +791,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "8bbb0090483f4a3188daa65b",
-    "prompt": "You have been asked to develop an input pipeline for an ML training model that processes images from disparate sources at a low latency. You discover that your input data does not fit in memory. How should you create a dataset following Google-recommended best practices?<br/>",
+    "question_id": "e3c1724b221142c8986c7c4d",
+    "prompt": "You have been asked to develop an input pipeline for an ML training model that processes images from disparate sources at a low latency. You discover that your input data does not fit in memory. How should you create a dataset following Google-recommended best practices?",
     "answers": [
       {
         "text": "Create a tf.data.Dataset.prefetch transformation.",
@@ -1007,22 +822,12 @@
     "idea_text": ""
   },
   {
-    "question_id": "2a1b39d78ebc481d9ea45aa2",
-    "prompt": "You are an ML engineer at a large grocery retailer with stores in multiple regions. You have been asked to create an inventory prediction model. Your model's features include region, location, historical demand, and seasonal popularity. You want the algorithm to learn from new inventory data on a daily basis. Which algorithms should you use to build the model?<br/>",
+    "question_id": "63ed9b08b07c4d5c9e74c3e5",
+    "prompt": "You are an ML engineer at a large grocery retailer with stores in multiple regions. You have been asked to create an inventory prediction model. Your model's features include region, location, historical demand, and seasonal popularity. You want the algorithm to learn from new inventory data on a daily basis. Which algorithms should you use to build the model?",
     "answers": [
       {
-        "text": "Classification",
+        "text": "ClassificationB. Reinforcement LearningC. Recurrent Neural Networks (RNN)",
         "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Reinforcement Learning",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Recurrent Neural Networks (RNN)",
-        "isCorrect": true,
         "explanation": ""
       },
       {
@@ -1038,8 +843,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "f1a4765598ca420e908ae2c8",
-    "prompt": "You are building a real-time prediction engine that streams files which may contain Personally Identifiable Information (PII) to Google Cloud. You want to use the Cloud Data Loss Prevention (DLP) API to scan the files. How should you ensure that the PII is not accessible by unauthorized individuals? ???<br/>",
+    "question_id": "3273c0e271ef4fb0baa02ce8",
+    "prompt": "You are building a real-time prediction engine that streams files which may contain Personally Identifiable Information (PII) to Google Cloud. You want to use the Cloud Data Loss Prevention (DLP) API to scan the files. How should you ensure that the PII is not accessible by unauthorized individuals? ???",
     "answers": [
       {
         "text": "Stream all files to Google Cloud, and then write the data to BigQuery. Periodically conduct a bulk scan of the table using the DLP API.",
@@ -1069,8 +874,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "dc46744f4603488fae231d44",
-    "prompt": "You work for a large hotel chain and have been asked to assist the marketing team in gathering predictions for a targeted marketing strategy. You need to make predictions about user lifetime value (LTV) over the next 20 days so that marketing can be adjusted accordingly. The customer dataset is in BigQuery, and you are preparing the tabular data for training with AutoML Tables. This data has a time signal that is spread across multiple columns. How should you ensure that AutoML fits the best model to your data?<br/>",
+    "question_id": "d9e7b0d6530e4888be247242",
+    "prompt": "You work for a large hotel chain and have been asked to assist the marketing team in gathering predictions for a targeted marketing strategy. You need to make predictions about user lifetime value (LTV) over the next 20 days so that marketing can be adjusted accordingly. The customer dataset is in BigQuery, and you are preparing the tabular data for training with AutoML Tables. This data has a time signal that is spread across multiple columns. How should you ensure that AutoML fits the best model to your data?",
     "answers": [
       {
         "text": "Manually combine all columns that contain a time signal into an array. AIlow AutoML to interpret this array appropriately. Choose an automatic data split across the training, validation, and testing sets.",
@@ -1090,8 +895,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "ba77a4276e024f7d91e6e76d",
-    "prompt": "You have written unit tests for a Kubeflow Pipeline that require custom libraries. You want to automate the execution of unit tests with each new push to your development branch in Cloud Source Repositories. What should you do?<br/>",
+    "question_id": "256290402ae94992bf2b7d7b",
+    "prompt": "You have written unit tests for a Kubeflow Pipeline that require custom libraries. You want to automate the execution of unit tests with each new push to your development branch in Cloud Source Repositories. What should you do?",
     "answers": [
       {
         "text": "Write a script that sequentially performs the push to your development branch and executes the unit tests on Cloud Run.",
@@ -1121,8 +926,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "039ace2df5114c30be2566c0",
-    "prompt": "You are training an LSTM-based model on AI Platform to summarize text using the following job submission script: gcloud ai-platform jobs submit training $JOB_NAME \\<br/>--package-path $TRAINER_PACKAGE_PATH \\<br/>--module-name $MAIN_TRAINER_MODULE \\<br/>--job-dir $JOB_DIR \\<br/>--region $REGION \\<br/>--scale-tier basic \\<br/>-- \\<br/>--epochs 20 \\<br/>--batch_size=32 \\<br/>--learning_rate=0.001 \\<br/>You want to ensure that training time is minimized without significantly compromising the accuracy of your model. What should you do?<br/>",
+    "question_id": "4896d12590544b4dbec13215",
+    "prompt": "You are training an LSTM-based model on AI Platform to summarize text using the following job submission script: gcloud ai-platform jobs submit training $JOB_NAME \\--package-path $TRAINER_PACKAGE_PATH \\--module-name $MAIN_TRAINER_MODULE \\--job-dir $JOB_DIR \\--region $REGION \\--scale-tier basic \\-- \\--epochs 20 \\--batch_size=32 \\--learning_rate=0.001 \\You want to ensure that training time is minimized without significantly compromising the accuracy of your model. What should you do?",
     "answers": [
       {
         "text": "Modify the 'epochs' parameter.",
@@ -1152,8 +957,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "55b48d1d5cd24b899e550c2b",
-    "prompt": "You have deployed multiple versions of an image classification model on AI Platform. You want to monitor the performance of the model versions over time. How should you perform this comparison?<br/>",
+    "question_id": "0e7a38d235e342ecb999d610",
+    "prompt": "You have deployed multiple versions of an image classification model on AI Platform. You want to monitor the performance of the model versions over time. How should you perform this comparison?",
     "answers": [
       {
         "text": "Compare the loss performance for each model on a held-out dataset.",
@@ -1183,8 +988,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "dd6c51f0c36f4fffa06391ee",
-    "prompt": "You trained a text classification model. You have the following SignatureDefs:<br/><br/>You started a TensorFlow-serving component server and tried to send an HTTP request to get a prediction using: headers = {\"content-type\": \"application/json\"} json_response = requests.post('http: //localhost:8501/v1/models/text_model:predict', data=data, headers=headers)<br/><br/>What is the correct way to write the predict request?<br/>",
+    "question_id": "b38f2b0ae93e4c14a6690152",
+    "prompt": "You trained a text classification model. You have the following SignatureDefs:You started a TensorFlow-serving component server and tried to send an HTTP request to get a prediction using: headers = {\"content-type\": \"application/json\"} json_response = requests.post('http: //localhost:8501/v1/models/text_model:predict', data=data, headers=headers)What is the correct way to write the predict request?",
     "answers": [
       {
         "text": "data = json.dumps({ג€signature_nameג€: ג€seving_defaultג€, ג€instancesג€ [['ab', 'bc', 'cd']]})",
@@ -1214,26 +1019,27 @@
     "idea_text": ""
   },
   {
-    "question_id": "6978b3c3a33545ec878454f5",
-    "prompt": "Your organization's call center has asked you to develop a model that analyzes customer sentiments in each call. The call center receives over one million calls daily, and data is stored in Cloud Storage. The data collected must not leave the region in which the call originated, and no Personally Identifiable Information (PII) can be stored or analyzed. The data science team has a third-party tool for visualization and access which requires a SQL ANSI-2011 compliant interface. You need to select components for data processing and for analytics. How should the data pipeline be designed?<br/><br/><br/>",
+    "question_id": "081b878afbb24b54b8013339",
+    "prompt": "Your organization's call center has asked you to develop a model that analyzes customer sentiments in each call. The call center receives over one million calls daily, and data is stored in Cloud Storage. The data collected must not leave the region in which the call originated, and no Personally Identifiable Information (PII) can be stored or analyzed. The data science team has a third-party tool for visualization and access which requires a SQL ANSI-2011 compliant interface. You need to select components for data processing and for analytics. How should the data pipeline be designed?",
     "answers": [
       {
-        "text": "1= Dataflow, 2= BigQuery",
+        "text": "1= Dataflow, 2= BigQueryB. 1 = Pub/Sub, 2= DatastoreC. 1 = Dataflow, 2 = Cloud SQLD. 1 = Cloud Function, 2= Cloud SQL",
         "isCorrect": true,
         "explanation": ""
-      },
+      }
+    ],
+    "tags": [],
+    "question_choice_type": "multiple_choice",
+    "section_name": "",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "f7870f7fd3da42eea7428359",
+    "prompt": "You are an ML engineer at a global shoe store. You manage the ML models for the company's website. You are asked to build a model that will recommend new products to the user based on their purchase behavior and similarity with other users. What should you do?",
+    "answers": [
       {
-        "text": "1 = Pub/Sub, 2= Datastore",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "1 = Dataflow, 2 = Cloud SQL",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "1 = Cloud Function, 2= Cloud SQL",
+        "text": "Build a classification modelB. Build a knowledge-based filtering modelC. Build a collaborative-based filtering modelD. Build a regression model using the features as predictors",
         "isCorrect": false,
         "explanation": ""
       }
@@ -1245,39 +1051,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "84609ab3526041d681219681",
-    "prompt": "You are an ML engineer at a global shoe store. You manage the ML models for the company's website. You are asked to build a model that will recommend new products to the user based on their purchase behavior and similarity with other users. What should you do?<br/>",
-    "answers": [
-      {
-        "text": "Build a classification model",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Build a knowledge-based filtering model",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Build a collaborative-based filtering model",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "Build a regression model using the features as predictors",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [],
-    "question_choice_type": "multiple_choice",
-    "section_name": "",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
-    "question_id": "e453e967e0c441099a6dab49",
-    "prompt": "You work for a social media company. You need to detect whether posted images contain cars. Each training example is a member of exactly one class. You have trained an object detection neural network and deployed the model version to AI Platform Prediction for evaluation. Before deployment, you created an evaluation job and attached it to the AI Platform Prediction model version. You notice that the precision is lower than your business requirements allow. How should you adjust the model's final layer softmax threshold to increase precision?<br/>",
+    "question_id": "3f6721d981f44bd5b17cdc58",
+    "prompt": "You work for a social media company. You need to detect whether posted images contain cars. Each training example is a member of exactly one class. You have trained an object detection neural network and deployed the model version to AI Platform Prediction for evaluation. Before deployment, you created an evaluation job and attached it to the AI Platform Prediction model version. You notice that the precision is lower than your business requirements allow. How should you adjust the model's final layer softmax threshold to increase precision?",
     "answers": [
       {
         "text": "Increase the recall.",
@@ -1307,57 +1082,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "dac6cbfd36d746b7a61c143c",
-    "prompt": "You are responsible for building a unified analytics environment across a variety of on-premises data marts. Your company is experiencing data quality and security challenges when integrating data across the servers, caused by the use of a wide range of disconnected tools and temporary solutions. You need a fully managed, cloud-native data integration service that will lower the total cost of work and reduce repetitive work. Some members on your team prefer a codeless interface for building Extract, Transform, Load (ETL) process. Which service should you use?<br/>",
+    "question_id": "4b72fa047c5f45d282a738af",
+    "prompt": "You are responsible for building a unified analytics environment across a variety of on-premises data marts. Your company is experiencing data quality and security challenges when integrating data across the servers, caused by the use of a wide range of disconnected tools and temporary solutions. You need a fully managed, cloud-native data integration service that will lower the total cost of work and reduce repetitive work. Some members on your team prefer a codeless interface for building Extract, Transform, Load (ETL) process. Which service should you use?",
     "answers": [
       {
-        "text": "Dataflow",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Dataprep",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Apache Flink",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Cloud Data Fusion",
-        "isCorrect": true,
-        "explanation": ""
-      }
-    ],
-    "tags": [],
-    "question_choice_type": "multiple_choice",
-    "section_name": "",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
-    "question_id": "80c40a77e73345d6bfe43848",
-    "prompt": "You are an ML engineer at a regulated insurance company. You are asked to develop an insurance approval model that accepts or rejects insurance applications from potential customers. What factors should you consider before building the model?<br/>",
-    "answers": [
-      {
-        "text": "Redaction, reproducibility, and explainability",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Traceability, reproducibility, and explainability",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "Federated learning, reproducibility, and explainability",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Differential privacy, federated learning, and explainability",
+        "text": "DataflowB. DataprepC. Apache FlinkD. Cloud Data Fusion",
         "isCorrect": false,
         "explanation": ""
       }
@@ -1369,8 +1098,24 @@
     "idea_text": ""
   },
   {
-    "question_id": "f45119b92bbe4373b404d27d",
-    "prompt": "You are training a Resnet model on AI Platform using TPUs to visually categorize types of defects in automobile engines. You capture the training profile using the Cloud TPU profiler plugin and observe that it is highly input-bound. You want to reduce the bottleneck and speed up your model training process. Which modifications should you make to the tf.data dataset? (Choose two.)<br/>",
+    "question_id": "b566ccba3c9a476899a0c911",
+    "prompt": "You are an ML engineer at a regulated insurance company. You are asked to develop an insurance approval model that accepts or rejects insurance applications from potential customers. What factors should you consider before building the model?",
+    "answers": [
+      {
+        "text": "Redaction, reproducibility, and explainabilityB. Traceability, reproducibility, and explainabilityC. Federated learning, reproducibility, and explainabilityD. Differential privacy, federated learning, and explainability",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [],
+    "question_choice_type": "multiple_choice",
+    "section_name": "",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "ce4b1ac8d3e946d6ae346a63",
+    "prompt": "You are training a Resnet model on AI Platform using TPUs to visually categorize types of defects in automobile engines. You capture the training profile using the Cloud TPU profiler plugin and observe that it is highly input-bound. You want to reduce the bottleneck and speed up your model training process. Which modifications should you make to the tf.data dataset? (Choose two.)",
     "answers": [
       {
         "text": "Use the interleave option for reading data.",
@@ -1400,26 +1145,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "f12c4009e49242b0bef5b12e",
-    "prompt": "You work for a credit card company and have been asked to create a custom fraud detection model based on historical data using AutoML Tables. You need to prioritize detection of fraudulent transactions while minimizing false positives. Which optimization objective should you use when training the model?<br/>",
+    "question_id": "5f9e94f277fa463ca2350068",
+    "prompt": "You work for a credit card company and have been asked to create a custom fraud detection model based on historical data using AutoML Tables. You need to prioritize detection of fraudulent transactions while minimizing false positives. Which optimization objective should you use when training the model?",
     "answers": [
       {
-        "text": "An optimization objective that minimizes Log loss",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "An optimization objective that maximizes the Precision at a Recall value of 0.50",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "An optimization objective that maximizes the area under the precision-recall curve (AUC PR) value",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "An optimization objective that maximizes the area under the receiver operating characteristic curve (AUC ROC) value",
+        "text": "An optimization objective that minimizes Log lossB. An optimization objective that maximizes the Precision at a Recall value of 0.50C. An optimization objective that maximizes the area under the precision-recall curve (AUC PR) valueD. An optimization objective that maximizes the area under the receiver operating characteristic curve (AUC ROC) value",
         "isCorrect": false,
         "explanation": ""
       }
@@ -1431,8 +1161,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "f9d4b3c5888840899eff001c",
-    "prompt": "You are training a TensorFlow model on a structured dataset with 100 billion records stored in several CSV files. You need to improve the input/output execution performance. What should you do?<br/>",
+    "question_id": "bff56beb58e14f4e988ee268",
+    "prompt": "You are training a TensorFlow model on a structured dataset with 100 billion records stored in several CSV files. You need to improve the input/output execution performance. What should you do?",
     "answers": [
       {
         "text": "Load the data into BigQuery, and read the data from BigQuery.",
@@ -1462,8 +1192,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "b40a532fdc5c414aba6181f3",
-    "prompt": "You have a functioning end-to-end ML pipeline that involves tuning the hyperparameters of your ML model using AI Platform, and then using the best-tuned parameters for training. Hypertuning is taking longer than expected and is delaying the downstream processes. You want to speed up the tuning job without significantly compromising its effectiveness. Which actions should you take? (Choose two.)<br/>",
+    "question_id": "374e2eab8fa34d1da331a30e",
+    "prompt": "You have a functioning end-to-end ML pipeline that involves tuning the hyperparameters of your ML model using AI Platform, and then using the best-tuned parameters for training. Hypertuning is taking longer than expected and is delaying the downstream processes. You want to speed up the tuning job without significantly compromising its effectiveness. Which actions should you take? (Choose two.)",
     "answers": [
       {
         "text": "Decrease the number of parallel trials.",
@@ -1493,8 +1223,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "b25db43f61e44b9b8f7e24b6",
-    "prompt": "You are developing a Kubeflow pipeline on Google Kubernetes Engine. The first step in the pipeline is to issue a query against BigQuery. You plan to use the results of that query as the input to the next step in your pipeline. You want to achieve this in the easiest way possible. What should you do?<br/>",
+    "question_id": "de21563f820140f1ba421942",
+    "prompt": "You are developing a Kubeflow pipeline on Google Kubernetes Engine. The first step in the pipeline is to issue a query against BigQuery. You plan to use the results of that query as the input to the next step in your pipeline. You want to achieve this in the easiest way possible. What should you do?",
     "answers": [
       {
         "text": "Use the BigQuery console to execute your query, and then save the query results into a new BigQuery table.",
@@ -1524,8 +1254,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "c8138deef1d04aeebf412f15",
-    "prompt": "You work for an online travel agency that also sells advertising placements on its website to other companies. You have been asked to predict the most relevant web banner that a user should see next. Security is important to your company. The model latency requirements are 300ms@p99, the inventory is thousands of web banners, and your exploratory analysis has shown that navigation context is a good predictor. You want to Implement the simplest solution. How should you configure the prediction pipeline?<br/>",
+    "question_id": "d7b1eeaad2494146b270d45f",
+    "prompt": "You work for an online travel agency that also sells advertising placements on its website to other companies. You have been asked to predict the most relevant web banner that a user should see next. Security is important to your company. The model latency requirements are 300ms@p99, the inventory is thousands of web banners, and your exploratory analysis has shown that navigation context is a good predictor. You want to Implement the simplest solution. How should you configure the prediction pipeline?",
     "answers": [
       {
         "text": "Embed the client on the website, and then deploy the model on AI Platform Prediction.",
@@ -1550,8 +1280,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "ad4499cd5e8f42c78c708fa2",
-    "prompt": "You work for an advertising company and want to understand the effectiveness of your company's latest advertising campaign. You have streamed 500 MB of campaign data into BigQuery. You want to query the table, and then manipulate the results of that query with a pandas dataframe in an AI Platform notebook.<br/>What should you do?<br/>",
+    "question_id": "a87e5e1d1df840bf9cb203bc",
+    "prompt": "You work for an advertising company and want to understand the effectiveness of your company's latest advertising campaign. You have streamed 500 MB of campaign data into BigQuery. You want to query the table, and then manipulate the results of that query with a pandas dataframe in an AI Platform notebook.What should you do?",
     "answers": [
       {
         "text": "Use AI Platform Notebooks' BigQuery cell magic to query the data, and ingest the results as a pandas dataframe.",
@@ -1581,8 +1311,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "c0dff22312a440e487a347f7",
-    "prompt": "You are developing models to classify customer support emails. You created models with TensorFlow Estimators using small datasets on your on-premises system, but you now need to train the models using large datasets to ensure high performance. You will port your models to Google Cloud and want to minimize code refactoring and infrastructure overhead for easier migration from on-prem to cloud. What should you do?<br/>",
+    "question_id": "0998ad3c6b704af0b030eff9",
+    "prompt": "You are developing models to classify customer support emails. You created models with TensorFlow Estimators using small datasets on your on-premises system, but you now need to train the models using large datasets to ensure high performance. You will port your models to Google Cloud and want to minimize code refactoring and infrastructure overhead for easier migration from on-prem to cloud. What should you do?",
     "answers": [
       {
         "text": "Use AI Platform for distributed training.",
@@ -1612,8 +1342,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "0e6dca87255b48a5ae3b0e06",
-    "prompt": "You have a demand forecasting pipeline in production that uses Dataflow to preprocess raw data prior to model training and prediction. During preprocessing, you employ Z-score normalization on data stored in BigQuery and write it back to BigQuery. New training data is added every week. You want to make the process more efficient by minimizing computation time and manual intervention. What should you do?<br/>",
+    "question_id": "9c51224a09f74415a08f4e02",
+    "prompt": "You have a demand forecasting pipeline in production that uses Dataflow to preprocess raw data prior to model training and prediction. During preprocessing, you employ Z-score normalization on data stored in BigQuery and write it back to BigQuery. New training data is added every week. You want to make the process more efficient by minimizing computation time and manual intervention. What should you do?",
     "answers": [
       {
         "text": "Normalize the data using Google Kubernetes Engine.",
@@ -1643,8 +1373,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "ebc348b604494ec4b44d3912",
-    "prompt": "You work for a large technology company that wants to modernize their contact center. You have been asked to develop a solution to classify incoming calls by product so that requests can be more quickly routed to the correct support team. You have already transcribed the calls using the Speech-to-Text API. You want to minimize data preprocessing and development time. How should you build the model?<br/>",
+    "question_id": "f775341b24134d3b9947fa81",
+    "prompt": "You work for a large technology company that wants to modernize their contact center. You have been asked to develop a solution to classify incoming calls by product so that requests can be more quickly routed to the correct support team. You have already transcribed the calls using the Speech-to-Text API. You want to minimize data preprocessing and development time. How should you build the model?",
     "answers": [
       {
         "text": "Use the AI Platform Training built-in algorithms to create a custom model.",
@@ -1674,8 +1404,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "0e64e01134164f6c980d700d",
-    "prompt": "You are an ML engineer at a global car manufacture. You need to build an ML model to predict car sales in different cities around the world. Which features or feature crosses should you use to train city-specific relationships between car type and number of sales?<br/>",
+    "question_id": "dc62a8c03ef347e1821be55e",
+    "prompt": "You are an ML engineer at a global car manufacture. You need to build an ML model to predict car sales in different cities around the world. Which features or feature crosses should you use to train city-specific relationships between car type and number of sales?",
     "answers": [
       {
         "text": "Thee individual features: binned latitude, binned longitude, and one-hot encoded car type.",
@@ -1705,8 +1435,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "770a1817e5cf4727ba3bf0a1",
-    "prompt": "You started working on a classification problem with time series data and achieved an area under the receiver operating characteristic curve (AUC ROC) value of<br/>99% for training data after just a few experiments. You haven't explored using any sophisticated algorithms or spent any time on hyperparameter tuning. What should your next step be to identify and fix the problem?<br/>",
+    "question_id": "8b61644e74e3498f8cd73bbd",
+    "prompt": "You started working on a classification problem with time series data and achieved an area under the receiver operating characteristic curve (AUC ROC) value of99% for training data after just a few experiments. You haven't explored using any sophisticated algorithms or spent any time on hyperparameter tuning. What should your next step be to identify and fix the problem?",
     "answers": [
       {
         "text": "Address the model overfitting by using a less complex algorithm.",
@@ -1736,8 +1466,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "b8ce55fb1ec44d21baaa73af",
-    "prompt": "As the lead ML Engineer for your company, you are responsible for building ML models to digitize scanned customer forms. You have developed a TensorFlow model that converts the scanned images into text and stores them in Cloud Storage. You need to use your ML model on the aggregated data collected at the end of each day with minimal manual intervention. What should you do?<br/>",
+    "question_id": "94b1809d6f344086979a0f59",
+    "prompt": "As the lead ML Engineer for your company, you are responsible for building ML models to digitize scanned customer forms. You have developed a TensorFlow model that converts the scanned images into text and stores them in Cloud Storage. You need to use your ML model on the aggregated data collected at the end of each day with minimal manual intervention. What should you do?",
     "answers": [
       {
         "text": "Use the batch prediction functionality of AI Platform.",
@@ -1767,8 +1497,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "ff62cc16777f4001b8d566e2",
-    "prompt": "our team has been tasked with creating an ML solution in Google Cloud to classify support requests for one of your platforms. You analyzed the requirements and decided to use TensorFlow to build the classifier so that you have full control of the model's code, serving, and deployment. You will use Kubeflow pipelines for the ML platform. To save time, you want to build on existing resources and use managed services instead of building a completely new model. How should you build the classifier?<br/>",
+    "question_id": "16c5ed70ad1644f895c62fe3",
+    "prompt": "our team has been tasked with creating an ML solution in Google Cloud to classify support requests for one of your platforms. You analyzed the requirements and decided to use TensorFlow to build the classifier so that you have full control of the model's code, serving, and deployment. You will use Kubeflow pipelines for the ML platform. To save time, you want to build on existing resources and use managed services instead of building a completely new model. How should you build the classifier?",
     "answers": [
       {
         "text": "Use the Natural Language API to classify support requests.",
@@ -1798,8 +1528,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "6099f9cf8dff448990f0ae60",
-    "prompt": "Your data science team needs to rapidly experiment with various features, model architectures, and hyperparameters. They need to track the accuracy metrics for various experiments and use an API to query the metrics over time. What should they use to track and report their experiments while minimizing manual effort?<br/>",
+    "question_id": "7ee7e482204e4cf7b6303ae5",
+    "prompt": "Your data science team needs to rapidly experiment with various features, model architectures, and hyperparameters. They need to track the accuracy metrics for various experiments and use an API to query the metrics over time. What should they use to track and report their experiments while minimizing manual effort?",
     "answers": [
       {
         "text": "Use Kubeflow Pipelines to execute the experiments. Export the metrics file, and query the results using the Kubeflow Pipelines API.",
@@ -1829,8 +1559,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "7b99b7e0db6f4297934d203d",
-    "prompt": "You are training a deep learning model for semantic image segmentation with reduced training time. While using a Deep Learning VM Image, you receive the following error: The resource 'projects/deeplearning-platforn/zones/europe-west4-c/acceleratorTypes/nvidia-tesla-k80' was not found. What should you do?<br/>",
+    "question_id": "f838cc46560d4e379aa1198b",
+    "prompt": "You are training a deep learning model for semantic image segmentation with reduced training time. While using a Deep Learning VM Image, you receive the following error: The resource 'projects/deeplearning-platforn/zones/europe-west4-c/acceleratorTypes/nvidia-tesla-k80' was not found. What should you do?",
     "answers": [
       {
         "text": "Ensure that you have GPU quota in the selected region.",
@@ -1860,8 +1590,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "4283aa00a86d486fa4f01b3a",
-    "prompt": "You recently joined an enterprise-scale company that has thousands of datasets. You know that there are accurate descriptions for each table in BigQuery, and you are searching for the proper BigQuery table to use for a model you are building on AI Platform. How should you find the data that you need?<br/>",
+    "question_id": "6870babd91114752a8b23982",
+    "prompt": "You recently joined an enterprise-scale company that has thousands of datasets. You know that there are accurate descriptions for each table in BigQuery, and you are searching for the proper BigQuery table to use for a model you are building on AI Platform. How should you find the data that you need?",
     "answers": [
       {
         "text": "Use Data Catalog to search the BigQuery datasets by using keywords in the table description.",
@@ -1891,8 +1621,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "3d357b04fdf94f9da61ddf78",
-    "prompt": "You are working on a Neural Network-based project. The dataset provided to you has columns with different ranges. While preparing the data for model training, you discover that gradient optimization is having difficulty moving weights to a good solution. What should you do?<br/>",
+    "question_id": "8abc91ca97574b4d9baca35d",
+    "prompt": "You are working on a Neural Network-based project. The dataset provided to you has columns with different ranges. While preparing the data for model training, you discover that gradient optimization is having difficulty moving weights to a good solution. What should you do?",
     "answers": [
       {
         "text": "Use feature construction to combine the strongest features.",
@@ -1922,8 +1652,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "10f119dc7a794e3b91590c0f",
-    "prompt": "You work on a growing team of more than 50 data scientists who all use AI Platform. You are designing a strategy to organize your jobs, models, and versions in a clean and scalable way. Which strategy should you choose?<br/>",
+    "question_id": "49d103382717498095d13158",
+    "prompt": "You work on a growing team of more than 50 data scientists who all use AI Platform. You are designing a strategy to organize your jobs, models, and versions in a clean and scalable way. Which strategy should you choose?",
     "answers": [
       {
         "text": "Set up restrictive IAM permissions on the AI Platform notebooks so that only a single user or group can access a given instance.",
@@ -1953,8 +1683,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "858458e975a9426cb87c8d24",
-    "prompt": "You have trained a model on a dataset that required computationally expensive preprocessing operations. You need to execute the same preprocessing at prediction time. You deployed the model on AI Platform for high-throughput online prediction. Which architecture should you use?<br/>",
+    "question_id": "e11c481b327b46a68bb4e4a3",
+    "prompt": "You have trained a model on a dataset that required computationally expensive preprocessing operations. You need to execute the same preprocessing at prediction time. You deployed the model on AI Platform for high-throughput online prediction. Which architecture should you use?",
     "answers": [
       {
         "text": "Validate the accuracy of the model that you trained on preprocessed data. Create a new model that uses the raw data and is available in real time. Deploy the new model onto AI Platform for online prediction.",
@@ -1979,8 +1709,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "99d19c37c6ac405cbffd8939",
-    "prompt": "You need to train a computer vision model that predicts the type of government ID present in a given image using a GPU-powered virtual machine on Compute<br/>Engine. You use the following parameters:<br/>✑ Optimizer: SGD<br/>✑ Image shape = 224ֳ—224<br/>✑ Batch size = 64<br/>✑ Epochs = 10<br/>✑ Verbose =2<br/>During training you encounter the following error: ResourceExhaustedError: Out Of Memory (OOM) when allocating tensor. What should you do?<br/>",
+    "question_id": "ac93c424ccac4e14be803d1e",
+    "prompt": "You need to train a computer vision model that predicts the type of government ID present in a given image using a GPU-powered virtual machine on ComputeEngine. You use the following parameters:✑ Optimizer: SGD✑ Image shape = 224ֳ—224✑ Batch size = 64✑ Epochs = 10✑ Verbose =2During training you encounter the following error: ResourceExhaustedError: Out Of Memory (OOM) when allocating tensor. What should you do?",
     "answers": [
       {
         "text": "Change the optimizer.",
@@ -2010,8 +1740,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "901a02259ec545b4b6940edd",
-    "prompt": "You developed an ML model with AI Platform, and you want to move it to production. You serve a few thousand queries per second and are experiencing latency issues. Incoming requests are served by a load balancer that distributes them across multiple Kubeflow CPU-only pods running on Google Kubernetes Engine<br/>(GKE). Your goal is to improve the serving latency without changing the underlying infrastructure. What should you do?<br/>",
+    "question_id": "17a1be526a424486a834fecc",
+    "prompt": "You developed an ML model with AI Platform, and you want to move it to production. You serve a few thousand queries per second and are experiencing latency issues. Incoming requests are served by a load balancer that distributes them across multiple Kubeflow CPU-only pods running on Google Kubernetes Engine(GKE). Your goal is to improve the serving latency without changing the underlying infrastructure. What should you do?",
     "answers": [
       {
         "text": "Significantly increase the max_batch_size TensorFlow Serving parameter.",
@@ -2041,8 +1771,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "5e408751df754bd7811ae39d",
-    "prompt": "You have a demand forecasting pipeline in production that uses Dataflow to preprocess raw data prior to model training and prediction. During preprocessing, you employ Z-score normalization on data stored in BigQuery and write it back to BigQuery. New training data is added every week. You want to make the process more efficient by minimizing computation time and manual intervention. What should you do?<br/>",
+    "question_id": "4648ac3ff7c243b9ab921a2d",
+    "prompt": "You have a demand forecasting pipeline in production that uses Dataflow to preprocess raw data prior to model training and prediction. During preprocessing, you employ Z-score normalization on data stored in BigQuery and write it back to BigQuery. New training data is added every week. You want to make the process more efficient by minimizing computation time and manual intervention. What should you do?",
     "answers": [
       {
         "text": "Normalize the data using Google Kubernetes Engine.",
@@ -2072,8 +1802,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "245e064aae2f415494af283d",
-    "prompt": "You need to design a customized deep neural network in Keras that will predict customer purchases based on their purchase history. You want to explore model performance using multiple model architectures, store training data, and be able to compare the evaluation metrics in the same dashboard. What should you do?<br/>",
+    "question_id": "a8bcfa1e719649d2898c5b62",
+    "prompt": "You need to design a customized deep neural network in Keras that will predict customer purchases based on their purchase history. You want to explore model performance using multiple model architectures, store training data, and be able to compare the evaluation metrics in the same dashboard. What should you do?",
     "answers": [
       {
         "text": "Create multiple models using AutoML Tables.",
@@ -2103,8 +1833,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "5822c48f804c4e56bc49be49",
-    "prompt": "You are building a model to predict daily temperatures. You split the data randomly and then transformed the training and test datasets. Temperature data for model training is uploaded hourly. During testing, your model performed with 97% accuracy; however, after deploying to production, the modelג€™s accuracy dropped to 66%. How can you make your production model more accurate?<br/>",
+    "question_id": "944de257def747deaff12e16",
+    "prompt": "You are building a model to predict daily temperatures. You split the data randomly and then transformed the training and test datasets. Temperature data for model training is uploaded hourly. During testing, your model performed with 97% accuracy; however, after deploying to production, the modelג€™s accuracy dropped to 66%. How can you make your production model more accurate?",
     "answers": [
       {
         "text": "Normalize the data for the training, and test datasets as two separate steps.",
@@ -2134,8 +1864,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "3c290bf71fbf49f0a6ca5310",
-    "prompt": "You are developing models to classify customer support emails. You created models with TensorFlow Estimators using small datasets on your on-premises system, but you now need to train the models using large datasets to ensure high performance. You will port your models to Google Cloud and want to minimize code refactoring and infrastructure overhead for easier migration from on-prem to cloud. What should you do?<br/>",
+    "question_id": "97b5d262dc434c3a894447f9",
+    "prompt": "You are developing models to classify customer support emails. You created models with TensorFlow Estimators using small datasets on your on-premises system, but you now need to train the models using large datasets to ensure high performance. You will port your models to Google Cloud and want to minimize code refactoring and infrastructure overhead for easier migration from on-prem to cloud. What should you do?",
     "answers": [
       {
         "text": "Use AI Platform for distributed training.",
@@ -2165,8 +1895,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "e4153a70429144ca85fb947b",
-    "prompt": "You have trained a text classification model in TensorFlow using AI Platform. You want to use the trained model for batch predictions on text data stored in BigQuery while minimizing computational overhead. What should you do?<br/>",
+    "question_id": "ee36842b41b24e24b1fae733",
+    "prompt": "You have trained a text classification model in TensorFlow using AI Platform. You want to use the trained model for batch predictions on text data stored in BigQuery while minimizing computational overhead. What should you do?",
     "answers": [
       {
         "text": "Export the model to BigQuery ML.",
@@ -2196,8 +1926,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "826ea883c3aa452a993a820a",
-    "prompt": "You work with a data engineering team that has developed a pipeline to clean your dataset and save it in a Cloud Storage bucket. You have created an ML model and want to use the data to refresh your model as soon as new data is available. As part of your CI/CD workflow, you want to automatically run a Kubeflow Pipelines training job on Google Kubernetes Engine (GKE). How should you architect this workflow?<br/>",
+    "question_id": "5ec215af076c4a1bbf29291e",
+    "prompt": "You work with a data engineering team that has developed a pipeline to clean your dataset and save it in a Cloud Storage bucket. You have created an ML model and want to use the data to refresh your model as soon as new data is available. As part of your CI/CD workflow, you want to automatically run a Kubeflow Pipelines training job on Google Kubernetes Engine (GKE). How should you architect this workflow?",
     "answers": [
       {
         "text": "Configure your pipeline with Dataflow, which saves the files in Cloud Storage. After the file is saved, start the training job on a GKE cluster.",
@@ -2227,8 +1957,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "ae0e63c480694dc09a9573f9",
-    "prompt": "You work for a textile manufacturer and have been asked to build a model to detect and classify fabric defects. You trained a machine learning model with high recall based on high resolution images taken at the end of the production line. You want quality control inspectors to gain trust in your model. Which technique should you use to understand the rationale of your classifier?<br/>",
+    "question_id": "fb79950029e040ed81141773",
+    "prompt": "You work for a textile manufacturer and have been asked to build a model to detect and classify fabric defects. You trained a machine learning model with high recall based on high resolution images taken at the end of the production line. You want quality control inspectors to gain trust in your model. Which technique should you use to understand the rationale of your classifier?",
     "answers": [
       {
         "text": "Use K-fold cross validation to understand how the model performs on different test datasets.",
@@ -2258,8 +1988,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "92c666f75ca84a0ab3044bac",
-    "prompt": "You need to write a generic test to verify whether Dense Neural Network (DNN) models automatically released by your team have a sufficient number of parameters to learn the task for which they were built. What should you do?<br/>",
+    "question_id": "27bf51461acb4ff2923fd241",
+    "prompt": "You need to write a generic test to verify whether Dense Neural Network (DNN) models automatically released by your team have a sufficient number of parameters to learn the task for which they were built. What should you do?",
     "answers": [
       {
         "text": "Train the model for a few iterations, and check for NaN values.",
@@ -2289,8 +2019,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "79072315995547dbacc2a48b",
-    "prompt": "Your team is using a TensorFlow Inception-v3 CNN model pretrained on ImageNet for an image classification prediction challenge on 10,000 images. You will use AI Platform to perform the model training. What TensorFlow distribution strategy and AI Platform training job configuration should you use to train the model and optimize for wall-clock time?<br/>",
+    "question_id": "fd20f3c34ee34427888077fa",
+    "prompt": "Your team is using a TensorFlow Inception-v3 CNN model pretrained on ImageNet for an image classification prediction challenge on 10,000 images. You will use AI Platform to perform the model training. What TensorFlow distribution strategy and AI Platform training job configuration should you use to train the model and optimize for wall-clock time?",
     "answers": [
       {
         "text": "Default Strategy; Custom tier with a single master node and four v100 GPUs.",
@@ -2320,27 +2050,12 @@
     "idea_text": ""
   },
   {
-    "question_id": "cb713ae86a474ff3850a2eeb",
-    "prompt": "You work on a team where the process for deploying a model into production starts with data scientists training different versions of models in a Kubeflow pipeline. The workflow then stores the new model artifact into the corresponding Cloud Storage bucket. You need to build the next steps of the pipeline after the submitted model is ready to be tested and deployed in production on AI Platform. How should you configure the architecture before deploying the model to production?<br/>",
+    "question_id": "25f786807d2142e7950c2425",
+    "prompt": "You work on a team where the process for deploying a model into production starts with data scientists training different versions of models in a Kubeflow pipeline. The workflow then stores the new model artifact into the corresponding Cloud Storage bucket. You need to build the next steps of the pipeline after the submitted model is ready to be tested and deployed in production on AI Platform. How should you configure the architecture before deploying the model to production?",
     "answers": [
       {
-        "text": "Deploy model in test environment -> Evaluate and test model -> Create a new AI Platform model version",
+        "text": "Deploy model in test environment -> Evaluate and test model -> Create a new AI Platform model versionB. Validate model -> Deploy model in test environment -> Create a new AI Platform model versionC. Create a new AI Platform model version -> Evaluate and test model -> Deploy model in test environmentD. Create a new AI Platform model version - > Deploy model in test environment -> Validate model",
         "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "Validate model -> Deploy model in test environment -> Create a new AI Platform model version",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Create a new AI Platform model version -> Evaluate and test model -> Deploy model in test environment",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Create a new AI Platform model version - > Deploy model in test environment -> Validate model",
-        "isCorrect": false,
         "explanation": ""
       }
     ],
@@ -2351,8 +2066,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "1ffc4f678a68499aa1c91bd4",
-    "prompt": "You work for a maintenance company and have built and trained a deep learning model that identifies defects based on thermal images of underground electric cables. Your dataset contains 10,000 images, 100 of which contain visible defects. How should you evaluate the performance of the model on a test dataset?<br/>",
+    "question_id": "a98cd60c12f24221831adc00",
+    "prompt": "You work for a maintenance company and have built and trained a deep learning model that identifies defects based on thermal images of underground electric cables. Your dataset contains 10,000 images, 100 of which contain visible defects. How should you evaluate the performance of the model on a test dataset?",
     "answers": [
       {
         "text": "Calculate the Area Under the Curve (AUC) value.",
@@ -2382,57 +2097,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "008aa1ee4c724a66882f67f4",
-    "prompt": "You work for a manufacturing company that owns a high-value machine which has several machine settings and multiple sensors. A history of the machine's hourly sensor readings and known failure event data are stored in BigQuery. You need to predict if the machine will fail within the next 3 days in order to schedule maintenance before the machine fails. Which data preparation and model training steps should you take?<br/>",
+    "question_id": "acf41effe02248ce925bad53",
+    "prompt": "You work for a manufacturing company that owns a high-value machine which has several machine settings and multiple sensors. A history of the machine's hourly sensor readings and known failure event data are stored in BigQuery. You need to predict if the machine will fail within the next 3 days in order to schedule maintenance before the machine fails. Which data preparation and model training steps should you take?",
     "answers": [
       {
-        "text": "Data preparation: Daily max value feature engineering; Model training: AutoML classification with BQML",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Data preparation: Daily min value feature engineering; Model training: Logistic regression with BQML and AUTO_CLASS_WEIGHTS set to True",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Data preparation: Rolling average feature engineering; Model training: Logistic regression with BQML and AUTO_CLASS_WEIGHTS set to False",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Data preparation: Rolling average feature engineering; Model training: Logistic regression with BQML and AUTO_CLASS_WEIGHT",
-        "isCorrect": true,
-        "explanation": ""
-      }
-    ],
-    "tags": [],
-    "question_choice_type": "multiple_choice",
-    "section_name": "",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
-    "question_id": "b81df40b8f7a416895182595",
-    "prompt": "You are an ML engineer at a media company. You need to build an ML model to analyze video content, identify objects, and alert users if there is inappropriate content. Which Google Cloud products should you use to build this project?<br/>",
-    "answers": [
-      {
-        "text": "Pub/Sub, Cloud Function, Cloud Vision API",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Pub/Sub, Cloud IoT, Dataflow, Cloud Vision API, Cloud Logging",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Pub/Sub, Cloud Function, Video Intelligence API, Cloud Logging",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "Pub/Sub, Cloud Function, AutoML Video Intelligence, Cloud Logging",
+        "text": "Data preparation: Daily max value feature engineering; Model training: AutoML classification with BQMLB. Data preparation: Daily min value feature engineering; Model training: Logistic regression with BQML and AUTO_CLASS_WEIGHTS set to TrueC. Data preparation: Rolling average feature engineering; Model training: Logistic regression with BQML and AUTO_CLASS_WEIGHTS set to FalseD. Data preparation: Rolling average feature engineering; Model training: Logistic regression with BQML and AUTO_CLASS_WEIGHT",
         "isCorrect": false,
         "explanation": ""
       }
@@ -2444,8 +2113,24 @@
     "idea_text": ""
   },
   {
-    "question_id": "5f9d1127f5924c9bbd0e04a5",
-    "prompt": "Your team is building an application for a global bank that will be used by millions of customers. You built a forecasting model that predicts customers' account balances 3 days in the future. Your team will use the results in a new feature that will notify users when their account balance is likely to drop below $25. How should you serve your predictions?<br/>",
+    "question_id": "f0d3c0702059422faa00d1b6",
+    "prompt": "You are an ML engineer at a media company. You need to build an ML model to analyze video content, identify objects, and alert users if there is inappropriate content. Which Google Cloud products should you use to build this project?",
+    "answers": [
+      {
+        "text": "Pub/Sub, Cloud Function, Cloud Vision APIB. Pub/Sub, Cloud IoT, Dataflow, Cloud Vision API, Cloud LoggingC. Pub/Sub, Cloud Function, Video Intelligence API, Cloud LoggingD. Pub/Sub, Cloud Function, AutoML Video Intelligence, Cloud Logging",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [],
+    "question_choice_type": "multiple_choice",
+    "section_name": "",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "c491b924e5aa40428e256546",
+    "prompt": "Your team is building an application for a global bank that will be used by millions of customers. You built a forecasting model that predicts customers' account balances 3 days in the future. Your team will use the results in a new feature that will notify users when their account balance is likely to drop below $25. How should you serve your predictions?",
     "answers": [
       {
         "text": "1. Create a Pub/Sub topic for each user. 2. Deploy a Cloud Function that sends a notification when your model predicts that a user's account balance will drop below the $25 threshold.",
@@ -2470,8 +2155,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "bc42586fce014fd4a5a8218f",
-    "prompt": "Your team is building a convolutional neural network (CNN)-based architecture from scratch. The preliminary experiments running on your on-premises CPU-only infrastructure were encouraging, but have slow convergence. You have been asked to speed up model training to reduce time-to-market. You want to experiment with virtual machines (VMs) on Google Cloud to leverage more powerful hardware. Your code does not include any manual device placement and has not been wrapped in Estimator model-level abstraction. Which environment should you train your model on?<br/>",
+    "question_id": "ef8fc6c77d7d4de786067a1e",
+    "prompt": "Your team is building a convolutional neural network (CNN)-based architecture from scratch. The preliminary experiments running on your on-premises CPU-only infrastructure were encouraging, but have slow convergence. You have been asked to speed up model training to reduce time-to-market. You want to experiment with virtual machines (VMs) on Google Cloud to leverage more powerful hardware. Your code does not include any manual device placement and has not been wrapped in Estimator model-level abstraction. Which environment should you train your model on?",
     "answers": [
       {
         "text": "AVM on Compute Engine and 1 TPU with all dependencies installed manually.",

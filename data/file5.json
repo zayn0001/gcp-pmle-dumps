@@ -1,7 +1,7 @@
 [
   {
-    "question_id": "5bd053c968b04d169c4a45e4",
-    "prompt": "60 - You work for a bank and are building a random forest model for fraud detection. You have a dataset that includes transactions, of which 1% are<br/>identified as fraudulent. Which data transformation strategy would likely improve the performance of your classifier?<br/>",
+    "question_id": "4058120cb16e45169e5d0261",
+    "prompt": "60 - You work for a bank and are building a random forest model for fraud detection. You have a dataset that includes transactions, of which 1% areidentified as fraudulent. Which data transformation strategy would likely improve the performance of your classifier?",
     "answers": [
       {
         "text": "Write your data in TFRecords.",
@@ -31,8 +31,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "a7d60f3f26744592a5872280",
-    "prompt": "61 - You are using transfer learning to train an image classifier based on a pre-trained EfficientNet model. Your training dataset has 20,000 images. You<br/>plan to retrain the model once per day. You need to minimize the cost of infrastructure. What platform components and configuration environment<br/>should you use?<br/>",
+    "question_id": "c4ba7e4d55cc4e8aba1f0219",
+    "prompt": "61 - You are using transfer learning to train an image classifier based on a pre-trained EfficientNet model. Your training dataset has 20,000 images. Youplan to retrain the model once per day. You need to minimize the cost of infrastructure. What platform components and configuration environmentshould you use?",
     "answers": [
       {
         "text": "A Deep Learning VM with 4 V100 GPUs and local storage.",
@@ -45,13 +45,8 @@
         "explanation": ""
       },
       {
-        "text": "A Google Kubernetes Engine cluster with a V100 GPU Node Pool and an NFS Server",
+        "text": "A Google Kubernetes Engine cluster with a V100 GPU Node Pool and an NFS ServerD. An AI Platform Training job using a custom scale tier with 4 V100 GPUs and Cloud Storage",
         "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "An AI Platform Training job using a custom scale tier with 4 V100 GPUs and Cloud Storage",
-        "isCorrect": false,
         "explanation": ""
       }
     ],
@@ -62,8 +57,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "7b3c9ca1139b4a8bbc35eb07",
-    "prompt": "62 - While conducting an exploratory analysis of a dataset, you discover that categorical feature A has substantial predictive power, but it is<br/>sometimes missing. What should you do?<br/>",
+    "question_id": "83e0775bf3c04ba597d3c468",
+    "prompt": "62 - While conducting an exploratory analysis of a dataset, you discover that categorical feature A has substantial predictive power, but it issometimes missing. What should you do?",
     "answers": [
       {
         "text": "Drop feature A if more than 15% of values are missing. Otherwise, use feature A as-is.",
@@ -103,8 +98,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "b82f3fc8c15e4dd4b3d090c7",
-    "prompt": "59 - Your data science team needs to rapidly experiment with various features, model architectures, and hyperparameters. They need to track the<br/>accuracy metrics for various experiments and use an API to query the metrics over time. What should they use to track and report their<br/>experiments while minimizing manual effort?<br/><br/>",
+    "question_id": "b8f91e49e0aa454080355537",
+    "prompt": "59 - Your data science team needs to rapidly experiment with various features, model architectures, and hyperparameters. They need to track theaccuracy metrics for various experiments and use an API to query the metrics over time. What should they use to track and report theirexperiments while minimizing manual effort?",
     "answers": [
       {
         "text": "Use Kubeflow Pipelines to execute the experiments. Export the metrics file, and query the results using the Kubeflow Pipelines API.",
@@ -134,8 +129,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "b0094b2e39cc4eca9b5fc0f9",
-    "prompt": "63 - You work for a large retailer and have been asked to segment your customers by their purchasing habits. The purchase history of all customers<br/>has been uploaded to BigQuery. You suspect that there may be several distinct customer segments, however you are unsure of how many, and you<br/>don't yet understand the commonalities in their behavior. You want to find the most efficient solution. What should you do?<br/>",
+    "question_id": "67bd0e4a2e1b47b793b4f84a",
+    "prompt": "63 - You work for a large retailer and have been asked to segment your customers by their purchasing habits. The purchase history of all customershas been uploaded to BigQuery. You suspect that there may be several distinct customer segments, however you are unsure of how many, and youdon't yet understand the commonalities in their behavior. You want to find the most efficient solution. What should you do?",
     "answers": [
       {
         "text": "Create a k-means clustering model using BigQuery ML. Allow BigQuery to automatically optimize the number of clusters.",
@@ -165,8 +160,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "43fa010f0b724ddd8e270173",
-    "prompt": "64 - You recently designed and built a custom neural network that uses critical dependencies specific to your organization's framework. You need to<br/>train the model using a managed training service on Google Cloud. However, the ML framework and related dependencies are not supported by AI<br/>Platform Training. Also, both your model and your data are too large to fit in memory on a single machine. Your ML framework of choice uses the<br/>scheduler, workers, and servers distribution structure. What should you do?<br/>",
+    "question_id": "c5254cbb0af4450c9dda3c85",
+    "prompt": "64 - You recently designed and built a custom neural network that uses critical dependencies specific to your organization's framework. You need totrain the model using a managed training service on Google Cloud. However, the ML framework and related dependencies are not supported by AIPlatform Training. Also, both your model and your data are too large to fit in memory on a single machine. Your ML framework of choice uses thescheduler, workers, and servers distribution structure. What should you do?",
     "answers": [
       {
         "text": "Use a built-in model available on AI Platform Training.",
@@ -200,26 +195,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "f8e84686106947ab8230b79b",
-    "prompt": "65 - While monitoring your model training's GPU utilization, you discover that you have a native synchronous implementation. The training data is split<br/>into multiple files. You want to reduce the execution time of your input pipeline. What should you do?<br/>",
+    "question_id": "f149fbbe9e754fe898f4c392",
+    "prompt": "65 - While monitoring your model training's GPU utilization, you discover that you have a native synchronous implementation. The training data is splitinto multiple files. You want to reduce the execution time of your input pipeline. What should you do?",
     "answers": [
       {
-        "text": "Increase the CPU load",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Add caching to the pipeline",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Increase the network bandwidth",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "Add parallel interleave to the pipeline",
+        "text": "Increase the CPU loadB. Add caching to the pipelineC. Increase the network bandwidthD. Add parallel interleave to the pipeline",
         "isCorrect": false,
         "explanation": ""
       }
@@ -231,8 +211,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "504607d0bf2645528ec33aef",
-    "prompt": "66 - Your data science team is training a PyTorch model for image classification based on a pre-trained RestNet model. You need to perform<br/>hyperparameter tuning to optimize for several parameters. What should you do?<br/>",
+    "question_id": "356dc740640c47faa6e3fa75",
+    "prompt": "66 - Your data science team is training a PyTorch model for image classification based on a pre-trained RestNet model. You need to performhyperparameter tuning to optimize for several parameters. What should you do?",
     "answers": [
       {
         "text": "Convert the model to a Keras model, and run a Keras Tuner job.",
@@ -262,8 +242,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "01f871a69bfa48ca9a67120f",
-    "prompt": "67 - You have a large corpus of written support cases that can be classified into 3 separate categories: Technical Support, Billing Support, or Other<br/>Issues. You need to quickly build, test, and deploy a service that will automatically classify future written requests into one of the categories. How<br/>should you configure the pipeline?<br/>",
+    "question_id": "9423a1e202ca43f5b00ebe3d",
+    "prompt": "67 - You have a large corpus of written support cases that can be classified into 3 separate categories: Technical Support, Billing Support, or OtherIssues. You need to quickly build, test, and deploy a service that will automatically classify future written requests into one of the categories. Howshould you configure the pipeline?",
     "answers": [
       {
         "text": "Use the Cloud Natural Language API to obtain metadata to classify the incoming cases.",
@@ -293,26 +273,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "a59771d7a4104532a394214b",
-    "prompt": "68 - You need to quickly build and train a model to predict the sentiment of customer reviews with custom categories without writing code. You do not<br/>have enough data to train a model from scratch. The resulting model should have high predictive performance. Which service should you use?<br/>",
+    "question_id": "af58495d6a1d45d7abea2426",
+    "prompt": "68 - You need to quickly build and train a model to predict the sentiment of customer reviews with custom categories without writing code. You do nothave enough data to train a model from scratch. The resulting model should have high predictive performance. Which service should you use?",
     "answers": [
       {
-        "text": "AutoML Natural Language",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Cloud Natural Language API",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "AI Hub pre-made Jupyter Notebooks",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "AI Platform Training built-in algorithms",
+        "text": "AutoML Natural LanguageB. Cloud Natural Language APIC. AI Hub pre-made Jupyter NotebooksD. AI Platform Training built-in algorithms",
         "isCorrect": false,
         "explanation": ""
       }
@@ -324,8 +289,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "fa481ae475c8486b8a3f2be5",
-    "prompt": "*69 - You need to build an ML model for a social media application to predict whether a user's submitted profile photo meets the requirements. The<br/>application will inform the user if the picture meets the requirements. How should you build a model to ensure that the application does not<br/>falsely accept a non-compliant picture?<br/>",
+    "question_id": "bea49c4f40094634af4a8723",
+    "prompt": "*69 - You need to build an ML model for a social media application to predict whether a user's submitted profile photo meets the requirements. Theapplication will inform the user if the picture meets the requirements. How should you build a model to ensure that the application does notfalsely accept a non-compliant picture?",
     "answers": [
       {
         "text": "Use AutoML to optimize the model's recall in order to minimize false negatives.",
@@ -355,8 +320,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "117dc1b815d749589267b17d",
-    "prompt": "70 - You lead a data science team at a large international corporation. Most of the models your team trains are large-scale models using high-level<br/>TensorFlow APIs on AI Platform with GPUs. Your team usually takes a few weeks or months to iterate on a new version of a model. You were<br/>recently asked to review your team's spending. How should you reduce your Google Cloud compute costs without impacting the model's<br/>performance?<br/>",
+    "question_id": "ae532232f27349ce9e9c70e7",
+    "prompt": "70 - You lead a data science team at a large international corporation. Most of the models your team trains are large-scale models using high-levelTensorFlow APIs on AI Platform with GPUs. Your team usually takes a few weeks or months to iterate on a new version of a model. You wererecently asked to review your team's spending. How should you reduce your Google Cloud compute costs without impacting the model'sperformance?",
     "answers": [
       {
         "text": "Use AI Platform to run distributed training jobs with checkpoints.",
@@ -386,16 +351,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "43da0f1751cb4243b4031719",
-    "prompt": "* 71 - You need to train a regression model based on a dataset containing 50,000 records that is stored in BigQuery. The data includes a total of 20<br/>categorical and numerical features with a target variable that can include negative values. You need to minimize effort and training time while<br/>maximizing model performance. What approach should you take to train this regression model?<br/>",
+    "question_id": "825e77e4e6d44517b7c59026",
+    "prompt": "* 71 - You need to train a regression model based on a dataset containing 50,000 records that is stored in BigQuery. The data includes a total of 20categorical and numerical features with a target variable that can include negative values. You need to minimize effort and training time whilemaximizing model performance. What approach should you take to train this regression model?",
     "answers": [
       {
-        "text": "Create a custom TensorFlow DNN model",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Use BQML XGBoost regression to train the model.",
+        "text": "Create a custom TensorFlow DNN modelB. Use BQML XGBoost regression to train the model.",
         "isCorrect": false,
         "explanation": ""
       },
@@ -417,8 +377,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "fdab425c00a44d22838a0fd0",
-    "prompt": "72 - * You are building a linear model with over 100 input features, all with values between -1 and 1. You suspect that many features are non-<br/>informative. You want to remove the non-informative features from your model while keeping the informative ones in their original form. Which<br/>technique should you use?<br/>",
+    "question_id": "c70512e18d2840eaa25f834c",
+    "prompt": "72 - * You are building a linear model with over 100 input features, all with values between -1 and 1. You suspect that many features are non-informative. You want to remove the non-informative features from your model while keeping the informative ones in their original form. Whichtechnique should you use?",
     "answers": [
       {
         "text": "Use principal component analysis (PCA) to eliminate the least informative features.",
@@ -448,8 +408,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "476a5c9221b049168c97fe5d",
-    "prompt": "*73 - You work for a global footwear retailer and need to predict when an item will be out of stock based on historical inventory data Customer behavior is highly dynamic since footwear demand is influenced by many different factors. You want to serve models that are trained on all available data, but track your performance on specific subsets of data before pushing to production. What is the most streamlined and reliable way to perform this validation?<br/>",
+    "question_id": "1791d6e9df524ca6ae0dc509",
+    "prompt": "*73 - You work for a global footwear retailer and need to predict when an item will be out of stock based on historical inventory data Customer behavior is highly dynamic since footwear demand is influenced by many different factors. You want to serve models that are trained on all available data, but track your performance on specific subsets of data before pushing to production. What is the most streamlined and reliable way to perform this validation?",
     "answers": [
       {
         "text": "Use then TFX ModelValidator tools to specify performance metrics for production readiness.",
@@ -479,8 +439,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "7dcc1f5c7b6f408084fff503",
-    "prompt": "* 74 - You have deployed a model on Vertex AI for real-time inference. During an online prediction request, you get an \"Out of Memory\" error. What should you do?<br/>",
+    "question_id": "2659d6171cd141c38d9a69f8",
+    "prompt": "* 74 - You have deployed a model on Vertex AI for real-time inference. During an online prediction request, you get an \"Out of Memory\" error. What should you do?",
     "answers": [
       {
         "text": "Use batch prediction mode instead of online mode.",
@@ -510,8 +470,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "6c6e5c3ed4544af4941fd26f",
-    "prompt": "*75 - You work at a subscription-based company. You have trained an ensemble of trees and neural networks to predict customer churn, which is the likelihood that customers will not renew their yearly subscription. The average prediction is a 15% churn rate, but for a particular customer the model predicts that they are 70% likely to churn. The customer has a product usage history of 30%, is located in New York City, and became a customer in 1997. You need to explain the difference between the actual prediction, a 70% churn rate, and the average prediction. You want to use Vertex Explainable AI. What should you do?<br/>",
+    "question_id": "b3393d5352ef46cd978ee48a",
+    "prompt": "*75 - You work at a subscription-based company. You have trained an ensemble of trees and neural networks to predict customer churn, which is the likelihood that customers will not renew their yearly subscription. The average prediction is a 15% churn rate, but for a particular customer the model predicts that they are 70% likely to churn. The customer has a product usage history of 30%, is located in New York City, and became a customer in 1997. You need to explain the difference between the actual prediction, a 70% churn rate, and the average prediction. You want to use Vertex Explainable AI. What should you do?",
     "answers": [
       {
         "text": "Train local surrogate models to explain individual predictions.",
@@ -541,8 +501,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "1d469edbcfa544a389144f46",
-    "prompt": "* 76 - You are working on a classification problem with time series data. After conducting just a few experiments using random cross-validation, you achieved an Area Under the Receiver Operating Characteristic Curve (AUC ROC) value of 99% on the training data. You haven't explored using any sophisticated algorithms or spent any time on hyperparameter tuning. What should your next step be to identify and fix the problem?<br/>",
+    "question_id": "3d559d8182914dcab53ea52e",
+    "prompt": "* 76 - You are working on a classification problem with time series data. After conducting just a few experiments using random cross-validation, you achieved an Area Under the Receiver Operating Characteristic Curve (AUC ROC) value of 99% on the training data. You haven't explored using any sophisticated algorithms or spent any time on hyperparameter tuning. What should your next step be to identify and fix the problem?",
     "answers": [
       {
         "text": "Address the model overfitting by using a less complex algorithm and use k-fold cross-validation.",
@@ -572,8 +532,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "ab8b1796fee94e86931f6739",
-    "prompt": "*77 - You need to execute a batch prediction on 100 million records in a BigQuery table with a custom TensorFlow DNN regressor model, and then store the predicted results in a BigQuery table. You want to minimize the effort required to build this inference pipeline. What should you do?<br/>",
+    "question_id": "9d68958ee10347bdaa7e4fd4",
+    "prompt": "*77 - You need to execute a batch prediction on 100 million records in a BigQuery table with a custom TensorFlow DNN regressor model, and then store the predicted results in a BigQuery table. You want to minimize the effort required to build this inference pipeline. What should you do?",
     "answers": [
       {
         "text": "Import the TensorFlow model with BigQuery ML, and run the ml.predict function.",
@@ -603,8 +563,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "f2c291f922894a36978ca2f1",
-    "prompt": "*78 - You are creating a deep neural network classification model using a dataset with categorical input values. Certain columns have a cardinality greater than 10,000 unique values. How should you encode these categorical values as input into the model?<br/>",
+    "question_id": "21460ba523c64ebabf8516cd",
+    "prompt": "*78 - You are creating a deep neural network classification model using a dataset with categorical input values. Certain columns have a cardinality greater than 10,000 unique values. How should you encode these categorical values as input into the model?",
     "answers": [
       {
         "text": "Convert each categorical value into an integer value.",
@@ -634,8 +594,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "874c08a75e8e44a7a2e97d42",
-    "prompt": "*79 - You need to train a natural language model to perform text classification on product descriptions that contain millions of examples and 100,000 unique words. You want to preprocess the words individually so that they can be fed into a recurrent neural network. What should you do?<br/>",
+    "question_id": "19543e88e6b64e25a45c4920",
+    "prompt": "*79 - You need to train a natural language model to perform text classification on product descriptions that contain millions of examples and 100,000 unique words. You want to preprocess the words individually so that they can be fed into a recurrent neural network. What should you do?",
     "answers": [
       {
         "text": "Create a hot-encoding of words, and feed the encodings into your model.",
@@ -665,8 +625,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "768bf29c001c4268befa8f0c",
-    "prompt": "*80 - You work for an online travel agency that also sells advertising placements on its website to other companies. You have been asked to predict the most relevant web banner that a user should see next. Security is important to your company. The model latency requirements are 300ms@p99, the inventory is thousands of web banners, and your exploratory analysis has shown that navigation context is a good predictor. You want to Implement the simplest solution. How should you configure the prediction pipeline?<br/>",
+    "question_id": "4c52589681b444a79d3abe25",
+    "prompt": "*80 - You work for an online travel agency that also sells advertising placements on its website to other companies. You have been asked to predict the most relevant web banner that a user should see next. Security is important to your company. The model latency requirements are 300ms@p99, the inventory is thousands of web banners, and your exploratory analysis has shown that navigation context is a good predictor. You want to Implement the simplest solution. How should you configure the prediction pipeline?",
     "answers": [
       {
         "text": "Embed the client on the website, and then deploy the model on AI Platform Prediction.",
@@ -691,26 +651,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "2156ec7022524d32881ccbb2",
-    "prompt": "81 - Your data science team has requested a system that supports scheduled model retraining, Docker containers, and a service that supports<br/>autoscaling and monitoring for online prediction requests. Which platform components should you choose for this system?<br/>",
+    "question_id": "8f8ccf3e1fec489096896b2b",
+    "prompt": "81 - Your data science team has requested a system that supports scheduled model retraining, Docker containers, and a service that supportsautoscaling and monitoring for online prediction requests. Which platform components should you choose for this system?",
     "answers": [
       {
-        "text": "Vertex AI Pipelines and App Engine",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Vertex AI Pipelines, Vertex AI Prediction, and Vertex AI Model Monitoring",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Cloud Composer, BigQuery ML, and Vertex AI Prediction",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "Cloud Composer, Vertex AI Training with custom containers, and App Engine",
+        "text": "Vertex AI Pipelines and App EngineB. Vertex AI Pipelines, Vertex AI Prediction, and Vertex AI Model MonitoringC. Cloud Composer, BigQuery ML, and Vertex AI PredictionD. Cloud Composer, Vertex AI Training with custom containers, and App Engine",
         "isCorrect": false,
         "explanation": ""
       }
@@ -722,8 +667,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "43864758face4af490b15e46",
-    "prompt": "82 - You are profiling the performance of your TensorFlow model training time and notice a performance issue caused by inefficiencies in the input<br/>data pipeline for a single 5 terabyte CSV file dataset on Cloud Storage. You need to optimize the input pipeline performance. Which action should<br/>you try first to increase the efficiency of your pipeline?<br/>",
+    "question_id": "13d5f4e7a2484a21a46ffa30",
+    "prompt": "82 - You are profiling the performance of your TensorFlow model training time and notice a performance issue caused by inefficiencies in the inputdata pipeline for a single 5 terabyte CSV file dataset on Cloud Storage. You need to optimize the input pipeline performance. Which action shouldyou try first to increase the efficiency of your pipeline?",
     "answers": [
       {
         "text": "Preprocess the input CSV file into a TFRecord file.",
@@ -753,8 +698,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "208f2e6c2ff54cb0bb7d3f34",
-    "prompt": "83 - You need to design an architecture that serves asynchronous predictions to determine whether a particular mission-critical machine part will fail.<br/>Your system collects data from multiple sensors from the machine. You want to build a model that will predict a failure in the next N minutes,<br/>given the average of each sensor's data from the past 12 hours. How should you design the architecture?<br/><br/>",
+    "question_id": "5956ffdab11c4b2d92973600",
+    "prompt": "83 - You need to design an architecture that serves asynchronous predictions to determine whether a particular mission-critical machine part will fail.Your system collects data from multiple sensors from the machine. You want to build a model that will predict a failure in the next N minutes,given the average of each sensor's data from the past 12 hours. How should you design the architecture?",
     "answers": [
       {
         "text": "1. HTTP requests are sent by the sensors to your ML model, which is deployed as a microservice and exposes a REST API for prediction2. Your application queries a Vertex AI endpoint where you deployed your model.3. Responses are received by the caller application as soon as the model produces the prediction.",
@@ -774,8 +719,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "ad8ad5f1de5e4c0ca3941ec4",
-    "prompt": "84 - Your company manages an application that aggregates news articles from many different online sources and sends them to users. You need to<br/>build a recommendation model that will suggest articles to readers that are similar to the articles they are currently reading. Which approach<br/>should you use?<br/>",
+    "question_id": "678d96b3c79f4b2f99fe3be3",
+    "prompt": "84 - Your company manages an application that aggregates news articles from many different online sources and sends them to users. You need tobuild a recommendation model that will suggest articles to readers that are similar to the articles they are currently reading. Which approachshould you use?",
     "answers": [
       {
         "text": "Create a collaborative filtering system that recommends articles to a user based on the user's past behavior.",
@@ -805,27 +750,17 @@
     "idea_text": ""
   },
   {
-    "question_id": "d2fe31c775e34df9bf48fa40",
-    "prompt": "85 - You work for a large social network service provider whose users post articles and discuss news. Millions of comments are posted online each<br/>day, and more than 200 human moderators constantly review comments and flag those that are inappropriate. Your team is building an ML model<br/>to help human moderators check content on the platform. The model scores each comment and flags suspicious comments to be reviewed by a<br/>human. Which metric(s) should you use to monitor the model's performance?<br/>",
+    "question_id": "dbe38d97a21644419cc584c7",
+    "prompt": "85 - You work for a large social network service provider whose users post articles and discuss news. Millions of comments are posted online eachday, and more than 200 human moderators constantly review comments and flag those that are inappropriate. Your team is building an ML modelto help human moderators check content on the platform. The model scores each comment and flags suspicious comments to be reviewed by ahuman. Which metric(s) should you use to monitor the model's performance?",
     "answers": [
       {
-        "text": "Number of messages flagged by the model per minute",
+        "text": "Number of messages flagged by the model per minuteB. Number of messages flagged by the model per minute confirmed as being inappropriate by humans.",
         "isCorrect": false,
         "explanation": ""
       },
       {
-        "text": "Number of messages flagged by the model per minute confirmed as being inappropriate by humans.",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Precision and recall estimates based on a random sample of 0.1% of raw messages each minute sent to a human for review",
+        "text": "Precision and recall estimates based on a random sample of 0.1% of raw messages each minute sent to a human for reviewD. Precision and recall estimates based on a sample of messages flagged by the model as potentially inappropriate each minute",
         "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "Precision and recall estimates based on a sample of messages flagged by the model as potentially inappropriate each minute",
-        "isCorrect": false,
         "explanation": ""
       }
     ],
@@ -836,8 +771,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "d57e1dce94a44b14b7b9c2d5",
-    "prompt": "86 - You are a lead ML engineer at a retail company. You want to track and manage ML metadata in a centralized way so that your team can have<br/>reproducible experiments by generating artifacts. Which management solution should you recommend to your team?<br/>",
+    "question_id": "43d01aee83e6434589c0169b",
+    "prompt": "86 - You are a lead ML engineer at a retail company. You want to track and manage ML metadata in a centralized way so that your team can havereproducible experiments by generating artifacts. Which management solution should you recommend to your team?",
     "answers": [
       {
         "text": "Store your tf.logging data in BigQuery.",
@@ -867,8 +802,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "9b1bf28b93a9417486493715",
-    "prompt": "87 - You have been given a dataset with sales predictions based on your company's marketing activities. The data is structured and stored in BigQuery,<br/>and has been carefully managed by a team of data analysts. You need to prepare a report providing insights into the predictive capabilities of the<br/>data. You were asked to run several ML models with different levels of sophistication, including simple models and multilayered neural networks.<br/>You only have a few hours to gather the results of your experiments. Which Google Cloud tools should you use to complete this task in the most<br/>efficient and self-serviced way?<br/>",
+    "question_id": "73a4aa86ff574762966d095d",
+    "prompt": "87 - You have been given a dataset with sales predictions based on your company's marketing activities. The data is structured and stored in BigQuery,and has been carefully managed by a team of data analysts. You need to prepare a report providing insights into the predictive capabilities of thedata. You were asked to run several ML models with different levels of sophistication, including simple models and multilayered neural networks.You only have a few hours to gather the results of your experiments. Which Google Cloud tools should you use to complete this task in the mostefficient and self-serviced way?",
     "answers": [
       {
         "text": "Use BigQuery ML to run several regression models, and analyze their performance.",
@@ -898,8 +833,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "f934ad7e4dfa48098251d2c4",
-    "prompt": "88 - You are an ML engineer at a bank. You have developed a binary classification model using AutoML Tables to predict whether a customer will make<br/>loan payments on time. The output is used to approve or reject loan requests. One customer's loan request has been rejected by your model, and<br/>the bank's risks department is asking you to provide the reasons that contributed to the model's decision. What should you do?<br/>",
+    "question_id": "2e3c1ef815e546a5a9128a69",
+    "prompt": "88 - You are an ML engineer at a bank. You have developed a binary classification model using AutoML Tables to predict whether a customer will makeloan payments on time. The output is used to approve or reject loan requests. One customer's loan request has been rejected by your model, andthe bank's risks department is asking you to provide the reasons that contributed to the model's decision. What should you do?",
     "answers": [
       {
         "text": "Use local feature importance from the predictions.",
@@ -929,8 +864,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "4175b088bfb94b1483b44122",
-    "prompt": "* 89 - You work for a magazine distributor and need to build a model that predicts which customers will renew their subscriptions for the upcoming year.<br/>Using your company's historical data as your training set, you created a TensorFlow model and deployed it to AI Platform. You need to determine<br/>which customer attribute has the most predictive power for each prediction served by the model. What should you do?<br/>",
+    "question_id": "ddcfd8841dcd4b56a031b2bb",
+    "prompt": "* 89 - You work for a magazine distributor and need to build a model that predicts which customers will renew their subscriptions for the upcoming year.Using your company's historical data as your training set, you created a TensorFlow model and deployed it to AI Platform. You need to determinewhich customer attribute has the most predictive power for each prediction served by the model. What should you do?",
     "answers": [
       {
         "text": "Use AI Platform notebooks to perform a Lasso regression analysis on your model, which will eliminate features that do not provide a strongsignal.",
@@ -960,26 +895,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "d27384a5131e45068141ac59",
-    "prompt": "90 - You are working on a binary classification ML algorithm that detects whether an image of a classified scanned document contains a company's<br/>logo. In the dataset, 96% of examples don't have the logo, so the dataset is very skewed. Which metrics would give you the most confidence in<br/>your model?<br/>",
+    "question_id": "98c37f30f1284ac49db88e66",
+    "prompt": "90 - You are working on a binary classification ML algorithm that detects whether an image of a classified scanned document contains a company'slogo. In the dataset, 96% of examples don't have the logo, so the dataset is very skewed. Which metrics would give you the most confidence inyour model?",
     "answers": [
       {
-        "text": "F-score where recall is weighed more than precision",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "RMSE",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "F1 score",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "F-score where precision is weighed more than recall",
+        "text": "F-score where recall is weighed more than precisionB. RMSEC. F1 scoreD. F-score where precision is weighed more than recall",
         "isCorrect": false,
         "explanation": ""
       }
@@ -991,8 +911,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "5767ae32de2d4eb98b9b9259",
-    "prompt": "91 - You work on the data science team for a multinational beverage company. You need to develop an ML model to predict the company's profitability<br/>for a new line of naturally flavored bottled waters in different locations. You are provided with historical data that includes product types, product<br/>sales volumes, expenses, and profits for all regions. What should you use as the input and output for your model?<br/>",
+    "question_id": "08aacb9f0d054e9189192928",
+    "prompt": "91 - You work on the data science team for a multinational beverage company. You need to develop an ML model to predict the company's profitabilityfor a new line of naturally flavored bottled waters in different locations. You are provided with historical data that includes product types, productsales volumes, expenses, and profits for all regions. What should you use as the input and output for your model?",
     "answers": [
       {
         "text": "Use latitude, longitude, and product type as features. Use profit as model output.",
@@ -1022,8 +942,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "9a8dcd21f47c4a3ba52c21d3",
-    "prompt": "92 - You work as an ML engineer at a social media company, and you are developing a visual filter for users' profile photos. This requires you to train<br/>an ML model to detect bounding boxes around human faces. You want to use this filter in your company's iOS-based mobile phone application.<br/>You want to minimize code development and want the model to be optimized for inference on mobile phones. What should you do?<br/>",
+    "question_id": "b7c0a9d838474595b59790de",
+    "prompt": "92 - You work as an ML engineer at a social media company, and you are developing a visual filter for users' profile photos. This requires you to trainan ML model to detect bounding boxes around human faces. You want to use this filter in your company's iOS-based mobile phone application.You want to minimize code development and want the model to be optimized for inference on mobile phones. What should you do?",
     "answers": [
       {
         "text": "Train a model using AutoML Vision and use the \"export for Core ML\" option.",
@@ -1053,8 +973,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "f2c7a9d52dcc40f48b606026",
-    "prompt": "93 - You have been asked to build a model using a dataset that is stored in a medium-sized (~10 GB) BigQuery table. You need to quickly determine<br/>whether this data is suitable for model development. You want to create a one-time report that includes both informative visualizations of data<br/>distributions and more sophisticated statistical analyses to share with other ML engineers on your team. You require maximum flexibility to create<br/>your report. What should you do?<br/>",
+    "question_id": "f62490697aec4d7eb7182be3",
+    "prompt": "93 - You have been asked to build a model using a dataset that is stored in a medium-sized (~10 GB) BigQuery table. You need to quickly determinewhether this data is suitable for model development. You want to create a one-time report that includes both informative visualizations of datadistributions and more sophisticated statistical analyses to share with other ML engineers on your team. You require maximum flexibility to createyour report. What should you do?",
     "answers": [
       {
         "text": "Use Vertex AI Workbench user-managed notebooks to generate the report.",
@@ -1084,8 +1004,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "0daaa4bfc77d4f5a85064b8d",
-    "prompt": "94 - You work on an operations team at an international company that manages a large fleet of on-premises servers located in few data centers around<br/>the world. Your team collects monitoring data from the servers, including CPU/memory consumption. When an incident occurs on a server, your<br/>team is responsible for fixing it. Incident data has not been properly labeled yet. Your management team wants you to build a predictive<br/>maintenance solution that uses monitoring data from the VMs to detect potential failures and then alerts the service desk team. What should you<br/>do first?<br/>",
+    "question_id": "29a59e32625446c08568ebe3",
+    "prompt": "94 - You work on an operations team at an international company that manages a large fleet of on-premises servers located in few data centers aroundthe world. Your team collects monitoring data from the servers, including CPU/memory consumption. When an incident occurs on a server, yourteam is responsible for fixing it. Incident data has not been properly labeled yet. Your management team wants you to build a predictivemaintenance solution that uses monitoring data from the VMs to detect potential failures and then alerts the service desk team. What should youdo first?",
     "answers": [
       {
         "text": "Train a time-series model to predict the machines' performance values. Configure an alert if a machine's actual performance valuessignificantly differ from the predicted performance values.",
@@ -1105,8 +1025,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "5af7222ba18d425e85ecb35d",
-    "prompt": "95 - You are developing an ML model that uses sliced frames from video feed and creates bounding boxes around specific objects. You want to<br/>automate the following steps in your training pipeline: ingestion and preprocessing of data in Cloud Storage, followed by training and<br/>hyperparameter tuning of the object model using Vertex AI jobs, and finally deploying the model to an endpoint. You want to orchestrate the entire<br/>pipeline with minimal cluster management. What approach should you use?<br/>",
+    "question_id": "9154bbffc8d2465fb83048c0",
+    "prompt": "95 - You are developing an ML model that uses sliced frames from video feed and creates bounding boxes around specific objects. You want toautomate the following steps in your training pipeline: ingestion and preprocessing of data in Cloud Storage, followed by training andhyperparameter tuning of the object model using Vertex AI jobs, and finally deploying the model to an endpoint. You want to orchestrate the entirepipeline with minimal cluster management. What approach should you use?",
     "answers": [
       {
         "text": "Use Kubeflow Pipelines on Google Kubernetes Engine.",
@@ -1136,8 +1056,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "7f9f930617de4803ac8d4dc4",
-    "prompt": "96 - You are training an object detection machine learning model on a dataset that consists of three million X-ray images, each roughly 2 GB in size.<br/>You are using Vertex AI Training to run a custom training application on a Compute Engine instance with 32-cores, 128 GB of RAM, and 1 NVIDIA<br/>P100 GPU. You notice that model training is taking a very long time. You want to decrease training time without sacrificing model performance.<br/>What should you do?<br/>",
+    "question_id": "3582b5e4119b4332bcccfe3b",
+    "prompt": "96 - You are training an object detection machine learning model on a dataset that consists of three million X-ray images, each roughly 2 GB in size.You are using Vertex AI Training to run a custom training application on a Compute Engine instance with 32-cores, 128 GB of RAM, and 1 NVIDIAP100 GPU. You notice that model training is taking a very long time. You want to decrease training time without sacrificing model performance.What should you do?",
     "answers": [
       {
         "text": "Increase the instance memory to 512 GB and increase the batch size.",
@@ -1167,8 +1087,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "d9f60d6d8dca42829d569c58",
-    "prompt": "97 - You are a data scientist at an industrial equipment manufacturing company. You are developing a regression model to estimate the power<br/>consumption in the company's manufacturing plants based on sensor data collected from all of the plants. The sensors collect tens of millions of<br/>records every day. You need to schedule daily training runs for your model that use all the data collected up to the current date. You want your<br/>model to scale smoothly and require minimal development work. What should you do?<br/>",
+    "question_id": "ba88779d7aab4b4cab84c122",
+    "prompt": "97 - You are a data scientist at an industrial equipment manufacturing company. You are developing a regression model to estimate the powerconsumption in the company's manufacturing plants based on sensor data collected from all of the plants. The sensors collect tens of millions ofrecords every day. You need to schedule daily training runs for your model that use all the data collected up to the current date. You want yourmodel to scale smoothly and require minimal development work. What should you do?",
     "answers": [
       {
         "text": "Train a regression model using AutoML Tables.",
@@ -1198,8 +1118,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "b715c53dcb0c434ba5f77d05",
-    "prompt": "98 - You built a custom ML model using scikit-learn. Training time is taking longer than expected. You decide to migrate your model to Vertex AI<br/>Training, and you want to improve the model's training time. What should you try out first?<br/>",
+    "question_id": "04fe26159c974a8db6755842",
+    "prompt": "98 - You built a custom ML model using scikit-learn. Training time is taking longer than expected. You decide to migrate your model to Vertex AITraining, and you want to improve the model's training time. What should you try out first?",
     "answers": [
       {
         "text": "Migrate your model to TensorFlow, and train it using Vertex AI Training.",
@@ -1229,8 +1149,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "99421efd1d814defbb430159",
-    "prompt": "99 - You are an ML engineer at a travel company. You have been researching customers' travel behavior for many years, and you have deployed models<br/>that predict customers' vacation patterns. You have observed that customers' vacation destinations vary based on seasonality and holidays;<br/>however, these seasonal variations are similar across years. You want to quickly and easily store and compare the model versions and<br/>performance statistics across years. What should you do?<br/>",
+    "question_id": "5a5bb16392ae4e029eb0d2bb",
+    "prompt": "99 - You are an ML engineer at a travel company. You have been researching customers' travel behavior for many years, and you have deployed modelsthat predict customers' vacation patterns. You have observed that customers' vacation destinations vary based on seasonality and holidays;however, these seasonal variations are similar across years. You want to quickly and easily store and compare the model versions andperformance statistics across years. What should you do?",
     "answers": [
       {
         "text": "Store the performance statistics in Cloud SQL. Query that database to compare the performance statistics across the model versions.",
@@ -1255,22 +1175,12 @@
     "idea_text": ""
   },
   {
-    "question_id": "aa257531f89d4564a2e90d0f",
-    "prompt": "100 - You are an ML engineer at a manufacturing company. You need to build a model that identifies defects in products based on images of the<br/>product taken at the end of the assembly line. You want your model to preprocess the images with lower computation to quickly extract features<br/>of defects in products. Which approach should you use to build the model?<br/>",
+    "question_id": "bc8a6759f06149f98b639193",
+    "prompt": "100 - You are an ML engineer at a manufacturing company. You need to build a model that identifies defects in products based on images of theproduct taken at the end of the assembly line. You want your model to preprocess the images with lower computation to quickly extract featuresof defects in products. Which approach should you use to build the model?",
     "answers": [
       {
-        "text": "Reinforcement learning",
+        "text": "Reinforcement learningB. Recommender systemC. Recurrent Neural Networks (RNN)",
         "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Recommender system",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Recurrent Neural Networks (RNN)",
-        "isCorrect": true,
         "explanation": ""
       },
       {
@@ -1286,8 +1196,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "1e1f2b9de17240008365eeab",
-    "prompt": "101 - You are developing an ML model intended to classify whether X-ray images indicate bone fracture risk. You have trained a ResNet architecture on<br/>Vertex AI using a TPU as an accelerator, however you are unsatisfied with the training time and memory usage. You want to quickly iterate your<br/>training code but make minimal changes to the code. You also want to minimize impact on the model's accuracy. What should you do?<br/>",
+    "question_id": "92a165be97f94bc48456432d",
+    "prompt": "101 - You are developing an ML model intended to classify whether X-ray images indicate bone fracture risk. You have trained a ResNet architecture onVertex AI using a TPU as an accelerator, however you are unsatisfied with the training time and memory usage. You want to quickly iterate yourtraining code but make minimal changes to the code. You also want to minimize impact on the model's accuracy. What should you do?",
     "answers": [
       {
         "text": "Reduce the number of layers in the model architecture.",
@@ -1317,8 +1227,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "c8e3ac198e8842f7a2f1fcf5",
-    "prompt": "102 - You have successfully deployed to production a large and complex TensorFlow model trained on tabular data. You want to predict the lifetime<br/>value (LTV) field for each subscription stored in the BigQuery table named subscription. subscriptionPurchase in the project named myfortune500-company-project.<br/>You have organized all your training code, from preprocessing data from the BigQuery table up to deploying the validated model to the Vertex AI<br/>endpoint, into a TensorFlow Extended (TFX) pipeline. You want to prevent prediction drift, i.e., a situation when a feature data distribution in<br/>production changes significantly over time. What should you do?<br/>",
+    "question_id": "b2877536e6664c3f880cbc13",
+    "prompt": "102 - You have successfully deployed to production a large and complex TensorFlow model trained on tabular data. You want to predict the lifetimevalue (LTV) field for each subscription stored in the BigQuery table named subscription. subscriptionPurchase in the project named myfortune500-company-project.You have organized all your training code, from preprocessing data from the BigQuery table up to deploying the validated model to the Vertex AIendpoint, into a TensorFlow Extended (TFX) pipeline. You want to prevent prediction drift, i.e., a situation when a feature data distribution inproduction changes significantly over time. What should you do?",
     "answers": [
       {
         "text": "Implement continuous retraining of the model daily using Vertex AI Pipelines.",
@@ -1348,16 +1258,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "59e387b23a6b400994fae166",
-    "prompt": "103 - You recently developed a deep learning model using Keras, and now you are experimenting with different training strategies. First, you trained the<br/>model using a single GPU, but the training process was too slow. Next, you distributed the training across 4 GPUs using<br/>tf.distribute.MirroredStrategy (with no other changes), but you did not observe a decrease in training time. What should you do?<br/>",
+    "question_id": "326e85640531439e8bb702ad",
+    "prompt": "103 - You recently developed a deep learning model using Keras, and now you are experimenting with different training strategies. First, you trained themodel using a single GPU, but the training process was too slow. Next, you distributed the training across 4 GPUs usingtf.distribute.MirroredStrategy (with no other changes), but you did not observe a decrease in training time. What should you do?",
     "answers": [
       {
-        "text": "Distribute the dataset with tf.distribute.Strategy.experimental_distribute_dataset",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Create a custom training loop.",
+        "text": "Distribute the dataset with tf.distribute.Strategy.experimental_distribute_datasetB. Create a custom training loop.",
         "isCorrect": false,
         "explanation": ""
       },
@@ -1379,8 +1284,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "9cc87b78d3f64ef3bc3dd560",
-    "prompt": "* 104 - You work for a gaming company that has millions of customers around the world. All games offer a chat feature that allows players to<br/>communicate with each other in real time. Messages can be typed in more than 20 languages and are translated in real time using the Cloud<br/>Translation API. You have been asked to build an ML system to moderate the chat in real time while assuring that the performance is uniform<br/>across the various languages and without changing the serving infrastructure.<br/>You trained your first model using an in-house word2vec model for embedding the chat messages translated by the Cloud Translation API.<br/>However, the model has significant differences in performance across the different languages. How should you improve it?<br/>",
+    "question_id": "d897b0972aac4b26bed3f2a1",
+    "prompt": "* 104 - You work for a gaming company that has millions of customers around the world. All games offer a chat feature that allows players tocommunicate with each other in real time. Messages can be typed in more than 20 languages and are translated in real time using the CloudTranslation API. You have been asked to build an ML system to moderate the chat in real time while assuring that the performance is uniformacross the various languages and without changing the serving infrastructure.You trained your first model using an in-house word2vec model for embedding the chat messages translated by the Cloud Translation API.However, the model has significant differences in performance across the different languages. How should you improve it?",
     "answers": [
       {
         "text": "Add a regularization term such as the Min-Diff algorithm to the loss function.",
@@ -1405,16 +1310,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "4c2a63086a9349e6bd35c5f0",
-    "prompt": "105 - You work for a gaming company that develops massively multiplayer online (MMO) games. You built a TensorFlow model that predicts whether<br/>players will make in-app purchases of more than $10 in the next two weeks. The model's predictions will be used to adapt each user's game<br/>experience. User data is stored in BigQuery. How should you serve your model while optimizing cost, user experience, and ease of management?<br/>",
+    "question_id": "4cd975a5473d4b048a050e68",
+    "prompt": "105 - You work for a gaming company that develops massively multiplayer online (MMO) games. You built a TensorFlow model that predicts whetherplayers will make in-app purchases of more than $10 in the next two weeks. The model's predictions will be used to adapt each user's gameexperience. User data is stored in BigQuery. How should you serve your model while optimizing cost, user experience, and ease of management?",
     "answers": [
       {
-        "text": "Import the model into BigQuery ML. Make predictions using batch reading data from BigQuery, and push the data to Cloud SQL",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Deploy the model to Vertex AI Prediction. Make predictions using batch reading data from Cloud Bigtable, and push the data to Cloud SQL.",
+        "text": "Import the model into BigQuery ML. Make predictions using batch reading data from BigQuery, and push the data to Cloud SQLB. Deploy the model to Vertex AI Prediction. Make predictions using batch reading data from Cloud Bigtable, and push the data to Cloud SQL.",
         "isCorrect": false,
         "explanation": ""
       },
@@ -1436,8 +1336,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "24e76993fd87413494d99080",
-    "prompt": "* 106 - You are building a linear regression model on BigQuery ML to predict a customer's likelihood of purchasing your company's products. Your model<br/>uses a city name variable as a key predictive component. In order to train and serve the model, your data must be organized in columns. You want<br/>to prepare your data using the least amount of coding while maintaining the predictable variables. What should you do?<br/>",
+    "question_id": "07d56dcf659d457ea4c3cf1b",
+    "prompt": "* 106 - You are building a linear regression model on BigQuery ML to predict a customer's likelihood of purchasing your company's products. Your modeluses a city name variable as a key predictive component. In order to train and serve the model, your data must be organized in columns. You wantto prepare your data using the least amount of coding while maintaining the predictable variables. What should you do?",
     "answers": [
       {
         "text": "Use TensorFlow to create a categorical variable with a vocabulary list. Create the vocabulary file, and upload it as part of your model toBigQuery ML.",
@@ -1445,13 +1345,8 @@
         "explanation": ""
       },
       {
-        "text": "Create a new view with BigQuery that does not include a column with city information",
+        "text": "Create a new view with BigQuery that does not include a column with city informationC. Use Cloud Data Fusion to assign each city to a region labeled as 1, 2, 3, 4, or 5, and then use that number to represent the city in the model.",
         "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Use Cloud Data Fusion to assign each city to a region labeled as 1, 2, 3, 4, or 5, and then use that number to represent the city in the model.",
-        "isCorrect": true,
         "explanation": ""
       },
       {
@@ -1467,26 +1362,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "16eb66f083da4b3fb850f806",
-    "prompt": "107 - You are an ML engineer at a bank that has a mobile application. Management has asked you to build an ML-based biometric authentication for the<br/>app that verifies a customer's identity based on their fingerprint. Fingerprints are considered highly sensitive personal information and cannot be<br/>downloaded and stored into the bank databases. Which learning strategy should you recommend to train and deploy this ML mode?<br/>",
+    "question_id": "12de8807fc544ac7924ff753",
+    "prompt": "107 - You are an ML engineer at a bank that has a mobile application. Management has asked you to build an ML-based biometric authentication for theapp that verifies a customer's identity based on their fingerprint. Fingerprints are considered highly sensitive personal information and cannot bedownloaded and stored into the bank databases. Which learning strategy should you recommend to train and deploy this ML mode?",
     "answers": [
       {
-        "text": "Data Loss Prevention API",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Federated learning",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "MD5 to encrypt data",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "Differential privacy",
+        "text": "Data Loss Prevention APIB. Federated learningC. MD5 to encrypt dataD. Differential privacy",
         "isCorrect": false,
         "explanation": ""
       }
@@ -1498,8 +1378,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "a13a61ccae76412a9d7929bf",
-    "prompt": "108 - You are experimenting with a built-in distributed XGBoost model in Vertex AI Workbench user-managed notebooks. You use BigQuery to split your<br/>data into training and validation sets using the following queries:<br/>CREATE OR REPLACE TABLE 'myproject.mydataset.training' AS<br/>(SELECT * FROM 'myproject.mydataset.mytable' WHERE RAND() &lt;= 0.8);<br/>CREATE OR REPLACE TABLE 'myproject.mydataset.validation' AS<br/>(SELECT * FROM 'myproject.mydataset.mytable' WHERE RAND() &lt;= 0.2);<br/>After training the model, you achieve an area under the receiver operating characteristic curve (AUC ROC) value of 0.8, but after deploying the<br/>model to production, you notice that your model performance has dropped to an AUC ROC value of 0.65. What problem is most likely occurring?<br/><br/>",
+    "question_id": "05b9a418a4cb43be9b39616f",
+    "prompt": "108 - You are experimenting with a built-in distributed XGBoost model in Vertex AI Workbench user-managed notebooks. You use BigQuery to split yourdata into training and validation sets using the following queries:CREATE OR REPLACE TABLE 'myproject.mydataset.training' AS(SELECT * FROM 'myproject.mydataset.mytable' WHERE RAND() <= 0.8);CREATE OR REPLACE TABLE 'myproject.mydataset.validation' AS(SELECT * FROM 'myproject.mydataset.mytable' WHERE RAND() <= 0.2);After training the model, you achieve an area under the receiver operating characteristic curve (AUC ROC) value of 0.8, but after deploying themodel to production, you notice that your model performance has dropped to an AUC ROC value of 0.65. What problem is most likely occurring?",
     "answers": [
       {
         "text": "There is training-serving skew in your production environment.",
@@ -1524,8 +1404,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "74ee7e29b0514fcd8959c203",
-    "prompt": "109 - During batch training of a neural network, you notice that there is an oscillation in the loss. How should you adjust your model to ensure that it<br/>converges?<br/>",
+    "question_id": "7a10ff9cfe08413aa1e14cc5",
+    "prompt": "109 - During batch training of a neural network, you notice that there is an oscillation in the loss. How should you adjust your model to ensure that itconverges?",
     "answers": [
       {
         "text": "Decrease the size of the training batch.",
@@ -1555,26 +1435,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "937fb6edd65f42ffba6922fd",
-    "prompt": "110 - You work for a toy manufacturer that has been experiencing a large increase in demand. You need to build an ML model to reduce the amount of<br/>time spent by quality control inspectors checking for product defects. Faster defect detection is a priority. The factory does not have reliable WiFi. Your company wants to implement the new ML model as soon as possible. Which model should you use?<br/>",
+    "question_id": "89fb7181aa114e46bc426108",
+    "prompt": "110 - You work for a toy manufacturer that has been experiencing a large increase in demand. You need to build an ML model to reduce the amount oftime spent by quality control inspectors checking for product defects. Faster defect detection is a priority. The factory does not have reliable WiFi. Your company wants to implement the new ML model as soon as possible. Which model should you use?",
     "answers": [
       {
-        "text": "AutoML Vision Edge mobile-high-accuracy-1 model",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "AutoML Vision Edge mobile-low-latency-1 model",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "AutoML Vision model",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "AutoML Vision Edge mobile-versatile-1 mode",
+        "text": "AutoML Vision Edge mobile-high-accuracy-1 modelB. AutoML Vision Edge mobile-low-latency-1 modelC. AutoML Vision modelD. AutoML Vision Edge mobile-versatile-1 mode",
         "isCorrect": false,
         "explanation": ""
       }
@@ -1586,8 +1451,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "9c8cc39ba05c4c0585e4bd4f",
-    "prompt": "111 - You need to build classification workflows over several structured datasets currently stored in BigQuery. Because you will be performing the<br/>classification several times, you want to complete the following steps without writing code: exploratory data analysis, feature selection, model<br/>building, training, and hyperparameter tuning and serving. What should you do?<br/>",
+    "question_id": "be0d6f1c98984d0ab15800b8",
+    "prompt": "111 - You need to build classification workflows over several structured datasets currently stored in BigQuery. Because you will be performing theclassification several times, you want to complete the following steps without writing code: exploratory data analysis, feature selection, modelbuilding, training, and hyperparameter tuning and serving. What should you do?",
     "answers": [
       {
         "text": "Train a TensorFlow model on Vertex AI.",
@@ -1617,8 +1482,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "d0322f89862b4d458c28687a",
-    "prompt": "112 - You are an ML engineer in the contact center of a large enterprise. You need to build a sentiment analysis tool that predicts customer sentiment<br/>from recorded phone conversations. You need to identify the best approach to building a model while ensuring that the gender, age, and cultural<br/>differences of the customers who called the contact center do not impact any stage of the model development pipeline and results. What should<br/>you do?<br/>",
+    "question_id": "bfc8ab9d04474d97b188ede0",
+    "prompt": "112 - You are an ML engineer in the contact center of a large enterprise. You need to build a sentiment analysis tool that predicts customer sentimentfrom recorded phone conversations. You need to identify the best approach to building a model while ensuring that the gender, age, and culturaldifferences of the customers who called the contact center do not impact any stage of the model development pipeline and results. What shouldyou do?",
     "answers": [
       {
         "text": "Convert the speech to text and extract sentiments based on the sentences.",
@@ -1648,8 +1513,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "8500ab19b8b949baa30f9d62",
-    "prompt": "113 - You need to analyze user activity data from your company's mobile applications. Your team will use BigQuery for data analysis, transformation,<br/>and experimentation with ML algorithms. You need to ensure real-time ingestion of the user activity data into BigQuery. What should you do?<br/>",
+    "question_id": "7746de0adb3242418a3ceb93",
+    "prompt": "113 - You need to analyze user activity data from your company's mobile applications. Your team will use BigQuery for data analysis, transformation,and experimentation with ML algorithms. You need to ensure real-time ingestion of the user activity data into BigQuery. What should you do?",
     "answers": [
       {
         "text": "Configure Pub/Sub to stream the data into BigQuery.",
@@ -1679,26 +1544,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "a4fc6a6ce95241e0b26d67a5",
-    "prompt": "114 - You work for a gaming company that manages a popular online multiplayer game where teams with 6 players play against each other in 5-minute<br/>battles. There are many new players every day. You need to build a model that automatically assigns available players to teams in real time. User<br/>research indicates that the game is more enjoyable when battles have players with similar skill levels. Which business metrics should you track to<br/>measure your model's performance?<br/>",
+    "question_id": "324f7cbc89614bb6aa1acb2c",
+    "prompt": "114 - You work for a gaming company that manages a popular online multiplayer game where teams with 6 players play against each other in 5-minutebattles. There are many new players every day. You need to build a model that automatically assigns available players to teams in real time. Userresearch indicates that the game is more enjoyable when battles have players with similar skill levels. Which business metrics should you track tomeasure your model's performance?",
     "answers": [
       {
-        "text": "Average time players wait before being assigned to a team",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Precision and recall of assigning players to teams based on their predicted versus actual ability",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "User engagement as measured by the number of battles played daily per user",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "Rate of return as measured by additional revenue generated minus the cost of developing a new model",
+        "text": "Average time players wait before being assigned to a teamB. Precision and recall of assigning players to teams based on their predicted versus actual abilityC. User engagement as measured by the number of battles played daily per userD. Rate of return as measured by additional revenue generated minus the cost of developing a new model",
         "isCorrect": false,
         "explanation": ""
       }
@@ -1710,8 +1560,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "69b87868e3e04b509f4ee5f4",
-    "prompt": "115 - You are building an ML model to predict trends in the stock market based on a wide range of factors. While exploring the data, you notice that<br/>some features have a large range. You want to ensure that the features with the largest magnitude don't overfit the model. What should you do?<br/>",
+    "question_id": "6a14f285a1384afcafc24abc",
+    "prompt": "115 - You are building an ML model to predict trends in the stock market based on a wide range of factors. While exploring the data, you notice thatsome features have a large range. You want to ensure that the features with the largest magnitude don't overfit the model. What should you do?",
     "answers": [
       {
         "text": "Standardize the data by transforming it with a logarithmic function.",
@@ -1741,26 +1591,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "b27192cf6dec409b9f008754",
-    "prompt": "116 - You work for a biotech startup that is experimenting with deep learning ML models based on properties of biological organisms. Your team<br/>frequently works on early-stage experiments with new architectures of ML models, and writes custom TensorFlow ops in C++. You train your<br/>models on large datasets and large batch sizes. Your typical batch size has 1024 examples, and each example is about 1 MB in size. The average<br/>size of a network with all weights and embeddings is 20 GB. What hardware should you choose for your models?<br/>",
+    "question_id": "df3fd6656ee14e64afd24b23",
+    "prompt": "116 - You work for a biotech startup that is experimenting with deep learning ML models based on properties of biological organisms. Your teamfrequently works on early-stage experiments with new architectures of ML models, and writes custom TensorFlow ops in C++. You train yourmodels on large datasets and large batch sizes. Your typical batch size has 1024 examples, and each example is about 1 MB in size. The averagesize of a network with all weights and embeddings is 20 GB. What hardware should you choose for your models?",
     "answers": [
       {
-        "text": "A cluster with 2 n1-highcpu-64 machines, each with 8 NVIDIA Tesla V100 GPUs (128 GB GPU memory in total), and a n1-highcpu-64machine with 64 vCPUs and 58 GB RAM",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "A cluster with 2 a2-megagpu-16g machines, each with 16 NVIDIA Tesla A100 GPUs (640 GB GPU memory in total), 96 vCPUs, and 1.4 TBRAM",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "A cluster with an n1-highcpu-64 machine with a v2-8 TPU and 64 GB RAM",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "A cluster with 4 n1-h",
+        "text": "A cluster with 2 n1-highcpu-64 machines, each with 8 NVIDIA Tesla V100 GPUs (128 GB GPU memory in total), and a n1-highcpu-64machine with 64 vCPUs and 58 GB RAMB. A cluster with 2 a2-megagpu-16g machines, each with 16 NVIDIA Tesla A100 GPUs (640 GB GPU memory in total), 96 vCPUs, and 1.4 TBRAMC. A cluster with an n1-highcpu-64 machine with a v2-8 TPU and 64 GB RAMD. A cluster with 4 n1-h",
         "isCorrect": false,
         "explanation": ""
       }
@@ -1772,8 +1607,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "412165518e084e46a040bfcf",
-    "prompt": "117 - You are an ML engineer at an ecommerce company and have been tasked with building a model that predicts how much inventory the logistics<br/>team should order each month. Which approach should you take?<br/>",
+    "question_id": "a623c4ca23084dcdab8a6922",
+    "prompt": "117 - You are an ML engineer at an ecommerce company and have been tasked with building a model that predicts how much inventory the logisticsteam should order each month. Which approach should you take?",
     "answers": [
       {
         "text": "Use a clustering algorithm to group popular items together. Give the list to the logistics team so they can increase inventory of the popularitems.",
@@ -1803,26 +1638,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "0afe3c2cee7b4899b0fac556",
-    "prompt": "118 - You are building a TensorFlow model for a financial institution that predicts the impact of consumer spending on inflation globally. Due to the size<br/>and nature of the data, your model is long-running across all types of hardware, and you have built frequent checkpointing into the training<br/>process. Your organization has asked you to minimize cost. What hardware should you choose?<br/>",
+    "question_id": "dadecc3654d74bc4acdaa714",
+    "prompt": "118 - You are building a TensorFlow model for a financial institution that predicts the impact of consumer spending on inflation globally. Due to the sizeand nature of the data, your model is long-running across all types of hardware, and you have built frequent checkpointing into the trainingprocess. Your organization has asked you to minimize cost. What hardware should you choose?",
     "answers": [
       {
-        "text": "A Vertex AI Workbench user-managed notebooks instance running on an n1-standard-16 with 4 NVIDIA P100 GPUs",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "A Vertex AI Workbench user-managed notebooks instance running on an n1-standard-16 with an NVIDIA P100 GPU",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "A Vertex AI Workbench user-managed notebooks instance running on an n1-standard-16 with a non-preemptible v3-8 TPU",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "A Vertex AI Workbench user-managed notebooks instance running on an n1-standard-16 with a preemptible v3-8 TPU",
+        "text": "A Vertex AI Workbench user-managed notebooks instance running on an n1-standard-16 with 4 NVIDIA P100 GPUsB. A Vertex AI Workbench user-managed notebooks instance running on an n1-standard-16 with an NVIDIA P100 GPUC. A Vertex AI Workbench user-managed notebooks instance running on an n1-standard-16 with a non-preemptible v3-8 TPUD. A Vertex AI Workbench user-managed notebooks instance running on an n1-standard-16 with a preemptible v3-8 TPU",
         "isCorrect": false,
         "explanation": ""
       }
@@ -1834,8 +1654,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "349133d366a243fe93185924",
-    "prompt": "119 - You work for a company that provides an anti-spam service that flags and hides spam posts on social media platforms. Your company currently<br/>uses a list of 200,000 keywords to identify suspected spam posts. If a post contains more than a few of these keywords, the post is identified as<br/>spam. You want to start using machine learning to flag spam posts for human review. What is the main advantage of implementing machine<br/>learning for this business case?<br/>",
+    "question_id": "76af30ecd9154692a6b00bae",
+    "prompt": "119 - You work for a company that provides an anti-spam service that flags and hides spam posts on social media platforms. Your company currentlyuses a list of 200,000 keywords to identify suspected spam posts. If a post contains more than a few of these keywords, the post is identified asspam. You want to start using machine learning to flag spam posts for human review. What is the main advantage of implementing machinelearning for this business case?",
     "answers": [
       {
         "text": "Posts can be compared to the keyword list much more quickly.",
@@ -1865,8 +1685,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "d43fa50fa7a64bf88e549f2a",
-    "prompt": "120 - One of your models is trained using data provided by a third-party data broker. The data broker does not reliably notify you of formatting changes<br/>in the data. You want to make your model training pipeline more robust to issues like this. What should you do?<br/>",
+    "question_id": "34de021f94104401b7c19bd0",
+    "prompt": "120 - One of your models is trained using data provided by a third-party data broker. The data broker does not reliably notify you of formatting changesin the data. You want to make your model training pipeline more robust to issues like this. What should you do?",
     "answers": [
       {
         "text": "Use TensorFlow Data Validation to detect and flag schema anomalies.",
@@ -1896,8 +1716,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "61974e24ff4c41e49364f01a",
-    "prompt": "121 - You work for a company that is developing a new video streaming platform. You have been asked to create a recommendation system that will<br/>suggest the next video for a user to watch. After a review by an AI Ethics team, you are approved to start development. Each video asset in your<br/>company's catalog has useful metadata (e.g., content type, release date, country), but you do not have any historical user event data. How should<br/>you build the recommendation system for the first version of the product?<br/><br/>",
+    "question_id": "3b4a01ddc4314ff6b0298c5b",
+    "prompt": "121 - You work for a company that is developing a new video streaming platform. You have been asked to create a recommendation system that willsuggest the next video for a user to watch. After a review by an AI Ethics team, you are approved to start development. Each video asset in yourcompany's catalog has useful metadata (e.g., content type, release date, country), but you do not have any historical user event data. How shouldyou build the recommendation system for the first version of the product?",
     "answers": [
       {
         "text": "Launch the product without machine learning. Present videos to users alphabetically, and start collecting user event data so you candevelop a recommender model in the future.",
@@ -1922,8 +1742,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "028cc3b4bc0e46c89257cceb",
-    "prompt": "122 - You recently built the first version of an image segmentation model for a self-driving car. After deploying the model, you observe a decrease in the<br/>area under the curve (AUC) metric. When analyzing the video recordings, you also discover that the model fails in highly congested traffic but<br/>works as expected when there is less traffic. What is the most likely reason for this result?<br/>",
+    "question_id": "5a0b8bf2f937463283ce3521",
+    "prompt": "122 - You recently built the first version of an image segmentation model for a self-driving car. After deploying the model, you observe a decrease in thearea under the curve (AUC) metric. When analyzing the video recordings, you also discover that the model fails in highly congested traffic butworks as expected when there is less traffic. What is the most likely reason for this result?",
     "answers": [
       {
         "text": "The model is overfitting in areas with less traffic and underfitting in areas with more traffic.",
@@ -1953,8 +1773,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "2d7cbe9891694c7692811eef",
-    "prompt": "123 - You are developing an ML model to predict house prices. While preparing the data, you discover that an important predictor variable, distance<br/>from the closest school, is often missing and does not have high variance. Every instance (row) in your data is important. How should you handle<br/>the missing data?<br/>",
+    "question_id": "d00b592f4bca42368a10a5d9",
+    "prompt": "123 - You are developing an ML model to predict house prices. While preparing the data, you discover that an important predictor variable, distancefrom the closest school, is often missing and does not have high variance. Every instance (row) in your data is important. How should you handlethe missing data?",
     "answers": [
       {
         "text": "Delete the rows that have missing values.",
@@ -1984,8 +1804,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "98459da8a5a94490821ac5ef",
-    "prompt": "* 124 - You are an ML engineer responsible for designing and implementing training pipelines for ML models. You need to create an end-to-end training<br/>pipeline for a TensorFlow model. The TensorFlow model will be trained on several terabytes of structured data. You need the pipeline to include<br/>data quality checks before training and model quality checks after training but prior to deployment. You want to minimize development time and<br/>the need for infrastructure maintenance. How should you build and orchestrate your training pipeline?<br/><br/>",
+    "question_id": "d2a337b3cd98490ebbcd618a",
+    "prompt": "* 124 - You are an ML engineer responsible for designing and implementing training pipelines for ML models. You need to create an end-to-end trainingpipeline for a TensorFlow model. The TensorFlow model will be trained on several terabytes of structured data. You need the pipeline to includedata quality checks before training and model quality checks after training but prior to deployment. You want to minimize development time andthe need for infrastructure maintenance. How should you build and orchestrate your training pipeline?",
     "answers": [
       {
         "text": "Create the pipeline using Kubeflow Pipelines domain-specific language (DSL) and predefined Google Cloud components. Orchestrate thepipeline using Vertex AI Pipelines.",
@@ -2010,8 +1830,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "20b7c8c5f4fd42f79643d7bf",
-    "prompt": "125 - You manage a team of data scientists who use a cloud-based backend system to submit training jobs. This system has become very difficult to<br/>administer, and you want to use a managed service instead. The data scientists you work with use many different frameworks, including Keras,<br/>PyTorch, theano, scikit-learn, and custom libraries. What should you do?<br/><br/>",
+    "question_id": "f860a9d5110945939b3a5fdf",
+    "prompt": "125 - You manage a team of data scientists who use a cloud-based backend system to submit training jobs. This system has become very difficult toadminister, and you want to use a managed service instead. The data scientists you work with use many different frameworks, including Keras,PyTorch, theano, scikit-learn, and custom libraries. What should you do?",
     "answers": [
       {
         "text": "Use the Vertex AI Training to submit training jobs using any framework.",
@@ -2041,8 +1861,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "469f6f83f0014cfeaeeca6b2",
-    "prompt": "126 - You are training an object detection model using a Cloud TPU v2. Training time is taking longer than expected. Based on this simplified trace<br/>obtained with a Cloud TPU profile, what action should you take to decrease training time in a cost-efficient way?<br/>",
+    "question_id": "7bd98756ff2c480cbcbb8a7a",
+    "prompt": "126 - You are training an object detection model using a Cloud TPU v2. Training time is taking longer than expected. Based on this simplified traceobtained with a Cloud TPU profile, what action should you take to decrease training time in a cost-efficient way?",
     "answers": [
       {
         "text": "Move from Cloud TPU v2 to Cloud TPU v3 and increase batch size.",
@@ -2072,8 +1892,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "437708c5eeeb4faaa1516505",
-    "prompt": "127 - While performing exploratory data analysis on a dataset, you find that an important categorical feature has 5% null values. You want to minimize<br/>the bias that could result from the missing values. How should you handle the missing values?<br/>",
+    "question_id": "8d64b8fc09e04a99b1025983",
+    "prompt": "127 - While performing exploratory data analysis on a dataset, you find that an important categorical feature has 5% null values. You want to minimizethe bias that could result from the missing values. How should you handle the missing values?",
     "answers": [
       {
         "text": "Remove the rows with missing values, and upsample your dataset by 5%.",
@@ -2103,8 +1923,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "166237f7e3114ceab88bead0",
-    "prompt": "* 128 - You are an ML engineer on an agricultural research team working on a crop disease detection tool to detect leaf rust spots in images of crops to<br/>determine the presence of a disease. These spots, which can vary in shape and size, are correlated to the severity of the disease. You want to<br/>develop a solution that predicts the presence and severity of the disease with high accuracy. What should you do?<br/><br/>",
+    "question_id": "92685da3fa304b8d9589f854",
+    "prompt": "* 128 - You are an ML engineer on an agricultural research team working on a crop disease detection tool to detect leaf rust spots in images of crops todetermine the presence of a disease. These spots, which can vary in shape and size, are correlated to the severity of the disease. You want todevelop a solution that predicts the presence and severity of the disease with high accuracy. What should you do?",
     "answers": [
       {
         "text": "Create an object detection model that can localize the rust spots.",
@@ -2134,8 +1954,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "6d9d9a422e32428988685117",
-    "prompt": "* 129 - You have been asked to productionize a proof-of-concept ML model built using Keras. The model was trained in a Jupyter notebook on a data<br/>scientist's local machine. The notebook contains a cell that performs data validation and a cell that performs model analysis. You need to<br/>orchestrate the steps contained in the notebook and automate the execution of these steps for weekly retraining. You expect much more training<br/>data in the future. You want your solution to take advantage of managed services while minimizing cost. What should you do?<br/><br/>",
+    "question_id": "3d5977f31b94485bbf07bdb9",
+    "prompt": "* 129 - You have been asked to productionize a proof-of-concept ML model built using Keras. The model was trained in a Jupyter notebook on a datascientist's local machine. The notebook contains a cell that performs data validation and a cell that performs model analysis. You need toorchestrate the steps contained in the notebook and automate the execution of these steps for weekly retraining. You expect much more trainingdata in the future. You want your solution to take advantage of managed services while minimizing cost. What should you do?",
     "answers": [
       {
         "text": "Move the Jupyter notebook to a Notebooks instance on the largest N2 machine type, and schedule the execution of the steps in theNotebooks instance using Cloud Scheduler.",
@@ -2155,8 +1975,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "f6673cdc1fa240faa23a6368",
-    "prompt": "* 130 - You are working on a system log anomaly detection model for a cybersecurity organization. You have developed the model using TensorFlow, and<br/>you plan to use it for real-time prediction. You need to create a Dataflow pipeline to ingest data via Pub/Sub and write the results to BigQuery. You<br/>want to minimize the serving latency as much as possible. What should you do?<br/><br/>",
+    "question_id": "b82ed4774c914562a073166e",
+    "prompt": "* 130 - You are working on a system log anomaly detection model for a cybersecurity organization. You have developed the model using TensorFlow, andyou plan to use it for real-time prediction. You need to create a Dataflow pipeline to ingest data via Pub/Sub and write the results to BigQuery. Youwant to minimize the serving latency as much as possible. What should you do?",
     "answers": [
       {
         "text": "Containerize the model prediction logic in Cloud Run, which is invoked by Dataflow.",
@@ -2186,26 +2006,11 @@
     "idea_text": ""
   },
   {
-    "question_id": "929ed6c957af4288beec1609",
-    "prompt": "131 - You are an ML engineer at a mobile gaming company. A data scientist on your team recently trained a TensorFlow model, and you are responsible<br/>for deploying this model into a mobile application. You discover that the inference latency of the current model doesn't meet production<br/>requirements. You need to reduce the inference time by 50%, and you are willing to accept a small decrease in model accuracy in order to reach<br/>the latency requirement. Without training a new model, which model optimization technique for reducing latency should you try first?<br/><br/>",
+    "question_id": "c1aab60e3efa443eb542a543",
+    "prompt": "131 - You are an ML engineer at a mobile gaming company. A data scientist on your team recently trained a TensorFlow model, and you are responsiblefor deploying this model into a mobile application. You discover that the inference latency of the current model doesn't meet productionrequirements. You need to reduce the inference time by 50%, and you are willing to accept a small decrease in model accuracy in order to reachthe latency requirement. Without training a new model, which model optimization technique for reducing latency should you try first?",
     "answers": [
       {
-        "text": "Weight pruning",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Dynamic range quantization",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Model distillation",
-        "isCorrect": true,
-        "explanation": ""
-      },
-      {
-        "text": "Dimensionality reduction",
+        "text": "Weight pruningB. Dynamic range quantizationC. Model distillationD. Dimensionality reduction",
         "isCorrect": false,
         "explanation": ""
       }
@@ -2217,8 +2022,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "c7f64f127725440e97ac6929",
-    "prompt": "132 - You work on a data science team at a bank and are creating an ML model to predict loan default risk. You have collected and cleaned hundreds of millions of records worth of training data in a BigQuery table, and you now want to develop and compare multiple models on this data using<br/>TensorFlow and Vertex AI. You want to minimize any bottlenecks during the data ingestion state while considering scalability. What should you<br/>do?<br/><br/>",
+    "question_id": "8c18948400ed4d41a754bf25",
+    "prompt": "132 - You work on a data science team at a bank and are creating an ML model to predict loan default risk. You have collected and cleaned hundreds of millions of records worth of training data in a BigQuery table, and you now want to develop and compare multiple models on this data usingTensorFlow and Vertex AI. You want to minimize any bottlenecks during the data ingestion state while considering scalability. What should youdo?",
     "answers": [
       {
         "text": "Use the BigQuery client library to load data into a dataframe, and use tf.data.Dataset.from_tensor_slices() to read it.",
@@ -2248,8 +2053,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "18bc1319bcd048b090affe06",
-    "prompt": "133 - You have recently created a proof-of-concept (POC) deep learning model. You are satisfied with the overall architecture, but you need to determine<br/>the value for a couple of hyperparameters. You want to perform hyperparameter tuning on Vertex AI to determine both the appropriate embedding<br/>dimension for a categorical feature used by your model and the optimal learning rate. You configure the following settings:<br/>• For the embedding dimension, you set the type to INTEGER with a minValue of 16 and maxValue of 64.<br/>• For the learning rate, you set the type to DOUBLE with a minValue of 10e-05 and maxValue of 10e-02.<br/>You are using the default Bayesian optimization tuning algorithm, and you want to maximize model accuracy. Training time is not a concern. How<br/>should you set the hyperparameter scaling for each hyperparameter and the maxParallelTrials?<br/><br/>",
+    "question_id": "ac25a08a49dc44beaf982c37",
+    "prompt": "133 - You have recently created a proof-of-concept (POC) deep learning model. You are satisfied with the overall architecture, but you need to determinethe value for a couple of hyperparameters. You want to perform hyperparameter tuning on Vertex AI to determine both the appropriate embeddingdimension for a categorical feature used by your model and the optimal learning rate. You configure the following settings:• For the embedding dimension, you set the type to INTEGER with a minValue of 16 and maxValue of 64.• For the learning rate, you set the type to DOUBLE with a minValue of 10e-05 and maxValue of 10e-02.You are using the default Bayesian optimization tuning algorithm, and you want to maximize model accuracy. Training time is not a concern. Howshould you set the hyperparameter scaling for each hyperparameter and the maxParallelTrials?",
     "answers": [
       {
         "text": "Use UNIT_LINEAR_SCALE for the embedding dimension, UNIT_LOG_SCALE fo",
@@ -2264,8 +2069,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "72826bdc11c54739a5721b97",
-    "prompt": "134 - You are the Director of Data Science at a large company, and your Data Science team has recently begun using the Kubeflow Pipelines SDK to<br/>orchestrate their training pipelines. Your team is struggling to integrate their custom Python code into the Kubeflow Pipelines SDK. How should<br/>you instruct them to proceed in order to quickly integrate their code with the Kubeflow Pipelines SDK?<br/><br/>",
+    "question_id": "26c9d219dc4349af88cba3e4",
+    "prompt": "134 - You are the Director of Data Science at a large company, and your Data Science team has recently begun using the Kubeflow Pipelines SDK toorchestrate their training pipelines. Your team is struggling to integrate their custom Python code into the Kubeflow Pipelines SDK. How shouldyou instruct them to proceed in order to quickly integrate their code with the Kubeflow Pipelines SDK?",
     "answers": [
       {
         "text": "Use the func_to_container_op function to create custom components from the Python code.",
@@ -2295,8 +2100,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "db4c1f44f94d4ce2874d791c",
-    "prompt": "135 - You work for the AI team of an automobile company, and you are developing a visual defect detection model using TensorFlow and Keras. To<br/>improve your model performance, you want to incorporate some image augmentation functions such as translation, cropping, and contrast<br/>tweaking. You randomly apply these functions to each training batch. You want to optimize your data processing pipeline for run time and<br/>compute resources utilization. What should you do?<br/><br/>",
+    "question_id": "4d3905e7ef744ab38ef10355",
+    "prompt": "135 - You work for the AI team of an automobile company, and you are developing a visual defect detection model using TensorFlow and Keras. Toimprove your model performance, you want to incorporate some image augmentation functions such as translation, cropping, and contrasttweaking. You randomly apply these functions to each training batch. You want to optimize your data processing pipeline for run time andcompute resources utilization. What should you do?",
     "answers": [
       {
         "text": "Embed the augmentation functions dynamically in the tf.Data pipeline.",
@@ -2326,8 +2131,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "a3c7619de73e40eaaf96aaee",
-    "prompt": "136 - You work for an online publisher that delivers news articles to over 50 million readers. You have built an AI model that recommends content for<br/>the company's weekly newsletter. A recommendation is considered successful if the article is opened within two days of the newsletter's published date and the user remains on the page for at least one minute.<br/>All the information needed to compute the success metric is available in BigQuery and is updated hourly. The model is trained on eight weeks of<br/>data, on average its performance degrades below the acceptable baseline after five weeks, and training time is 12 hours. You want to ensure that<br/>the model's performance is above the acceptable baseline while minimizing cost. How should you monitor the model to determine when retraining<br/>is necessary?<br/><br/>",
+    "question_id": "e129ca1c8d9b40f7a99c61b7",
+    "prompt": "136 - You work for an online publisher that delivers news articles to over 50 million readers. You have built an AI model that recommends content forthe company's weekly newsletter. A recommendation is considered successful if the article is opened within two days of the newsletter's published date and the user remains on the page for at least one minute.All the information needed to compute the success metric is available in BigQuery and is updated hourly. The model is trained on eight weeks ofdata, on average its performance degrades below the acceptable baseline after five weeks, and training time is 12 hours. You want to ensure thatthe model's performance is above the acceptable baseline while minimizing cost. How should you monitor the model to determine when retrainingis necessary?",
     "answers": [
       {
         "text": "Use Vertex AI Model Monitoring to detect skew of the input features with a sample rate of 100% and a monitoring frequency",
@@ -2342,8 +2147,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "3cd8d612fa794e9dbacdf43b",
-    "prompt": "137 - You deployed an ML model into production a year ago. Every month, you collect all raw requests that were sent to your model prediction service<br/>during the previous month. You send a subset of these requests to a human labeling service to evaluate your model's performance. After a year,<br/>you notice that your model's performance sometimes degrades significantly after a month, while other times it takes several months to notice any<br/>decrease in performance. The labeling service is costly, but you also need to avoid large performance degradations. You want to determine how<br/>often you should retrain your model to maintain a high level of performance while minimizing cost. What should you do?<br/><br/>",
+    "question_id": "87e32fc4a3064414b9e6cc7c",
+    "prompt": "137 - You deployed an ML model into production a year ago. Every month, you collect all raw requests that were sent to your model prediction serviceduring the previous month. You send a subset of these requests to a human labeling service to evaluate your model's performance. After a year,you notice that your model's performance sometimes degrades significantly after a month, while other times it takes several months to notice anydecrease in performance. The labeling service is costly, but you also need to avoid large performance degradations. You want to determine howoften you should retrain your model to maintain a high level of performance while minimizing cost. What should you do?",
     "answers": [
       {
         "text": "Train an anomaly detection model on the training dataset, and run all incoming requests through this model. If an anomaly is detected, sendthe most recent serving data to the labeling service.",
@@ -2363,8 +2168,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "07236dda75c74f758c3dddaf",
-    "prompt": "138 - You work for a company that manages a ticketing platform for a large chain of cinemas. Customers use a mobile app to search for movies they're<br/>interested in and purchase tickets in the app. Ticket purchase requests are sent to Pub/Sub and are processed with a Dataflow streaming pipeline<br/>configured to conduct the following steps:<br/>1. Check for availability of the movie tickets at the selected cinema.<br/>2. Assign the ticket price and accept payment.<br/>3. Reserve the tickets at the selected cinema.<br/>4. Send successful purchases to your database.<br/>Each step in this process has low latency requirements (less than 50 milliseconds). You have developed a logistic regression model with BigQuery<br/>ML that predicts whether offering a promo code for free popcorn increases the chance of a ticket purchase, and this prediction should be added to<br/>the ticket purchase process. You want to identify the simplest way to deploy this model to",
+    "question_id": "637d3a597da9421bb9bdff81",
+    "prompt": "138 - You work for a company that manages a ticketing platform for a large chain of cinemas. Customers use a mobile app to search for movies they'reinterested in and purchase tickets in the app. Ticket purchase requests are sent to Pub/Sub and are processed with a Dataflow streaming pipelineconfigured to conduct the following steps:1. Check for availability of the movie tickets at the selected cinema.2. Assign the ticket price and accept payment.3. Reserve the tickets at the selected cinema.4. Send successful purchases to your database.Each step in this process has low latency requirements (less than 50 milliseconds). You have developed a logistic regression model with BigQueryML that predicts whether offering a promo code for free popcorn increases the chance of a ticket purchase, and this prediction should be added tothe ticket purchase process. You want to identify the simplest way to deploy this model to",
     "answers": [],
     "tags": [],
     "question_choice_type": "multiple_choice",
@@ -2373,8 +2178,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "fc3c929b360d4b1d85cafa8f",
-    "prompt": "139 - You work on a team in a data center that is responsible for server maintenance. Your management team wants you to build a predictive<br/>maintenance solution that uses monitoring data to detect potential server failures. Incident data has not been labeled yet. What should you do<br/>first?<br/><br/>",
+    "question_id": "c97c467f1eda489e8c33b89b",
+    "prompt": "139 - You work on a team in a data center that is responsible for server maintenance. Your management team wants you to build a predictivemaintenance solution that uses monitoring data to detect potential server failures. Incident data has not been labeled yet. What should you dofirst?",
     "answers": [
       {
         "text": "Train a time-series model to predict the machines' performance values. Configure an alert if a machine's actual performance valuessignificantly differ from the predicted performance values.",
@@ -2404,8 +2209,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "4c3051c6d2b1433f94ec693b",
-    "prompt": "140 - You work for a retailer that sells clothes to customers around the world. You have been tasked with ensuring that ML models are built in a secure<br/>manner. Specifically, you need to protect sensitive customer data that might be used in the models. You have identified four fields containing<br/>sensitive data that are being used by your data science team: AGE, IS_EXISTING_CUSTOMER, LATITUDE_LONGITUDE, and SHIRT_SIZE. What<br/>should you do with the data before it is made available to the data science team for training purposes?<br/><br/>",
+    "question_id": "b115b1bb9fb643559020f4fb",
+    "prompt": "140 - You work for a retailer that sells clothes to customers around the world. You have been tasked with ensuring that ML models are built in a securemanner. Specifically, you need to protect sensitive customer data that might be used in the models. You have identified four fields containingsensitive data that are being used by your data science team: AGE, IS_EXISTING_CUSTOMER, LATITUDE_LONGITUDE, and SHIRT_SIZE. Whatshould you do with the data before it is made available to the data science team for training purposes?",
     "answers": [
       {
         "text": "Tokenize all of the fields using hashed dummy values to replace the real values.",
@@ -2435,8 +2240,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "c1f7e2c2415a46aeb76c4e39",
-    "prompt": "* 141 - You work for a magazine publisher and have been tasked with predicting whether customers will cancel their annual subscription. In your<br/>exploratory data analysis, you find that 90% of individuals renew their subscription every year, and only 10% of individuals cancel their<br/>subscription. After training a NN Classifier, your model predicts those who cancel their subscription with 99% accuracy and predicts those who<br/>renew their subscription with 82% accuracy. How should you interpret these results?<br/><br/>",
+    "question_id": "b3342175da3743d3b12ed930",
+    "prompt": "* 141 - You work for a magazine publisher and have been tasked with predicting whether customers will cancel their annual subscription. In yourexploratory data analysis, you find that 90% of individuals renew their subscription every year, and only 10% of individuals cancel theirsubscription. After training a NN Classifier, your model predicts those who cancel their subscription with 99% accuracy and predicts those whorenew their subscription with 82% accuracy. How should you interpret these results?",
     "answers": [
       {
         "text": "This is not a good result because the model should have a higher accuracy for those who renew their subscription than for those whocancel their subscription.",
@@ -2461,8 +2266,8 @@
     "idea_text": ""
   },
   {
-    "question_id": "630959d366584b53919667e5",
-    "prompt": "* 142 - You have built a model that is trained on data stored in Parquet files. You access the data through a Hive table hosted on Google Cloud. You<br/>preprocessed these data with PySpark and exported it as a CSV file into Cloud Storage. After preprocessing, you execute additional steps to train<br/>and evaluate your model. You want to parametrize this model training in Kubeflow Pipelines. What should you do?<br/>",
+    "question_id": "f98b3b7ce74c453595b5cf59",
+    "prompt": "* 142 - You have built a model that is trained on data stored in Parquet files. You access the data through a Hive table hosted on Google Cloud. Youpreprocessed these data with PySpark and exported it as a CSV file into Cloud Storage. After preprocessing, you execute additional steps to trainand evaluate your model. You want to parametrize this model training in Kubeflow Pipelines. What should you do?",
     "answers": [
       {
         "text": "Remove the data transformation step from your pipeline.",
