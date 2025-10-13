@@ -3,7 +3,7 @@ import json
 import os
 import random
 
-st.set_page_config(page_title="AI Flashcards", layout="wide")
+st.set_page_config(page_title="🧠 AI Flashcards", layout="wide")
 
 st.title("🧠 AI Flashcards Quiz App")
 
@@ -13,7 +13,7 @@ st.title("🧠 AI Flashcards Quiz App")
 DATA_DIR = "data"
 
 def load_questions(data_dir=DATA_DIR):
-    """Load all .json or .jsonl question files."""
+    """Load all .json or .jsonl question files from data folder."""
     questions = []
     for file in os.listdir(data_dir):
         if file.endswith(".json") or file.endswith(".jsonl"):
@@ -62,30 +62,38 @@ if not filtered_questions:
     st.warning("No questions found for the selected section(s).")
     st.stop()
 
-# Shuffle question + answer order
+# Shuffle questions (order)
 random.shuffle(filtered_questions)
 
 # ------------------------------------------------
-# Sidebar navigation
+# Session state setup
 # ------------------------------------------------
 if "current_index" not in st.session_state:
     st.session_state.current_index = 1
 
 total = len(filtered_questions)
+index = st.session_state.current_index
 
-# Show current question index (read-only, not bound to session directly)
-st.sidebar.number_input(
-    "Question number",
-    1, total,
-    st.session_state.current_index,
-    key="question_display",
-    disabled=True
+# ------------------------------------------------
+# Sidebar navigation (editable)
+# ------------------------------------------------
+jump_to = st.sidebar.number_input(
+    "Go to question:",
+    min_value=1,
+    max_value=total,
+    value=index,
+    step=1,
+    key="jump_to_input",
+    help="Enter a number to jump directly to that question.",
 )
+
+if jump_to != st.session_state.current_index:
+    st.session_state.current_index = int(jump_to)
+    st.rerun()
 
 # ------------------------------------------------
 # Display flashcard
 # ------------------------------------------------
-index = st.session_state.current_index
 question = filtered_questions[index - 1]
 prompt = question["prompt"]
 answers = question["answers"]
@@ -104,13 +112,16 @@ if st.button("Check Answer", key=f"check_{index}"):
     correct = next(a for a in answers if a["isCorrect"])
     if selected == correct["text"]:
         st.success("✅ Correct!")
-        st.info(correct["explanation"])
+        if correct.get("explanation"):
+            st.info(correct["explanation"])
     else:
         st.error("❌ Incorrect!")
-        chosen_exp = next(a for a in answers if a["text"] == selected)["explanation"]
-        st.warning(chosen_exp)
+        chosen_exp = next(a for a in answers if a["text"] == selected).get("explanation", "")
+        if chosen_exp:
+            st.warning(chosen_exp)
         st.info(f"**Correct answer:** {correct['text']}")
-        st.caption(correct["explanation"])
+        if correct.get("explanation"):
+            st.caption(correct["explanation"])
 
 # ------------------------------------------------
 # Metadata + navigation
@@ -121,11 +132,11 @@ with st.expander("📚 View metadata"):
     st.write(f"**Tags:** {', '.join(question.get('tags', []))}")
 
 col1, col2 = st.columns(2)
-if col1.button("⬅ Previous", disabled=st.session_state.current_index == 1):
-    st.session_state.current_index -= 1
+
+if col1.button("⬅ Previous", disabled=index == 1):
+    st.session_state.current_index = max(1, index - 1)
     st.rerun()
 
-if col2.button("Next ➡", disabled=st.session_state.current_index == total):
-    st.session_state.current_index += 1
+if col2.button("Next ➡", disabled=index == total):
+    st.session_state.current_index = min(total, index + 1)
     st.rerun()
-
