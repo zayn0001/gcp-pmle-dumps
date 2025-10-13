@@ -1,0 +1,312 @@
+[
+    {
+        "question_id": "5af0116e-b15d-416d-b52b-4b593ddb709f",
+        "prompt": "You work for a retailer that sells clothes to customers around the world. You have been tasked with ensuring that ML models are built in a secure manner. Specifically, you need to protect sensitive customer data that might be used in the models. You have identified four fields containing sensitive data that are being used by your data science team: AGE, IS_EXISTING_CUSTOMER, LATITUDE_LONGITUDE, and SHIRT_SIZE. What should you do with the data before it is made available to the data science team for training purposes?",
+        "answers": [
+            {
+                "text": "Tokenize all of the fields using hashed dummy values to replace the real values.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Use principal component analysis (PCA) to reduce the four sensitive fields to one PCA vector.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Coarsen the data by putting AGE into quantiles and rounding LATITUDE_LONGTTUDE into single precision. The other two fields are already as coarse as possible.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Remove all sensitive data fields, and ask the data science team to build their models using non-sensitive data.",
+                "isCorrect": false,
+                "explanation": ""
+            }
+        ],
+        "tags": [],
+        "question_choice_type": "multiple_choice",
+        "section_name": "",
+        "bloom_level": "",
+        "idea_text": ""
+    },
+    {
+        "question_id": "1d511daf-1b44-4898-a56a-6510bdb31117",
+        "prompt": "You work on a team in a data center that is responsible for server maintenance. Your management team wants you to build a predictive maintenance solution that uses monitoring data to detect potential server failures. Incident data has not been labeled yet. What should you do first?",
+        "answers": [
+            {
+                "text": "Train a time-series model to predict the machines&#039; performance values. Configure an alert if a machine&#039;s actual performance values significantly differ from the predicted performance values.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Develop a simple heuristic (e.g., based on z-score) to label the machines&#039; historical performance data. Use this heuristic to monitor server performance in real time.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Develop a simple heuristic (e.g., based on z-score) to label the machines&#039; historical performance data. Train a model to predict anomalies based on this labeled dataset.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Hire a team of qualified analysts to review and label the machines&#039; historical performance data. Train a model based on this manually labeled dataset.",
+                "isCorrect": false,
+                "explanation": ""
+            }
+        ],
+        "tags": [],
+        "question_choice_type": "multiple_choice",
+        "section_name": "",
+        "bloom_level": "",
+        "idea_text": ""
+    },
+    {
+        "question_id": "0ce52aad-2b2e-4cf0-bb07-762c95c37741",
+        "prompt": "You work for a company that manages a ticketing platform for a large chain of cinemas. Customers use a mobile app to search for movies they&#039;re interested in and purchase tickets in the app. Ticket purchase requests are sent to Pub/Sub and are processed with a Dataflow streaming pipeline configured to conduct the following steps:1. Check for availability of the movie tickets at the selected cinema.2. Assign the ticket price and accept payment.3. Reserve the tickets at the selected cinema.4. Send successful purchases to your database.Each step in this process has low latency requirements (less than 50 milliseconds). You have developed a logistic regression model with BigQuery ML that predicts whether offering a promo code for free popcorn increases the chance of a ticket purchase, and this prediction should be added to the ticket purchase process. You want to identify the simplest way to deploy this model to production while adding minimal latency. What should you do?",
+        "answers": [
+            {
+                "text": "Run batch inference with BigQuery ML every five minutes on each new set of tickets issued.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Export your model in TensorFlow format, and add a tfx_bsl.public.beam.RunInference step to the Dataflow pipeline.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Export your model in TensorFlow format, deploy it on Vertex AI, and query the prediction endpoint from your streaming pipeline.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Convert your model with TensorFlow Lite (TFLite), and add it to the mobile app so that the promo code and the incoming request arrive together in Pub/Sub.",
+                "isCorrect": false,
+                "explanation": ""
+            }
+        ],
+        "tags": [],
+        "question_choice_type": "multiple_choice",
+        "section_name": "",
+        "bloom_level": "",
+        "idea_text": ""
+    },
+    {
+        "question_id": "bd28c7f1-19bf-4471-8084-68d166f8a753",
+        "prompt": "You deployed an ML model into production a year ago. Every month, you collect all raw requests that were sent to your model prediction service during the previous month. You send a subset of these requests to a human labeling service to evaluate your model&#039;s performance. After a year, you notice that your model&#039;s performance sometimes degrades significantly after a month, while other times it takes several months to notice any decrease in performance. The labeling service is costly, but you also need to avoid large performance degradations. You want to determine how often you should retrain your model to maintain a high level of performance while minimizing cost. What should you do?",
+        "answers": [
+            {
+                "text": "Train an anomaly detection model on the training dataset, and run all incoming requests through this model. If an anomaly is detected, send the most recent serving data to the labeling service.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Identify temporal patterns in your model&#039;s performance over the previous year. Based on these patterns, create a schedule for sending serving data to the labeling service for the next year.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Compare the cost of the labeling service with the lost revenue due to model performance degradation over the past year. If the lost revenue is greater than the cost of the labeling service, increase the frequency of model retraining; otherwise, decrease the model retraining frequency.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Run training-serving skew detection batch jobs every few days to compare the aggregate statistics of the features in the training dataset with recent serving data. If skew is detected, send the most recent serving data to the labeling service.",
+                "isCorrect": false,
+                "explanation": ""
+            }
+        ],
+        "tags": [],
+        "question_choice_type": "multiple_choice",
+        "section_name": "",
+        "bloom_level": "",
+        "idea_text": ""
+    },
+    {
+        "question_id": "3500cca8-893f-46d5-ace9-5a3470fa24ab",
+        "prompt": "You work for an online publisher that delivers news articles to over 50 million readers. You have built an AI model that recommends content for the company&#039;s weekly newsletter. A recommendation is considered successful if the article is opened within two days of the newsletter&#039;s published date and the user remains on the page for at least one minute.All the information needed to compute the success metric is available in BigQuery and is updated hourly. The model is trained on eight weeks of data, on average its performance degrades below the acceptable baseline after five weeks, and training time is 12 hours. You want to ensure that the model&#039;s performance is above the acceptable baseline while minimizing cost. How should you monitor the model to determine when retraining is necessary?",
+        "answers": [
+            {
+                "text": "Use Vertex AI Model Monitoring to detect skew of the input features with a sample rate of 100% and a monitoring frequency of two days.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Schedule a cron job in Cloud Tasks to retrain the model every week before the newsletter is created.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Schedule a weekly query in BigQuery to compute the success metric.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Schedule a daily Dataflow job in Cloud Composer to compute the success metric.",
+                "isCorrect": false,
+                "explanation": ""
+            }
+        ],
+        "tags": [],
+        "question_choice_type": "multiple_choice",
+        "section_name": "",
+        "bloom_level": "",
+        "idea_text": ""
+    },
+    {
+        "question_id": "8759ea18-9311-4de4-b50a-8560b8b6f280",
+        "prompt": "You work for the AI team of an automobile company, and you are developing a visual defect detection model using TensorFlow and Keras. To improve your model performance, you want to incorporate some image augmentation functions such as translation, cropping, and contrast tweaking. You randomly apply these functions to each training batch. You want to optimize your data processing pipeline for run time and compute resources utilization. What should you do?",
+        "answers": [
+            {
+                "text": "Embed the augmentation functions dynamically in the tf.Data pipeline.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Embed the augmentation functions dynamically as part of Keras generators.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Use Dataflow to create all possible augmentations, and store them as TFRecords.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Use Dataflow to create the augmentations dynamically per training run, and stage them as TFRecords.",
+                "isCorrect": false,
+                "explanation": ""
+            }
+        ],
+        "tags": [],
+        "question_choice_type": "multiple_choice",
+        "section_name": "",
+        "bloom_level": "",
+        "idea_text": ""
+    },
+    {
+        "question_id": "afb4f703-7431-4b87-b38f-3f14990b1b52",
+        "prompt": "You work for an online publisher that delivers news articles to over 50 million readers. You have built an AI model that recommends content for the company&#039;s weekly newsletter. A recommendation is considered successful if the article is opened within two days of the newsletter&#039;s published date and the user remains on the page for at least one minute.All the information needed to compute the success metric is available in BigQuery and is updated hourly. The model is trained on eight weeks of data, on average its performance degrades below the acceptable baseline after five weeks, and training time is 12 hours. You want to ensure that the model&#039;s performance is above the acceptable baseline while minimizing cost. How should you monitor the model to determine when retraining is necessary?",
+        "answers": [
+            {
+                "text": "Use Vertex AI Model Monitoring to detect skew of the input features with a sample rate of 100% and a monitoring frequency of two days.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Schedule a cron job in Cloud Tasks to retrain the model every week before the newsletter is created.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Schedule a weekly query in BigQuery to compute the success metric.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Schedule a daily Dataflow job in Cloud Composer to compute the success metric.",
+                "isCorrect": false,
+                "explanation": ""
+            }
+        ],
+        "tags": [],
+        "question_choice_type": "multiple_choice",
+        "section_name": "",
+        "bloom_level": "",
+        "idea_text": ""
+    },
+    {
+        "question_id": "d5357978-052b-49a6-8f3d-8e6786e8983e",
+        "prompt": "You are the Director of Data Science at a large company, and your Data Science team has recently begun using the Kubeflow Pipelines SDK to orchestrate their training pipelines. Your team is struggling to integrate their custom Python code into the Kubeflow Pipelines SDK. How should you instruct them to proceed in order to quickly integrate their code with the Kubeflow Pipelines SDK?",
+        "answers": [
+            {
+                "text": "Use the func_to_container_op function to create custom components from the Python code.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Use the predefined components available in the Kubeflow Pipelines SDK to access Dataproc, and run the custom code there.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Package the custom Python code into Docker containers, and use the load_component_from_file function to import the containers into the pipeline.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Deploy the custom Python code to Cloud Functions, and use Kubeflow Pipelines to trigger the Cloud Function.",
+                "isCorrect": false,
+                "explanation": ""
+            }
+        ],
+        "tags": [],
+        "question_choice_type": "multiple_choice",
+        "section_name": "",
+        "bloom_level": "",
+        "idea_text": ""
+    },
+    {
+        "question_id": "8066d450-3fc1-4a0c-a35c-c7d1cbe57f6e",
+        "prompt": "You have recently created a proof-of-concept (POC) deep learning model. You are satisfied with the overall architecture, but you need to determine the value for a couple of hyperparameters. You want to perform hyperparameter tuning on Vertex AI to determine both the appropriate embedding dimension for a categorical feature used by your model and the optimal learning rate. You configure the following settings:\u2022 For the embedding dimension, you set the type to INTEGER with a minValue of 16 and maxValue of 64.\u2022 For the learning rate, you set the type to DOUBLE with a minValue of 10e-05 and maxValue of 10e-02.You are using the default Bayesian optimization tuning algorithm, and you want to maximize model accuracy. Training time is not a concern. How should you set the hyperparameter scaling for each hyperparameter and the maxParallelTrials?",
+        "answers": [
+            {
+                "text": "Use UNIT_LINEAR_SCALE for the embedding dimension, UNIT_LOG_SCALE for the learning rate, and a large number of parallel trials.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Use UNIT_LINEAR_SCALE for the embedding dimension, UNIT_LOG_SCALE for the learning rate, and a small number of parallel trials.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Use UNIT_LOG_SCALE for the embedding dimension, UNIT_LINEAR_SCALE for the learning rate, and a large number of parallel trials.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Use UNIT_LOG_SCALE for the embedding dimension, UNIT_LINEAR_SCALE for the learning rate, and a small number of parallel trials.\nReveal Solution",
+                "isCorrect": false,
+                "explanation": ""
+            }
+        ],
+        "tags": [],
+        "question_choice_type": "multiple_choice",
+        "section_name": "",
+        "bloom_level": "",
+        "idea_text": ""
+    },
+    {
+        "question_id": "3e6141d8-e824-4700-a9bc-1df8de29c7bc",
+        "prompt": "You have been asked to productionize a proof-of-concept ML model built using Keras. The model was trained in a Jupyter notebook on a data scientist&#039;s local machine. The notebook contains a cell that performs data validation and a cell that performs model analysis. You need to orchestrate the steps contained in the notebook and automate the execution of these steps for weekly retraining. You expect much more training data in the future. You want your solution to take advantage of managed services while minimizing cost. What should you do?",
+        "answers": [
+            {
+                "text": "Move the Jupyter notebook to a Notebooks instance on the largest N2 machine type, and schedule the execution of the steps in the Notebooks instance using Cloud Scheduler.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Write the code as a TensorFlow Extended (TFX) pipeline orchestrated with Vertex AI Pipelines. Use standard TFX components for data validation and model analysis, and use Vertex AI Pipelines for model retraining.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Rewrite the steps in the Jupyter notebook as an Apache Spark job, and schedule the execution of the job on ephemeral Dataproc clusters using Cloud Scheduler.",
+                "isCorrect": false,
+                "explanation": ""
+            },
+            {
+                "text": "Extract the steps contained in the Jupyter notebook as Python scripts, wrap each script in an Apache Airflow BashOperator, and run the resulting directed acyclic graph (DAG) in Cloud Composer.",
+                "isCorrect": false,
+                "explanation": ""
+            }
+        ],
+        "tags": [],
+        "question_choice_type": "multiple_choice",
+        "section_name": "",
+        "bloom_level": "",
+        "idea_text": ""
+    }
+]
