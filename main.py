@@ -17,6 +17,8 @@ def load_questions(data_dir=DATA_DIR):
     questions = []
     for file in os.listdir(data_dir):
         if file.endswith(".json") or file.endswith(".jsonl"):
+            if file in ["file3.json"]:
+                continue
             with open(os.path.join(data_dir, file), "r", encoding="utf-8") as f:
                 data = json.load(f)
                 questions.extend(data)
