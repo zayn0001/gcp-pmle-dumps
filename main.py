@@ -2,13 +2,14 @@ import streamlit as st
 import json
 import os
 import random
+from collections import deque
 
 st.set_page_config(page_title="AI Flashcards", layout="wide")
 
 st.title("🧠 AI Flashcards Quiz App")
 
 # ------------------------------------------------
-# Load questions from ./data folder
+# Load questions
 # ------------------------------------------------
 DATA_DIR = "data"
 
@@ -54,25 +55,28 @@ sections = sorted(list({q.get("section_name", "Unknown Section") for q in questi
 selected_sections = st.sidebar.multiselect(
     "📘 Filter by section:",
     options=sections,
-    default=sections,  # show all by default
+    default=sections,
 )
 
-# Apply section filter
 filtered_questions = [q for q in questions if q.get("section_name", "Unknown Section") in selected_sections]
-
 if not filtered_questions:
     st.warning("No questions found for the selected section(s).")
     st.stop()
 
-# Shuffle question + answer order
+# Shuffle
 random.shuffle(filtered_questions)
 
 # ------------------------------------------------
-# Sidebar navigation
+# Session state initialization
 # ------------------------------------------------
-
 if "current_index" not in st.session_state:
     st.session_state.current_index = 1
+
+if "results" not in st.session_state:
+    st.session_state.results = []  # store True/False for each answered question
+
+if "recent_results" not in st.session_state:
+    st.session_state.recent_results = deque(maxlen=10)  # rolling average over last 5
 
 total = len(filtered_questions)
 
@@ -87,8 +91,9 @@ random.shuffle(answers)
 
 st.subheader(f"Question {index}/{total}")
 st.markdown(f"**{prompt}**")
+
 # ------------------------------------------------
-# Direct jump to question
+# Jump to question
 # ------------------------------------------------
 with st.sidebar.expander("🔢 Jump to question"):
     jump_index = st.number_input(
@@ -102,7 +107,9 @@ with st.sidebar.expander("🔢 Jump to question"):
         st.session_state.current_index = jump_index
         st.rerun()
 
-
+# ------------------------------------------------
+# Answer checking
+# ------------------------------------------------
 selected = st.radio(
     "Select your answer:",
     [a["text"] for a in answers],
@@ -111,7 +118,14 @@ selected = st.radio(
 
 if st.button("Check Answer", key=f"check_{index}"):
     correct = next(a for a in answers if a["isCorrect"])
-    if selected == correct["text"]:
+    is_correct = selected == correct["text"]
+
+    # Store results
+    st.session_state.results.append(is_correct)
+    st.session_state.recent_results.append(is_correct)
+
+    # Feedback
+    if is_correct:
         st.success("✅ Correct!")
         st.info(correct["explanation"])
     else:
@@ -120,6 +134,22 @@ if st.button("Check Answer", key=f"check_{index}"):
         st.warning(chosen_exp)
         st.info(f"**Correct answer:** {correct['text']}")
         st.caption(correct["explanation"])
+
+# ------------------------------------------------
+# Stats display
+# ------------------------------------------------
+if st.session_state.results:
+    total_attempts = len(st.session_state.results)
+    total_correct = sum(st.session_state.results)
+    overall_accuracy = total_correct / total_attempts * 100
+
+    recent_correct = sum(st.session_state.recent_results)
+    recent_accuracy = recent_correct / len(st.session_state.recent_results) * 100
+
+    st.sidebar.markdown("---")
+    st.sidebar.subheader("📊 Performance")
+    st.sidebar.metric("Overall Accuracy", f"{overall_accuracy:.1f}%")
+    st.sidebar.metric("Last 5 Accuracy", f"{recent_accuracy:.1f}%")
 
 # ------------------------------------------------
 # Metadata + navigation
@@ -137,4 +167,3 @@ if col1.button("⬅ Previous", disabled=st.session_state.current_index == 1):
 if col2.button("Next ➡", disabled=st.session_state.current_index == total):
     st.session_state.current_index += 1
     st.rerun()
-
