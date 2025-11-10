@@ -6,7 +6,7 @@ from collections import deque
 
 st.set_page_config(page_title="AI Flashcards", layout="wide")
 
-st.title("🧠 Ml Engineer Flash cards. (Made with ❤️ by Mishal)")
+st.title("🧠 Ml Engineer Flash cards")
 
 # ------------------------------------------------
 # Load questions
@@ -167,3 +167,10 @@ if col1.button("⬅ Previous", disabled=st.session_state.current_index == 1):
 if col2.button("Next ➡", disabled=st.session_state.current_index == total):
     st.session_state.current_index += 1
     st.rerun()
+
+
+st.markdown("---")
+st.markdown(
+    "<p style='text-align: center; color: grey;'>© 2025 Mishal Faisal | Built with ❤️ using Streamlit</p>",
+    unsafe_allow_html=True
+)
