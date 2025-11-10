@@ -6,7 +6,7 @@ from collections import deque
 
 st.set_page_config(page_title="AI Flashcards", layout="wide")
 
-st.title("🧠 AI Flashcards Quiz App")
+st.title("🧠 Ml Engineer Flash cards. (Made with ❤️ by Mishal)")
 
 # ------------------------------------------------
 # Load questions
