@@ -35,7 +35,7 @@
       "ml_evaluate_function"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -76,7 +76,7 @@
       "feature_engineering"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -117,7 +117,7 @@
       "data_quality_validation"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -158,7 +158,7 @@
       "pre-trained_apis"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -199,7 +199,7 @@
       "model_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -240,7 +240,7 @@
       "mlops_model_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -281,7 +281,7 @@
       "real_time_streaming"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -322,7 +322,7 @@
       "model_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -363,7 +363,7 @@
       "data_partitioning"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -404,7 +404,7 @@
       "model_architecture"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -445,7 +445,7 @@
       "storage_optimization"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -486,7 +486,7 @@
       "business_intelligence_analytics"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -527,7 +527,7 @@
       "interpretability"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -568,7 +568,7 @@
       "classification"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -609,7 +609,7 @@
       "clustering_algorithms"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -649,7 +649,7 @@
       "automl_tables"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -690,7 +690,7 @@
       "time_series_forecasting"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -730,7 +730,7 @@
       "boosted_tree_regressor"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -770,7 +770,7 @@
       "classification_models"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -811,7 +811,7 @@
       "missing_visual_capabilities"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -851,7 +851,7 @@
       "bigquery_ml"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -892,7 +892,7 @@
       "feature_selection"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -933,7 +933,7 @@
       "document_ai_with_cloud_translation_api"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -973,7 +973,7 @@
       "automated_machine_learning"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -1014,7 +1014,7 @@
       "data_collection_strategies"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -1054,7 +1054,7 @@
       "recommendation_systems"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -1095,7 +1095,7 @@
       "cloud_healthcare_api"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -1136,7 +1136,7 @@
       "classification"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -1177,7 +1177,7 @@
       "k-means_clustering"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -1217,7 +1217,7 @@
       "time_series_forecasting"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -1257,7 +1257,7 @@
       "pre_trained_transformers"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -1297,7 +1297,7 @@
       "translation_api"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -1337,7 +1337,7 @@
       "boosted_tree_regressor"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -1377,7 +1377,7 @@
       "ai_platform_notebooks"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -1418,7 +1418,7 @@
       "speech_to_text_api"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -1459,7 +1459,7 @@
       "logistic_regression"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -1500,7 +1500,7 @@
       "automl_translation"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -1541,7 +1541,7 @@
       "automl_tables"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -1583,7 +1583,7 @@
       "shopify_admin_api"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -1624,7 +1624,7 @@
       "automl_translation"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -1665,7 +1665,7 @@
       "speech_to_text_api"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -1706,7 +1706,7 @@
       "vertex_ai_batch_prediction"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -1747,7 +1747,7 @@
       "vertex_ai_workbench"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -1788,7 +1788,7 @@
       "classification_with_batch_processing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -1829,7 +1829,7 @@
       "time_series_forecasting"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -1870,7 +1870,7 @@
       "cloud_vision_api"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -1911,7 +1911,7 @@
       "cloud_ocr"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -1952,7 +1952,7 @@
       "cloud_translation_api"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -1993,7 +1993,7 @@
       "ensemble_model_overhead"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -2034,7 +2034,7 @@
       "boosted_tree_regressor"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -2075,7 +2075,7 @@
       "model_garden"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -2116,7 +2116,7 @@
       "manual_rule-based_systems"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -2157,7 +2157,7 @@
       "service_misallocation"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -2198,7 +2198,7 @@
       "deep_neural_networks"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -2239,7 +2239,7 @@
       "batch_processing_limitations"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Architecting low-code AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -2280,7 +2280,7 @@
       "model_serving"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -2321,7 +2321,7 @@
       "mlops_integration"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -2362,7 +2362,7 @@
       "security_features"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -2403,7 +2403,7 @@
       "schema_management"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -2444,7 +2444,7 @@
       "mlops_automation"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -2485,7 +2485,7 @@
       "data_storage"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -2526,7 +2526,7 @@
       "feature_engineering"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -2567,7 +2567,7 @@
       "model_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -2608,7 +2608,7 @@
       "drift_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -2649,7 +2649,7 @@
       "system_logs"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -2689,7 +2689,7 @@
       "elasticsearch"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -2730,7 +2730,7 @@
       "firestore"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -2771,7 +2771,7 @@
       "cloud_dataproc_jupyter"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -2811,7 +2811,7 @@
       "hdf5"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -2852,7 +2852,7 @@
       "cloud_pub/sub"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -2893,7 +2893,7 @@
       "scikit_learn"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -2934,7 +2934,7 @@
       "bigquery_ml"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -2974,7 +2974,7 @@
       "security_assessments"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -3014,7 +3014,7 @@
       "cloud_run"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -3054,7 +3054,7 @@
       "mlflow_tracking"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -3095,7 +3095,7 @@
       "cloud_functions"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3136,7 +3136,7 @@
       "cloud_security_command_center"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3177,7 +3177,7 @@
       "dataproc"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3218,7 +3218,7 @@
       "federated_queries"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3259,7 +3259,7 @@
       "dask_adaptive_scaling"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3303,7 +3303,7 @@
       "cloud_storage"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3343,7 +3343,7 @@
       "vertex_ai_experiments"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3384,7 +3384,7 @@
       "batch_processing_architecture"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3425,7 +3425,7 @@
       "apache_airflow"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3466,7 +3466,7 @@
       "dataproc"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3507,7 +3507,7 @@
       "cloud_storage_with_memorystore"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3547,7 +3547,7 @@
       "cloud_composer"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3588,7 +3588,7 @@
       "homomorphic_encryption"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3629,7 +3629,7 @@
       "custom_processing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3669,7 +3669,7 @@
       "tensorflow_transform"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3710,7 +3710,7 @@
       "local_jupyter_lab"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3751,7 +3751,7 @@
       "ai_platform_training"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3792,7 +3792,7 @@
       "manual_consolidation"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3833,7 +3833,7 @@
       "cloud_run"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3874,7 +3874,7 @@
       "cloud_functions"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -3915,7 +3915,7 @@
       "regional_storage_risks"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -3956,7 +3956,7 @@
       "dedicated_instance_provisioning"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -3997,7 +3997,7 @@
       "hardware_security_modules"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -4038,7 +4038,7 @@
       "external_dependencies"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -4079,7 +4079,7 @@
       "microservices_bottleneck"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -4120,7 +4120,7 @@
       "microservices_architecture"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -4161,7 +4161,7 @@
       "manual_processes"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -4202,7 +4202,7 @@
       "apache_beam"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -4243,7 +4243,7 @@
       "traditional_data_pipeline_approach"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -4284,7 +4284,7 @@
       "microservices_over_engineering"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -4325,7 +4325,7 @@
       "technical_practices"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -4366,7 +4366,7 @@
       "federated_learning"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -4407,7 +4407,7 @@
       "google_kubernetes_engine"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -4448,7 +4448,7 @@
       "apache_samza"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -4489,7 +4489,7 @@
       "overcomplicated_solution"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -4530,7 +4530,7 @@
       "duplicated_pipeline_management"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -4571,7 +4571,7 @@
       "kubeflow_pipelines"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -4612,7 +4612,7 @@
       "accuracy_prioritization"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -4653,7 +4653,7 @@
       "software_engineering_practices"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -4694,7 +4694,7 @@
       "blockchain_ledger"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Collaborating within and across teams to manage data and models (~14% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -4735,7 +4735,7 @@
       "data_access_control"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -4776,7 +4776,7 @@
       "activation_function_hardware"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -4817,7 +4817,7 @@
       "version_control_systems"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -4858,7 +4858,7 @@
       "container_orchestration_replacement"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -4899,7 +4899,7 @@
       "model_parallelism_technique"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -4940,7 +4940,7 @@
       "model_compression"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -4981,7 +4981,7 @@
       "multi_gpu_training"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -5022,7 +5022,7 @@
       "computational_optimization"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -5063,7 +5063,7 @@
       "ensemble_methods"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -5104,7 +5104,7 @@
       "power_efficiency"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -5145,7 +5145,7 @@
       "gradient_computation"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -5186,7 +5186,7 @@
       "hyperparameter_tuning"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -5226,7 +5226,7 @@
       "cloud_machine_learning_engine"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -5267,7 +5267,7 @@
       "persistent_disk"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -5307,7 +5307,7 @@
       "tensorflow_extended"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -5348,7 +5348,7 @@
       "cpu_and_gpu_only"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -5389,7 +5389,7 @@
       "cloud_machine_learning_engine_deprecated"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -5430,7 +5430,7 @@
       "compute_platforms"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -5471,7 +5471,7 @@
       "tfrecord"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -5512,7 +5512,7 @@
       "traditional_machine_learning_only"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -5553,7 +5553,7 @@
       "cloud_sql"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -5593,7 +5593,7 @@
       "cloud_functions"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -5634,7 +5634,7 @@
       "weight_sharing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -5675,7 +5675,7 @@
       "subsystem_analysis"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -5716,7 +5716,7 @@
       "hybrid_parallelism"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -5756,7 +5756,7 @@
       "model_architecture_changes"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -5796,7 +5796,7 @@
       "vertex_ai_pipelines"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -5837,7 +5837,7 @@
       "cloud_filestore"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -5878,7 +5878,7 @@
       "data_transformation"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -5919,7 +5919,7 @@
       "sequential_processing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -5960,7 +5960,7 @@
       "system_ram"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -6001,7 +6001,7 @@
       "magnitude_sorting"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -6042,7 +6042,7 @@
       "standard_encryption"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -6083,7 +6083,7 @@
       "cloud_run"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -6124,7 +6124,7 @@
       "machine_type_upgrade"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -6164,7 +6164,7 @@
       "cloud_run"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -6205,7 +6205,7 @@
       "custom_integration"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -6246,7 +6246,7 @@
       "parallel_system_maintenance"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -6287,7 +6287,7 @@
       "apache_airflow"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -6328,7 +6328,7 @@
       "apache_beam"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -6369,7 +6369,7 @@
       "post_training_optimization"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -6410,7 +6410,7 @@
       "synthetic_data_generation"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -6451,7 +6451,7 @@
       "synthetic_data_generation"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -6492,7 +6492,7 @@
       "blockchain_governance"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -6533,7 +6533,7 @@
       "multi_armed_bandit"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -6574,7 +6574,7 @@
       "pipeline_parallelism"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -6615,7 +6615,7 @@
       "neural_architecture_search"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -6656,7 +6656,7 @@
       "separate_training_pipelines"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -6697,7 +6697,7 @@
       "cost_optimization"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -6738,7 +6738,7 @@
       "cloud_functions_serverless"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -6779,7 +6779,7 @@
       "cloud_run"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -6820,7 +6820,7 @@
       "kappa_architecture"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -6861,7 +6861,7 @@
       "hybrid_architecture"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -6902,7 +6902,7 @@
       "docker_swarm"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -6943,7 +6943,7 @@
       "model_parallelism"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Scaling prototypes into ML models (~18% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -6984,7 +6984,7 @@
       "model_loading"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7025,7 +7025,7 @@
       "data_preprocessing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7066,7 +7066,7 @@
       "distributed_training"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7107,7 +7107,7 @@
       "data_preprocessing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7148,7 +7148,7 @@
       "performance_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7189,7 +7189,7 @@
       "batch_prediction"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7230,7 +7230,7 @@
       "data_format_limitations"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7271,7 +7271,7 @@
       "algorithm_experimentation"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7312,7 +7312,7 @@
       "storage_optimization"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7353,7 +7353,7 @@
       "resource_consumption"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7393,7 +7393,7 @@
       "cloud_storage"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7433,7 +7433,7 @@
       "cloud_run_jobs"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7474,7 +7474,7 @@
       "dataflow"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7514,7 +7514,7 @@
       "ai_platform_prediction"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7555,7 +7555,7 @@
       "shared_endpoint"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7595,7 +7595,7 @@
       "kubeflow_serving"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7636,7 +7636,7 @@
       "vision_processing_unit"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7676,7 +7676,7 @@
       "model_interpretability"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7717,7 +7717,7 @@
       "field_programmable_gate_arrays"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7757,7 +7757,7 @@
       "batch_normalization"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -7798,7 +7798,7 @@
       "model_parallelism"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -7839,7 +7839,7 @@
       "edge_deployment"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -7880,7 +7880,7 @@
       "streaming_data_processing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -7921,7 +7921,7 @@
       "batch_processing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -7962,7 +7962,7 @@
       "multi_cloud"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -8003,7 +8003,7 @@
       "cloud_functions"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -8044,7 +8044,7 @@
       "cloud_functions"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -8087,7 +8087,7 @@
       "serverless_functions"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -8128,7 +8128,7 @@
       "ssl_encryption"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -8169,7 +8169,7 @@
       "multi_task_model"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -8210,7 +8210,7 @@
       "serverless_functions"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -8251,7 +8251,7 @@
       "pub_sub"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -8292,7 +8292,7 @@
       "cloud_run"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -8333,7 +8333,7 @@
       "time_based_splitting"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -8373,7 +8373,7 @@
       "model_parallelism"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -8414,7 +8414,7 @@
       "event_driven_architecture"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -8455,7 +8455,7 @@
       "predictive_scaling"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -8495,7 +8495,7 @@
       "cloud_run"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -8536,7 +8536,7 @@
       "generic_caching_strategy"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -8577,7 +8577,7 @@
       "app_engine"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -8618,7 +8618,7 @@
       "batch_processing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -8659,7 +8659,7 @@
       "federated_learning"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -8700,7 +8700,7 @@
       "serverless_functions"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -8741,7 +8741,7 @@
       "federated_learning"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -8782,7 +8782,7 @@
       "synchronous_replication"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -8823,7 +8823,7 @@
       "dedicated_gpu_clusters"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -8864,7 +8864,7 @@
       "hybrid_architecture"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -8905,7 +8905,7 @@
       "edge_computing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -8946,7 +8946,7 @@
       "serverless_functions"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -8987,7 +8987,7 @@
       "edge_computing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -9028,7 +9028,7 @@
       "federated_learning"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -9069,7 +9069,7 @@
       "monolithic_architecture"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -9110,7 +9110,7 @@
       "edge_computing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -9151,7 +9151,7 @@
       "microservices_architecture"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -9192,7 +9192,7 @@
       "edge_computing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Serving and scaling models (~20% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -9232,7 +9232,7 @@
       "apache_beam"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -9273,7 +9273,7 @@
       "data_preprocessing_library"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -9314,7 +9314,7 @@
       "data_validation"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -9355,7 +9355,7 @@
       "performance_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -9396,7 +9396,7 @@
       "scale_misconception"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -9437,7 +9437,7 @@
       "configuration_methods"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -9478,7 +9478,7 @@
       "hyperparameter_optimization"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -9519,7 +9519,7 @@
       "version_control"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -9560,7 +9560,7 @@
       "resource_allocation"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -9601,7 +9601,7 @@
       "evaluator_component"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -9642,7 +9642,7 @@
       "cloud_scheduler"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -9683,7 +9683,7 @@
       "ai_platform_notebooks"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -9723,7 +9723,7 @@
       "vertex_ai_pipelines"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -9764,7 +9764,7 @@
       "cloud_functions"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -9805,7 +9805,7 @@
       "cloud_workflows"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -9846,7 +9846,7 @@
       "statisticsgen_component"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -9887,7 +9887,7 @@
       "examplegen"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -9927,7 +9927,7 @@
       "modelvalidator"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -9967,7 +9967,7 @@
       "infravalidator_component"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -10007,7 +10007,7 @@
       "mlflow_pipelines"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -10048,7 +10048,7 @@
       "apache_beam"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10089,7 +10089,7 @@
       "model_versioning"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10131,7 +10131,7 @@
       "training_from_scratch"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10172,7 +10172,7 @@
       "secret_manager"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10213,7 +10213,7 @@
       "kubeflow"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10253,7 +10253,7 @@
       "pusher_component"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10294,7 +10294,7 @@
       "queue-based_processing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10335,7 +10335,7 @@
       "cloud_composer"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10376,7 +10376,7 @@
       "kubeflow_mixed_platforms"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10417,7 +10417,7 @@
       "app_engine_web_applications"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10458,7 +10458,7 @@
       "a/b_testing_framework"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10499,7 +10499,7 @@
       "vertex_ai_feature_store"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10540,7 +10540,7 @@
       "cloud_logging"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10581,7 +10581,7 @@
       "manual_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10624,7 +10624,7 @@
       "visualization_focused_solutions"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10665,7 +10665,7 @@
       "cloud_composer"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10706,7 +10706,7 @@
       "cloud_build_polling"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10747,7 +10747,7 @@
       "independent_stores"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10788,7 +10788,7 @@
       "separate_orchestration_systems"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10830,7 +10830,7 @@
       "infra_validator"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -10871,7 +10871,7 @@
       "google_kubernetes_engine"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -10912,7 +10912,7 @@
       "cloud_functions_with_architectural_flaws"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -10953,7 +10953,7 @@
       "apache_beam"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -10994,7 +10994,7 @@
       "edge_computing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -11035,7 +11035,7 @@
       "dataproc"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -11076,7 +11076,7 @@
       "hybrid_architecture"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -11117,7 +11117,7 @@
       "multi_factor_authentication"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -11160,7 +11160,7 @@
       "serverless_architecture"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -11201,7 +11201,7 @@
       "edge_computing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -11242,7 +11242,7 @@
       "kl_divergence_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -11283,7 +11283,7 @@
       "global_state_management"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -11324,7 +11324,7 @@
       "event-driven_architecture"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -11365,7 +11365,7 @@
       "edge_computing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -11406,7 +11406,7 @@
       "redis_durability_limitations"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -11447,7 +11447,7 @@
       "development_templates"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -11488,7 +11488,7 @@
       "apache_beam"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -11529,7 +11529,7 @@
       "transfer_learning"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -11570,7 +11570,7 @@
       "serverless_computing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -11611,7 +11611,7 @@
       "lambda_architecture"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -11652,7 +11652,7 @@
       "workflow_orchestration"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Automating and orchestrating ML pipelines (~22% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -11693,7 +11693,7 @@
       "operational_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -11734,7 +11734,7 @@
       "model_validation_metrics"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -11775,7 +11775,7 @@
       "legal_compliance"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -11816,7 +11816,7 @@
       "data_security"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -11857,7 +11857,7 @@
       "infrastructure_scaling"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -11898,7 +11898,7 @@
       "resource_optimization"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -11939,7 +11939,7 @@
       "hyperparameter_optimization"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -11980,7 +11980,7 @@
       "error_debugging"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -12021,7 +12021,7 @@
       "model_versioning_and_deployment"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -12062,7 +12062,7 @@
       "a/b_testing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -12103,7 +12103,7 @@
       "human_accountability"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -12144,7 +12144,7 @@
       "ai_platform_notebooks"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -12184,7 +12184,7 @@
       "vertex_ai_model_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -12224,7 +12224,7 @@
       "vertex_ai_workbench"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -12265,7 +12265,7 @@
       "kolmogorov_smirnov_test"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -12306,7 +12306,7 @@
       "feature_drift_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -12346,7 +12346,7 @@
       "adversarial_robustness"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -12387,7 +12387,7 @@
       "label_drift"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -12428,7 +12428,7 @@
       "cross_validation_bias"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -12469,7 +12469,7 @@
       "prediction_drift"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L1",
     "idea_text": ""
   },
@@ -12510,7 +12510,7 @@
       "infrastructure_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -12551,7 +12551,7 @@
       "uncertainty_quantification"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -12592,7 +12592,7 @@
       "output_quality_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -12633,7 +12633,7 @@
       "global_feature_importance"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -12673,7 +12673,7 @@
       "predictive_parity_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -12713,7 +12713,7 @@
       "vertex_ai_feature_store"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -12753,7 +12753,7 @@
       "label_drift"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -12794,7 +12794,7 @@
       "vertex_ai_experiments"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -12837,7 +12837,7 @@
       "sampled_shapley_method"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -12877,7 +12877,7 @@
       "feature_drift"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -12918,7 +12918,7 @@
       "qualitative_feedback"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -12958,7 +12958,7 @@
       "business_metrics"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -12999,7 +12999,7 @@
       "feature_drift_detection"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -13039,7 +13039,7 @@
       "temporal_cross_validation"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -13080,7 +13080,7 @@
       "statistical_testing"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -13121,7 +13121,7 @@
       "data_drift_detection"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -13162,7 +13162,7 @@
       "compliance_focused"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -13202,7 +13202,7 @@
       "anchoring_bias"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -13243,7 +13243,7 @@
       "validation_accuracy"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -13284,7 +13284,7 @@
       "data_quality_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L2",
     "idea_text": ""
   },
@@ -13325,7 +13325,7 @@
       "manual_validation_processes"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -13366,7 +13366,7 @@
       "performance_metrics_focus"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -13407,7 +13407,7 @@
       "privacy_and_security_focus"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -13448,7 +13448,7 @@
       "data_quality_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -13489,7 +13489,7 @@
       "facility_agnostic_approach"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -13530,7 +13530,7 @@
       "basic_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -13571,7 +13571,7 @@
       "business_kpis"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -13612,7 +13612,7 @@
       "logging_systems"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -13653,7 +13653,7 @@
       "dashboard_based_approach"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -13694,7 +13694,7 @@
       "anomaly_detection"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -13735,7 +13735,7 @@
       "resource_utilization_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -13776,7 +13776,7 @@
       "parallel_detection"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -13817,7 +13817,7 @@
       "insufficient_audit_frequency"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -13857,7 +13857,7 @@
       "business_kpi_dashboards"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -13898,7 +13898,7 @@
       "misapplied_compliance_concepts"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -13939,7 +13939,7 @@
       "real-time_anomaly_detection"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -13980,7 +13980,7 @@
       "data_quality_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -14021,7 +14021,7 @@
       "technical_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -14062,7 +14062,7 @@
       "business_metrics_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   },
@@ -14103,7 +14103,7 @@
       "infrastructure_monitoring"
     ],
     "question_choice_type": "multiple_choice",
-    "section_name": "Monitoring AI solutions (~13% of the exam)",
+    "section_name": "ai",
     "bloom_level": "L3",
     "idea_text": ""
   }

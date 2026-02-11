@@ -55,7 +55,7 @@ sections = sorted(list({q.get("section_name", "Unknown Section") for q in questi
 selected_sections = st.sidebar.multiselect(
     "📘 Filter by section:",
     options=sections,
-    default=sections,
+    default=["ai"],
 )
 
 filtered_questions = [q for q in questions if q.get("section_name", "Unknown Section") in selected_sections]

@@ -70,7 +70,7 @@ for div in term_divs:
         "answers": options,
         "tags": [],
         "question_choice_type": "multiple_choice",
-        "section_name": "",
+        "section_name": "ai",
         "bloom_level": "",
         "idea_text": ""
     }
