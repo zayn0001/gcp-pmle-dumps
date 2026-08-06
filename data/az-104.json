@@ -1,0 +1,3073 @@
+[
+  {
+    "question_id": "az_104_q_001",
+    "prompt": "Your company has serval departments. Each department has a number of virtual machines (VMs).\nThe company has an Azure subscription that contains a resource group named RG1.\nAll VMs are located in RG1.\nYou want to associate each VM with its respective department.\nWhat should you do?",
+    "answers": [
+      {
+        "text": "Create Azure Management Groups for each department.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Create a resource group for each department.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign tags to the virtual machines.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Modify the settings of the virtual machines.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_002",
+    "prompt": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.\nYour company has an Azure Active Directory (Azure AD) subscription.\nYou want to implement an Azure AD conditional access policy.\nThe policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations.\nSolution: You access the multi-factor authentication page to alter the user settings.\nDoes the solution meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_003",
+    "prompt": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.\nYour company has an Azure Active Directory (Azure AD) subscription.\nYou want to implement an Azure AD conditional access policy.\nThe policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations.\nSolution: You access the Azure portal to alter the session control of the Azure AD conditional access policy.\nDoes the solution meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_004",
+    "prompt": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.\nYour company has an Azure Active Directory (Azure AD) subscription.\nYou want to implement an Azure AD conditional access policy.\nThe policy must be configured to require members of the Global Administrators group to use Multi-Factor Authentication and an Azure AD-joined device when they connect to Azure AD from untrusted locations.\nSolution: You access the Azure portal to alter the grant control of the Azure AD conditional access policy.\nDoes the solution meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_005",
+    "prompt": "You are planning to deploy an Ubuntu Server virtual machine to your company’s Azure subscription.\nYou are required to implement a custom deployment that includes adding a particular trusted root certification authority (CA).\nWhich of the following should you use to create the virtual machine?",
+    "answers": [
+      {
+        "text": "The New-AzureRmVm cmdlet.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "The New-AzVM cmdlet.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "The Create-AzVM cmdlet.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "The az vm create command.",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_006",
+    "prompt": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.\nYour company makes use of Multi-Factor Authentication for when users are not in the office. The Per Authentication option has been configured as the usage model.\nAfter the acquisition of a smaller business and the addition of the new staff to Azure Active Directory (Azure AD) obtains a different company and adding the new employees to Azure Active Directory (Azure AD), you are informed that these employees should also make use of Multi-Factor Authentication.\nTo achieve this, the Per Enabled User setting must be set for the usage model.\nSolution: You reconfigure the existing usage model via the Azure portal.\nDoes the solution meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_007",
+    "prompt": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.\nYour company’s Azure solution makes use of Multi-Factor Authentication for when users are not in the office. The Per Authentication option has been configured as the usage model.\nAfter the acquisition of a smaller business and the addition of the new staff to Azure Active Directory (Azure AD) obtains a different company and adding the new employees to Azure Active Directory (Azure AD), you are informed that these employees should also make use of Multi-Factor Authentication.\nTo achieve this, the Per Enabled User setting must be set for the usage model.\nSolution: You reconfigure the existing usage model via the Azure CLI.\nDoes the solution meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_008",
+    "prompt": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.\nYour company’s Azure solution makes use of Multi-Factor Authentication for when users are not in the office. The Per Authentication option has been configured as the usage model.\nAfter the acquisition of a smaller business and the addition of the new staff to Azure Active Directory (Azure AD) obtains a different company and adding the new employees to Azure Active Directory (Azure AD), you are informed that these employees should also make use of Multi-Factor Authentication.\nTo achieve this, the Per Enabled User setting must be set for the usage model.\nSolution: You create a new Multi-Factor Authentication provider with a backup from the existing Multi-Factor Authentication provider data.\nDoes the solution meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_009",
+    "prompt": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.\nYour company has an Azure Active Directory (Azure AD) tenant named weyland.com that is configured for hybrid coexistence with the on-premises Active\nDirectory domain.\nYou have a server named DirSync1 that is configured as a DirSync server.\nYou create a new user account in the on-premise Active Directory. You now need to replicate the user information to Azure AD immediately.\nSolution: You run the Start-ADSyncSyncCycle -PolicyType Initial PowerShell cmdlet.\nDoes the solution meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_010",
+    "prompt": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.\nYour company has an Azure Active Directory (Azure AD) tenant named weyland.com that is configured for hybrid coexistence with the on-premises Active\nDirectory domain.\nYou have a server named DirSync1 that is configured as a DirSync server.\nYou create a new user account in the on-premise Active Directory. You now need to replicate the user information to Azure AD immediately.\nSolution: You use Active Directory Sites and Services to force replication of the Global Catalog on a domain controller.\nDoes the solution meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_011",
+    "prompt": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.\nYour company has an Azure Active Directory (Azure AD) tenant named weyland.com that is configured for hybrid coexistence with the on-premises Active\nDirectory domain.\nYou have a server named DirSync1 that is configured as a DirSync server.\nYou create a new user account in the on-premise Active Directory. You now need to replicate the user information to Azure AD immediately.\nSolution: You restart the NetLogon service on a domain controller.\nDoes the solution meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_012",
+    "prompt": "Your company has a Microsoft Azure subscription.\nThe company has datacenters in Los Angeles and New York.\nYou are configuring the two datacenters as geo-clustered sites for site resiliency.\nYou need to recommend an Azure storage redundancy option.\nYou have the following data storage requirements:\n✑ Data must be stored on multiple nodes.\n✑ Data must be stored on nodes in separate geographic locations.\n✑ Data can be read from the secondary location as well as from the primary location.\nWhich of the following Azure stored redundancy options should you recommend?",
+    "answers": [
+      {
+        "text": "Geo-redundant storage",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Read-only geo-redundant storage",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Zone-redundant storage",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Locally redundant storage",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_013",
+    "prompt": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.\nYour company has an azure subscription that includes a storage account, a resource group, a blob container and a file share.\nA colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account.\nYou want to review the ARM template that was used by Jon Ross.\nSolution: You access the Virtual Machine blade.\nDoes the solution meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_014",
+    "prompt": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.\nYour company has an azure subscription that includes a storage account, a resource group, a blob container and a file share.\nA colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account.\nYou want to review the ARM template that was used by Jon Ross.\nSolution: You access the Resource Group blade.\nDoes the solution meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_015",
+    "prompt": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.\nYour company has an azure subscription that includes a storage account, a resource group, a blob container and a file share.\nA colleague named Jon Ross makes use of a solitary Azure Resource Manager (ARM) template to deploy a virtual machine and an additional Azure Storage account.\nYou want to review the ARM template that was used by Jon Ross.\nSolution: You access the Container blade.\nDoes the solution meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_016",
+    "prompt": "Your company has three virtual machines (VMs) that are included in an availability set.\nYou try to resize one of the VMs, which returns an allocation failure message.\nIt is imperative that the VM is resized.\nWhich of the following actions should you take?",
+    "answers": [
+      {
+        "text": "You should only stop one of the VMs.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "You should stop two of the VMs.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "You should stop all three VMs.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "You should remove the necessary VM from the availability set.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_017",
+    "prompt": "You have an Azure virtual machine (VM) that has a single data disk. You have been tasked with attaching this data disk to another Azure VM.\nYou need to make sure that your strategy allows for the virtual machines to be offline for the least amount of time possible.\nWhich of the following is the action you should take FIRST?",
+    "answers": [
+      {
+        "text": "Stop the VM that includes the data disk.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Stop the VM that the data disk must be attached to.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Detach the data disk.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Delete the VM that includes the data disk.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_018",
+    "prompt": "Your company has an Azure subscription.\nYou need to deploy a number of Azure virtual machines (VMs) using Azure Resource Manager (ARM) templates. You have been informed that the VMs will be included in a single availability set.\nYou are required to make sure that the ARM template you configure allows for as many VMs as possible to remain accessible in the event of fabric failure or maintenance.\nWhich of the following is the value that you should configure for the platformFaultDomainCount property?",
+    "answers": [
+      {
+        "text": "10",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "30",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Min Value",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Max Value",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_019",
+    "prompt": "Your company has an Azure subscription.\nYou need to deploy a number of Azure virtual machines (VMs) using Azure Resource Manager (ARM) templates. You have been informed that the VMs will be included in a single availability set.\nYou are required to make sure that the ARM template you configure allows for as many VMs as possible to remain accessible in the event of fabric failure or maintenance.\nWhich of the following is the value that you should configure for the platformUpdateDomainCount property?",
+    "answers": [
+      {
+        "text": "10",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "20",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "30",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "40",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_021",
+    "prompt": "Your company has an Azure Active Directory (Azure AD) tenant that is configured for hybrid coexistence with the on-premises Active Directory domain.\nThe on-premise virtual environment consists of virtual machines (VMs) running on Windows Server 2012 R2 Hyper-V host servers.\nYou have created some PowerShell scripts to automate the configuration of newly created VMs. You plan to create several new VMs.\nYou need a solution that ensures the scripts are run on the new VMs.\nWhich of the following is the best solution?",
+    "answers": [
+      {
+        "text": "Configure a SetupComplete.cmd batch file in the %windir%\\setup\\scripts directory.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Configure a Group Policy Object (GPO) to run the scripts as logon scripts.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Configure a Group Policy Object (GPO) to run the scripts as startup scripts.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Place the scripts in a new virtual hard disk (VHD).",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_022",
+    "prompt": "Your company has an Azure Active Directory (Azure AD) tenant that is configured for hybrid coexistence with the on-premises Active Directory domain.\nYou plan to deploy several new virtual machines (VMs) in Azure. The VMs will have the same operating system and custom software requirements.\nYou configure a reference VM in the on-premise virtual environment. You then generalize the VM to create an image.\nYou need to upload the image to Azure to ensure that it is available for selection when you create the new Azure VMs.\nWhich PowerShell cmdlets should you use?",
+    "answers": [
+      {
+        "text": "Add-AzVM",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Add-AzVhd",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Add-AzImage",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Add-AzImageDataDisk",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_024",
+    "prompt": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.\nYour company’s Azure subscription includes two Azure networks named VirtualNetworkA and VirtualNetworkB.\nVirtualNetworkA includes a VPN gateway that is configured to make use of static routing. Also, a site-to-site VPN connection exists between your company’s on- premises network and VirtualNetworkA.\nYou have configured a point-to-site VPN connection to VirtualNetworkA from a workstation running Windows 10. After configuring virtual network peering between\nVirtualNetworkA and VirtualNetworkB, you confirm that you are able to access VirtualNetworkB from the company’s on-premises network. However, you find that you cannot establish a connection to VirtualNetworkB from the Windows 10 workstation.\nYou have to make sure that a connection to VirtualNetworkB can be established from the Windows 10 workstation.\nSolution: You choose the Allow gateway transit setting on VirtualNetworkA.\nDoes the solution meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_025",
+    "prompt": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.\nYour company’s Azure subscription includes two Azure networks named VirtualNetworkA and VirtualNetworkB.\nVirtualNetworkA includes a VPN gateway that is configured to make use of static routing. Also, a site-to-site VPN connection exists between your company’s on- premises network and VirtualNetworkA.\nYou have configured a point-to-site VPN connection to VirtualNetworkA from a workstation running Windows 10. After configuring virtual network peering between\nVirtualNetworkA and VirtualNetworkB, you confirm that you are able to access VirtualNetworkB from the company’s on-premises network. However, you find that you cannot establish a connection to VirtualNetworkB from the Windows 10 workstation.\nYou have to make sure that a connection to VirtualNetworkB can be established from the Windows 10 workstation.\nSolution: You choose the Allow gateway transit setting on VirtualNetworkB.\nDoes the solution meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_026",
+    "prompt": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.\nYour company’s Azure subscription includes two Azure networks named VirtualNetworkA and VirtualNetworkB.\nVirtualNetworkA includes a VPN gateway that is configured to make use of static routing. Also, a site-to-site VPN connection exists between your company’s on- premises network and VirtualNetworkA.\nYou have configured a point-to-site VPN connection to VirtualNetworkA from a workstation running Windows 10. After configuring virtual network peering between\nVirtualNetworkA and VirtualNetworkB, you confirm that you are able to access VirtualNetworkB from the company’s on-premises network. However, you find that you cannot establish a connection to VirtualNetworkB from the Windows 10 workstation.\nYou have to make sure that a connection to VirtualNetworkB can be established from the Windows 10 workstation.\nSolution: You download and re-install the VPN client configuration package on the Windows 10 workstation.\nDoes the solution meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_027",
+    "prompt": "Your company has virtual machines (VMs) hosted in Microsoft Azure. The VMs are located in a single Azure virtual network named VNet1.\nThe company has users that work remotely. The remote workers require access to the VMs on VNet1.\nYou need to provide access for the remote workers.\nWhat should you do?",
+    "answers": [
+      {
+        "text": "Configure a Site-to-Site (S2S) VPN.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Configure a VNet-toVNet VPN.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Configure a Point-to-Site (P2S) VPN.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Configure DirectAccess on a Windows Server 2012 server VM.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Configure a Multi-Site VPN",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_028",
+    "prompt": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.\nYour company has a Microsoft SQL Server Always On availability group configured on their Azure virtual machines (VMs).\nYou need to configure an Azure internal load balancer as a listener for the availability group.\nSolution: You create an HTTP health probe on port 1433.\nDoes the solution meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_029",
+    "prompt": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.\nYour company has a Microsoft SQL Server Always On availability group configured on their Azure virtual machines (VMs).\nYou need to configure an Azure internal load balancer as a listener for the availability group.\nSolution: You set Session persistence to Client IP.\nDoes the solution meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_030",
+    "prompt": "Note: The question is included in a number of questions that depicts the identical set-up. However, every question has a distinctive result. Establish if the solution satisfies the requirements.\nYour company has a Microsoft SQL Server Always On availability group configured on their Azure virtual machines (VMs).\nYou need to configure an Azure internal load balancer as a listener for the availability group.\nSolution: You enable Floating IP.\nDoes the solution meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_031",
+    "prompt": "Your company has two on-premises servers named SRV01 and SRV02. Developers have created an application that runs on SRV01. The application calls a service on SRV02 by IP address.\nYou plan to migrate the application on Azure virtual machines (VMs). You have configured two VMs on a single subnet in an Azure virtual network.\nYou need to configure the two VMs with static internal IP addresses.\nWhat should you do?",
+    "answers": [
+      {
+        "text": "Run the New-AzureRMVMConfig PowerShell cmdlet.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Run the Set-AzureSubnet PowerShell cmdlet.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Modify the VM properties in the Azure Management Portal.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Modify the IP properties in Windows Network and Sharing Center.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Run the Set-AzureStaticVNetIP PowerShell cmdlet.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_032",
+    "prompt": "Your company has an Azure Active Directory (Azure AD) subscription.\nYou need to deploy five virtual machines (VMs) to your company’s virtual network subnet.\nThe VMs will each have both a public and private IP address. Inbound and outbound security rules for all of these virtual machines must be identical.\nWhich of the following is the least amount of network interfaces needed for this configuration?",
+    "answers": [
+      {
+        "text": "5",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "10",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "20",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "40",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_033",
+    "prompt": "Your company has an Azure Active Directory (Azure AD) subscription.\nYou need to deploy five virtual machines (VMs) to your company’s virtual network subnet.\nThe VMs will each have both a public and private IP address. Inbound and outbound security rules for all of these virtual machines must be identical.\nWhich of the following is the least amount of security groups needed for this configuration?",
+    "answers": [
+      {
+        "text": "4",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "3",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "2",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "1",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_034",
+    "prompt": "Your company’s Azure subscription includes Azure virtual machines (VMs) that run Windows Server 2016.\nOne of the VMs is backed up every day using Azure Backup Instant Restore.\nWhen the VM becomes infected with data encrypting ransomware, you decide to recover the VM’s files.\nWhich of the following is TRUE in this scenario?",
+    "answers": [
+      {
+        "text": "You can only recover the files to the infected VM.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "You can recover the files to any VM within the company’s subscription.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "You can only recover the files to a new VM.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "You will not be able to recover the files.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_035",
+    "prompt": "Your company’s Azure subscription includes Azure virtual machines (VMs) that run Windows Server 2016.\nOne of the VMs is backed up every day using Azure Backup Instant Restore.\nWhen the VM becomes infected with data encrypting ransomware, you are required to restore the VM.\nWhich of the following actions should you take?",
+    "answers": [
+      {
+        "text": "You should restore the VM after deleting the infected VM.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "You should restore the VM to any VM within the company’s subscription.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "You should restore the VM to a new Azure VM.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "You should restore the VM to an on-premise Windows device.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_036",
+    "prompt": "You administer a solution in Azure that is currently having performance issues.\nYou need to find the cause of the performance issues pertaining to metrics on the Azure infrastructure.\nWhich of the following is the tool you should use?",
+    "answers": [
+      {
+        "text": "Azure Traffic Analytics",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Azure Monitor",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Azure Activity Log",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Azure Advisor",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_037",
+    "prompt": "Your company has an Azure subscription that includes a Recovery Services vault.\nYou want to use Azure Backup to schedule a backup of your company’s virtual machines (VMs) to the Recovery Services vault.\nWhich of the following VMs can you back up? Choose all that apply.",
+    "answers": [
+      {
+        "text": "VMs that run Windows 10.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "VMs that run Windows Server 2012 or higher.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "VMs that have NOT been shut down.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "VMs that run Debian 8.2+.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "VMs that have been shut down.",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_038",
+    "prompt": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYou have an Azure Active Directory (Azure AD) tenant named contoso.com.\nYou have a CSV file that contains the names and email addresses of 500 external users.\nYou need to create a guest user account in contoso.com for each of the 500 external users.\nSolution: You create a PowerShell script that runs the New-AzureADUser cmdlet for each user.\nDoes this meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_039",
+    "prompt": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYou have an Azure Active Directory (Azure AD) tenant named contoso.com.\nYou have a CSV file that contains the names and email addresses of 500 external users.\nYou need to create a guest user account in contoso.com for each of the 500 external users.\nSolution: From Azure AD in the Azure portal, you use the Bulk create user operation.\nDoes this meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_040",
+    "prompt": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYou have an Azure Active Directory (Azure AD) tenant named contoso.com.\nYou have a CSV file that contains the names and email addresses of 500 external users.\nYou need to create a guest user account in contoso.com for each of the 500 external users.\nSolution: You create a PowerShell script that runs the New-AzureADMSInvitation cmdlet for each external user.\nDoes this meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_042",
+    "prompt": "You have an Azure subscription that contains an Azure Active Directory (Azure AD) tenant named contoso.com and an Azure Kubernetes Service (AKS) cluster named AKS1.\nAn administrator reports that she is unable to grant access to AKS1 to the users in contoso.com.\nYou need to ensure that access to AKS1 can be granted to the contoso.com users.\nWhat should you do first?",
+    "answers": [
+      {
+        "text": "From contoso.com, modify the Organization relationships settings.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "From contoso.com, create an OAuth 2.0 authorization endpoint.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Recreate AKS1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "From AKS1, create a namespace.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_043",
+    "prompt": "You have a Microsoft 365 tenant and an Azure Active Directory (Azure AD) tenant named contoso.com.\nYou plan to grant three users named User1, User2, and User3 access to a temporary Microsoft SharePoint document library named Library1.\nYou need to create groups for the users. The solution must ensure that the groups are deleted automatically after 180 days.\nWhich two groups should you create? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.",
+    "answers": [
+      {
+        "text": "a Microsoft 365 group that uses the Assigned membership type",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "a Security group that uses the Assigned membership type",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "a Microsoft 365 group that uses the Dynamic User membership type",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "a Security group that uses the Dynamic User membership type",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "a Security group that uses the Dynamic Device membership type",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_046",
+    "prompt": "You have an Azure policy as shown in the following exhibit:",
+    "answers": [
+      {
+        "text": "You are prevented from creating Azure SQL servers anywhere in Subscription 1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "You can create Azure SQL servers in ContosoRG1 only.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "You are prevented from creating Azure SQL Servers in ContosoRG1 only.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "You can create Azure SQL servers in any resource group within Subscription 1.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_049",
+    "prompt": "You recently created a new Azure subscription that contains a user named Admin1.\nAdmin1 attempts to deploy an Azure Marketplace resource by using an Azure Resource Manager template. Admin1 deploys the template by using Azure\nPowerShell and receives the following error message: `User failed validation to purchase resources. Error message: `Legal terms have not been accepted for this item on this subscription. To accept legal terms, please go to the Azure portal (http://go.microsoft.com/fwlink/?LinkId=534873) and configure programmatic deployment for the Marketplace item or create it there for the first time.`\nYou need to ensure that Admin1 can deploy the Marketplace resource successfully.\nWhat should you do?",
+    "answers": [
+      {
+        "text": "From Azure PowerShell, run the Set-AzApiManagementSubscription cmdlet",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "From the Azure portal, register the Microsoft.Marketplace resource provider",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "From Azure PowerShell, run the Set-AzMarketplaceTerms cmdlet",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "From the Azure portal, assign the Billing administrator role to Admin1",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_050",
+    "prompt": "You have an Azure Active Directory (Azure AD) tenant that contains 5,000 user accounts.\nYou create a new user account named AdminUser1.\nYou need to assign the User administrator administrative role to AdminUser1.\nWhat should you do from the user account properties?",
+    "answers": [
+      {
+        "text": "From the Licenses blade, assign a new license",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "From the Directory role blade, modify the directory role",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "From the Groups blade, invite the user account to a new group",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_051",
+    "prompt": "You have an Azure Active Directory (Azure AD) tenant named contoso.onmicrosoft.com that contains 100 user accounts.\nYou purchase 10 Azure AD Premium P2 licenses for the tenant.\nYou need to ensure that 10 users can use all the Azure AD Premium features.\nWhat should you do?",
+    "answers": [
+      {
+        "text": "From the Licenses blade of Azure AD, assign a license",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "From the Groups blade of each user, invite the users to a group",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "From the Azure AD domain, add an enterprise application",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "From the Directory role blade of each user, modify the directory role",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_052",
+    "prompt": "You have an Azure subscription named Subscription1 and an on-premises deployment of Microsoft System Center Service Manager.\nSubscription1 contains a virtual machine named VM1.\nYou need to ensure that an alert is set in Service Manager when the amount of available memory on VM1 is below 10 percent.\nWhat should you do first?",
+    "answers": [
+      {
+        "text": "Create an automation runbook",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Deploy a function app",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Deploy the IT Service Management Connector (ITSM)",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Create a notification",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_053",
+    "prompt": "You sign up for Azure Active Directory (Azure AD) Premium P2.\nYou need to add a user named admin1@contoso.com as an administrator on all the computers that will be joined to the Azure AD domain.\nWhat should you configure in Azure AD?",
+    "answers": [
+      {
+        "text": "Device settings from the Devices blade",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Providers from the MFA Server blade",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "User settings from the Users blade",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "General settings from the Groups blade",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_055",
+    "prompt": "RG26 is set to the West Europe location and is used to create temporary resources for a project. RG26 contains the resources shown in the following table.",
+    "answers": [
+      {
+        "text": "Delete VM1",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Stop VM1",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Stop the backup of SQLDB01",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Delete sa001",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_056",
+    "prompt": "You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1.\nSubscription1 has a user named User1. User1 has the following roles:\n– Reader\n– Security Admin\n– Security Reader\nYou need to ensure that User1 can assign the Reader role for VNet1 to other users.\nWhat should you do?",
+    "answers": [
+      {
+        "text": "Remove User1 from the Security Reader and Reader roles for Subscription1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the User Access Administrator role for VNet1.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the Network Contributor role for VNet1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the Network Contributor role for RG1.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_057",
+    "prompt": "You have an Azure Active Directory (Azure AD) tenant named contosocloud.onmicrosoft.com.\nYour company has a public DNS zone for contoso.com.\nYou add contoso.com as a custom domain name to Azure AD.\nYou need to ensure that Azure can verify the domain name.\nWhich type of DNS record should you create?",
+    "answers": [
+      {
+        "text": "MX",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "NSEC",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "PTR",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "RRSIG",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_058",
+    "prompt": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYou have an Azure Directory (Azure AD) tenant named Adatum and an Azure Subscription named Subscription1. Adatum contains a group named Developers.\nSubscription1 contains a resource group named Dev.\nYou need to provide the Developers group with the ability to create Azure logic apps in the Dev resource group.\nSolution: On Subscription1, you assign the DevTest Labs User role to the Developers group.\nDoes this meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_059",
+    "prompt": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYou have an Azure Directory (Azure AD) tenant named Adatum and an Azure Subscription named Subscription1. Adatum contains a group named Developers.\nSubscription1 contains a resource group named Dev.\nYou need to provide the Developers group with the ability to create Azure logic apps in the Dev resource group.\nSolution: On Subscription1, you assign the Logic App Operator role to the Developers group.\nDoes this meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_060",
+    "prompt": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYou have an Azure Directory (Azure AD) tenant named Adatum and an Azure Subscription named Subscription1. Adatum contains a group named Developers.\nSubscription1 contains a resource group named Dev.\nYou need to provide the Developers group with the ability to create Azure logic apps in the Dev resource group.\nSolution: On Dev, you assign the Contributor role to the Developers group.\nDoes this meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_062",
+    "prompt": "You have an Azure subscription named Subscription1 that contains an Azure Log Analytics workspace named Workspace1.\nYou need to view the error events from a table named Event.\nWhich query should you run in Workspace1?",
+    "answers": [
+      {
+        "text": "Get-Event Event | where {$_.EventType == “error”}",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "search in (Event) “error”",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "select * from Event where EventType == “error”",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "search in (Event) * | where EventType -eq “error”",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_066",
+    "prompt": "You have an Azure subscription.\nUsers access the resources in the subscription from either home or from customer sites. From home, users must establish a point-to-site VPN to access the Azure resources. The users on the customer sites access the Azure resources by using site-to-site VPNs.\nYou have a line-of-business-app named App1 that runs on several Azure virtual machine. The virtual machines run Windows Server 2016.\nYou need to ensure that the connections to App1 are spread across all the virtual machines.\nWhat are two possible Azure services that you can use? Each correct answer presents a complete solution.\nNOTE: Each correct selection is worth one point.",
+    "answers": [
+      {
+        "text": "an internal load balancer",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "a public load balancer",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "an Azure Content Delivery Network (CDN)",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Traffic Manager",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "an Azure Application Gateway",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_067",
+    "prompt": "You have an Azure subscription.\nYou have 100 Azure virtual machines.\nYou need to quickly identify underutilized virtual machines that can have their service tier changed to a less expensive offering.\nWhich blade should you use?",
+    "answers": [
+      {
+        "text": "Monitor",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Advisor",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Metrics",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Customer insights",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_069",
+    "prompt": "You have an Azure Active Directory (Azure AD) tenant named contoso.onmicrosoft.com.\nThe User administrator role is assigned to a user named Admin1.\nAn external partner has a Microsoft account that uses the user1@outlook.com sign in.\nAdmin1 attempts to invite the external partner to sign in to the Azure AD tenant and receives the following error message: `Unable to invite user user1@outlook.com `” Generic authorization exception.`\nYou need to ensure that Admin1 can invite the external partner to sign in to the Azure AD tenant.\nWhat should you do?",
+    "answers": [
+      {
+        "text": "From the Users settings blade, modify the External collaboration settings.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "From the Custom domain names blade, add a custom domain.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "From the Organizational relationships blade, add an identity provider.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "From the Roles and administrators blade, assign the Security administrator role to Admin1.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_070",
+    "prompt": "You have an Azure subscription linked to an Azure Active Directory tenant. The tenant includes a user account named User1.\nYou need to ensure that User1 can assign a policy to the tenant root management group.\nWhat should you do?",
+    "answers": [
+      {
+        "text": "Assign the Owner role for the Azure Subscription to User1, and then modify the default conditional access policies.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign the Owner role for the Azure subscription to User1, and then instruct User1 to configure access management for Azure resources.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign the Global administrator role to User1, and then instruct User1 to configure access management for Azure resources.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Create a new management group and delegate User1 as the owner of the new management group.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_073",
+    "prompt": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYou need to ensure that an Azure Active Directory (Azure AD) user named Admin1 is assigned the required role to enable Traffic Analytics for an Azure subscription.\nSolution: You assign the Network Contributor role at the subscription level to Admin1.\nDoes this meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_074",
+    "prompt": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYou need to ensure that an Azure Active Directory (Azure AD) user named Admin1 is assigned the required role to enable Traffic Analytics for an Azure subscription.\nSolution: You assign the Owner role at the subscription level to Admin1.\nDoes this meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_075",
+    "prompt": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYou need to ensure that an Azure Active Directory (Azure AD) user named Admin1 is assigned the required role to enable Traffic Analytics for an Azure subscription.\nSolution: You assign the Reader role at the subscription level to Admin1.\nDoes this meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_076",
+    "prompt": "You have an Azure subscription that contains a user named User1.\nYou need to ensure that User1 can deploy virtual machines and manage virtual networks. The solution must use the principle of least privilege.\nWhich role-based access control (RBAC) role should you assign to User1?",
+    "answers": [
+      {
+        "text": "Owner",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Virtual Machine Contributor",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Contributor",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Virtual Machine Administrator Login",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_078",
+    "prompt": "You have an Azure subscription named Subscription1 that contains an Azure virtual machine named VM1. VM1 is in a resource group named RG1.\nVM1 runs services that will be used to deploy resources to RG1.\nYou need to ensure that a service running on VM1 can manage the resources in RG1 by using the identity of VM1.\nWhat should you do first?",
+    "answers": [
+      {
+        "text": "From the Azure portal, modify the Managed Identity settings of VM1",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "From the Azure portal, modify the Access control (IAM) settings of RG1",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "From the Azure portal, modify the Access control (IAM) settings of VM1",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "From the Azure portal, modify the Policies settings of RG1",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_079",
+    "prompt": "You have an Azure subscription that contains a resource group named TestRG.\nYou use TestRG to validate an Azure deployment.\nTestRG contains the following resources:",
+    "answers": [
+      {
+        "text": "Modify the backup configurations of VM1 and modify the resource lock type of VNET1",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Remove the resource lock from VNET1 and delete all data in Vault1",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Turn off VM1 and remove the resource lock from VNET1",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Turn off VM1 and delete all data in Vault1",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_080",
+    "prompt": "You have an Azure DNS zone named adatum.com.\nYou need to delegate a subdomain named research.adatum.com to a different DNS server in Azure.\nWhat should you do?",
+    "answers": [
+      {
+        "text": "Create an NS record named research in the adatum.com zone.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Create a PTR record named research in the adatum.com zone.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Modify the SOA record of adatum.com.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Create an A record named *.research in the adatum.com zone.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_082",
+    "prompt": "You have an Azure subscription named Subscription1 that contains an Azure Log Analytics workspace named Workspace1.\nYou need to view the error events from a table named Event.\nWhich query should you run in Workspace1?",
+    "answers": [
+      {
+        "text": "Get-Event Event | where {$_.EventType == “error”}",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Event | search “error”",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "select * from Event where EventType == “error”",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "search in (Event) * | where EventType ג€”eq ג€errorג€",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_083",
+    "prompt": "You have a registered DNS domain named contoso.com.\nYou create a public Azure DNS zone named contoso.com.\nYou need to ensure that records created in the contoso.com zone are resolvable from the internet.\nWhat should you do?",
+    "answers": [
+      {
+        "text": "Create NS records in contoso.com.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Modify the SOA record in the DNS domain registrar.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Create the SOA record in contoso.com.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Modify the NS records in the DNS domain registrar.",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_087",
+    "prompt": "You have an Azure Active Directory (Azure AD) tenant.\nYou plan to delete multiple users by using Bulk delete in the Azure Active Directory admin center.\nYou need to create and upload a file for the bulk delete.\nWhich user attributes should you include in the file?",
+    "answers": [
+      {
+        "text": "The user principal name and usage location of each user only",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "The user principal name of each user only",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "The display name of each user only",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "The display name and usage location of each user only",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "The display name and user principal name of each user only",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_089",
+    "prompt": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYou need to ensure that an Azure Active Directory (Azure AD) user named Admin1 is assigned the required role to enable Traffic Analytics for an Azure subscription.\nSolution: You assign the Traffic Manager Contributor role at the subscription level to Admin1.\nDoes this meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_090",
+    "prompt": "You have three offices and an Azure subscription that contains an Azure Active Directory (Azure AD) tenant.\nYou need to grant user management permissions to a local administrator in each office.\nWhat should you use?",
+    "answers": [
+      {
+        "text": "Azure AD roles",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "administrative units",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "access packages in Azure AD entitlement management",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Azure roles",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_091",
+    "prompt": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYou have an Azure Directory (Azure AD) tenant named Adatum and an Azure Subscription named Subscription1. Adatum contains a group named Developers.\nSubscription1 contains a resource group named Dev.\nYou need to provide the Developers group with the ability to create Azure logic apps in the Dev resource group.\nSolution: On Dev, you assign the Logic App Contributor role to the Developers group.\nDoes this meet the goal?",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_093",
+    "prompt": "You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1.\nSubscription1 has a user named User1. User1 has the following roles:\n– Reader\n– Security Admin\n– Security Reader\nYou need to ensure that User1 can assign the Reader role for VNet1 to other users.\nWhat should you do?",
+    "answers": [
+      {
+        "text": "Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the Owner role for VNet1.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the Contributor role for VNet1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the Network Contributor role for VNet1.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_096",
+    "prompt": "You have an Azure subscription that contains a storage account named storage1. The storage1 account contains a file share named share1.\nThe subscription is linked to a hybrid Azure Active Directory (Azure AD) tenant that contains a security group named Group1.\nYou need to grant Group1 the Storage File Data SMB Share Elevated Contributor role for share1.\nWhat should you do first?",
+    "answers": [
+      {
+        "text": "Enable Active Directory Domain Service (AD DS) authentication for storage1.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Grant share-level permissions by using File Explorer.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Mount share1 by using File Explorer.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Create a private endpoint.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_097",
+    "prompt": "You have 15 Azure subscriptions.\nYou have an Azure Active Directory (Azure AD) tenant that contains a security group named Group1.\nYou plan to purchase additional Azure subscription.\nYou need to ensure that Group1 can manage role assignments for the existing subscriptions and the planned subscriptions. The solution must meet the following requirements:\n✑ Use the principle of least privilege.\n✑ Minimize administrative effort.\nWhat should you do?",
+    "answers": [
+      {
+        "text": "Assign Group1 the Owner role for the root management group.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign Group1 the User Access Administrator role for the root management group.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Create a new management group and assign Group1 the User Access Administrator role for the group.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Create a new management group and assign Group1 the Owner role for the group.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_099",
+    "prompt": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYou have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_101",
+    "prompt": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.\nAfter you answer a question in this section, you will NOT be able to return to it. As a result, these questions will not appear in the review screen.\nYou have an Azure subscription that contains the following users in an Azure Active Directory tenant named contoso.onmicrosoft.com:",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_102",
+    "prompt": "You have two Azure subscriptions named Sub1 and Sub2.\nAn administrator creates a custom role that has an assignable scope to a resource group named RG1 in Sub1.\nYou need to ensure that you can apply the custom role to any resource group in Sub1 and Sub2. The solution must minimize administrative effort.\nWhat should you do?",
+    "answers": [
+      {
+        "text": "Select the custom role and add Sub1 and Sub2 to the assignable scopes. Remove RG1 from the assignable scopes.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Create a new custom role for Sub1. Create a new custom role for Sub2. Remove the role from RG1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Create a new custom role for Sub1 and add Sub2 to the assignable scopes. Remove the role from RG1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Select the custom role and add Sub1 to the assignable scopes. Remove RG1 from the assignable scopes. Create a new custom role for Sub2.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_103",
+    "prompt": "You have an Azure Subscription that contains a storage account named storageacct1234 and two users named User1 and User2.\nYou assign User1 the roles shown in the following exhibit.",
+    "answers": [
+      {
+        "text": "Assign roles to User2 for storageacct1234.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Upload blob data to storageacct1234.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Modify the firewall of storageacct1234.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "View blob data in storageacct1234.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "View file shares in storageacct1234.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_104",
+    "prompt": "You have an Azure subscription named Subscription1 that contains an Azure Log Analytics workspace named Workspace1.",
+    "answers": [
+      {
+        "text": "select * from Event where EventType == “error”",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Event | search “error”",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Event | where EventType is “error”",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Get-Event Event | where {$_.EventType == “error”}",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_105",
+    "prompt": "You have an Azure App Services web app named App1.",
+    "answers": [
+      {
+        "text": "Assign the Owner role to the developers",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Configure app-level credentials for FTPS",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign the Website Contributor role to the developers",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Configure user-level credentials for FTPS",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_106",
+    "prompt": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_109",
+    "prompt": "You have an Azure subscription that contains 10 virtual machines, a key vault named Vault1, and a network security group (NSG) named NSG1. All the resources are deployed to the East US Azure region.",
+    "answers": [
+      {
+        "text": "an application security group",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "a service tag",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "an IP address range",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_112",
+    "prompt": "You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1.",
+    "answers": [
+      {
+        "text": "Assign User1 the Network Contributor role for VNet1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the Owner role for VNet1.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the Network Contributor role for RG1.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_114",
+    "prompt": "You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1.",
+    "answers": [
+      {
+        "text": "Remove User1 from the Security Reader role for Subscript on 1. Assign User1 the Contributor role for RG1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the Owner role for VNet1.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription 1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the Contributor role for VNet1.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_117",
+    "prompt": "You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1.",
+    "answers": [
+      {
+        "text": "Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the Access Administrator role for VNet1.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the Network Contributor role for RG1.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_120",
+    "prompt": "You have an Azure subscription named Subscription1 that contains a virtual network named VNet1. VNet1 is in a resource group named RG1.",
+    "answers": [
+      {
+        "text": "Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the User Access Administrator role for VNet1.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Remove User1 from the Security Reader and Reader roles for Subscription1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the Contributor role for VNet1.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_123",
+    "prompt": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_124",
+    "prompt": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_125",
+    "prompt": "You have an Azure subscription named Subscription1 that contains virtual network named VNet1. VNet1 is in a resource group named RG1.",
+    "answers": [
+      {
+        "text": "Assign User1 the Contributor role for VNet1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the Network Contributor role for VNet1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the User Access Administrator role for VNet1.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_126",
+    "prompt": "You have an Azure subscription named Subscription1 that contains virtual network named VNet1. VNet1 is in a resource group named RG1.",
+    "answers": [
+      {
+        "text": "Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Remove User1 from the Security Reader role for Subscription1. Assign User1 the Contributor role for RG1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the Network Contributor role for VNet1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the User Access Administrator role for VNet1.",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_129",
+    "prompt": "You have an Azure subscription that contains the resources shown in the following table.",
+    "answers": [
+      {
+        "text": "Storage Account Contributor",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Contributor",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Storage Blob Data Contributor",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Reader and Data Access",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_130",
+    "prompt": "You have an Azure subscription named Subscription1 that contains virtual network named VNet1. VNet1 is in a resource group named RG1.",
+    "answers": [
+      {
+        "text": "Remove User1 from the Security Reader and Reader roles for Subscription1. Assign User1 the Contributor role for Subscription1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the Contributor role for VNet1.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the Owner role for VNet1.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Assign User1 the Network Contributor role for RG1.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_132",
+    "prompt": "You purchase Azure Active Directory Premium P2 licenses.",
+    "answers": [
+      {
+        "text": "Group1 only",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Group1 and Group3 only",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Group3 and Group4 only",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Group1, Group2, and Group3 only",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Group1, Group2, Group3, and Group4",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_136",
+    "prompt": "Note: This question is part of a series of questions that present the same scenario. Each question in the series contains a unique solution that might meet the stated goals. Some question sets might have more than one correct solution, while others might not have a correct solution.",
+    "answers": [
+      {
+        "text": "Yes",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "No",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_138",
+    "prompt": "Your on-premises network contains a VPN gateway.",
+    "answers": [
+      {
+        "text": "Azure AD Application Proxy",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "private endpoints",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "a network security group (NSG)",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Azure Peering Service",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_139",
+    "prompt": "Your on-premises network contains a VPN gateway.",
+    "answers": [
+      {
+        "text": "Azure AD Application Proxy",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "service endpoints",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "a network security group (NSG)",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Azure Firewall",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_140",
+    "prompt": "Your on-premises network contains a VPN gateway.",
+    "answers": [
+      {
+        "text": "Azure Application Gateway",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "service endpoints",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "a network security group (NSG)",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Azure Peering Service",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_146",
+    "prompt": "You have a Microsoft Entra tenant.",
+    "answers": [
+      {
+        "text": "Create groups that use the Assigned membership type.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Create an Azure Resource Manager (ARM) template.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Create groups that use the Dynamic User membership type.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Write a PowerShell script that parses an import file.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Create an XML file that contains user information and the appropriate attributes.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Create a CSV file that contains user information and the appropriate attributes.",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_147",
+    "prompt": "You have an Azure subscription that contains a storage account named storage1.",
+    "answers": [
+      {
+        "text": "a backup vault",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "redundancy for storage1",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "lifecycle management for storage1",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "an Azure key vault",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "a Recovery Services vault",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_148",
+    "prompt": "You have an Azure subscription that contains the Microsoft Entra identities shown in the following table.",
+    "answers": [
+      {
+        "text": "User1 only",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Group1 only",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "User1 and Group1 only",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Group1 and Group2 only",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "User1, Group1, and Group2",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_152",
+    "prompt": "You have a Microsoft Entra tenant named contoso.com.",
+    "answers": [
+      {
+        "text": "From Cross-tenant access settings, configure the Tenant restrictions settings.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "From Cross-tenant access settings, configure the Microsoft cloud settings.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "From External collaboration settings, configure the Guest user access restrictions settings.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "From External collaboration settings, configure the Collaboration restrictions settings.",
+        "isCorrect": true,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_153",
+    "prompt": "You need to move the blueprint files to Azure.\nWhat should you do?",
+    "answers": [
+      {
+        "text": "Generate an access key. Map a drive, and then copy the files by using File Explorer.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Use Azure Storage Explorer to copy the files.",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "Use the Azure Import/Export service.",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "Generate a shared access signature (SAS). Map a drive, and then copy the files by using File Explorer.",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  },
+  {
+    "question_id": "az_104_q_154",
+    "prompt": "To which subnets can you apply NSG1?",
+    "answers": [
+      {
+        "text": "the subnets on VNet1 only",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "the subnets on VNet2 and VNet3 only",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "the subnets on VNet2 only",
+        "isCorrect": false,
+        "explanation": ""
+      },
+      {
+        "text": "the subnets on VNet3 only",
+        "isCorrect": true,
+        "explanation": ""
+      },
+      {
+        "text": "the subnets on VNet1, VNet2, and VNet3",
+        "isCorrect": false,
+        "explanation": ""
+      }
+    ],
+    "tags": [
+      "az-104"
+    ],
+    "question_choice_type": "multiple_choice",
+    "section_name": "az-104",
+    "bloom_level": "",
+    "idea_text": ""
+  }
+]

@@ -3777,52 +3777,6 @@
     "idea_text": ""
   },
   {
-    "question_id": "gcp_pca_q_116",
-    "prompt": "You have created a virtual private cloud (VPC) in auto mode, which automatically creates a subnet \nin each region. How is the CIDR block determined for each region?",
-    "answers": [
-      {
-        "text": "You will specify non-overlapping CIDR blocks for each region.",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Each region will automatically be assigned a set of predefined IP ranges that fit within the",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [
-      "gcp_professional_cloud_architect"
-    ],
-    "question_choice_type": "multiple_choice",
-    "section_name": "cloud",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
-    "question_id": "gcp_pca_q_117",
-    "prompt": "128.0.0/9 CIDR block.",
-    "answers": [
-      {
-        "text": "You will specify non-overlapping CIDR ranges for the set of regions you want a subnet created for.",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Each region will be automatically assigned a range of external IP addresses.",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [
-      "gcp_professional_cloud_architect"
-    ],
-    "question_choice_type": "multiple_choice",
-    "section_name": "cloud",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
     "question_id": "gcp_pca_q_118",
     "prompt": "A data scientist is running several large queries against BigQuery. They would like to know how \nmuch the query will cost before running the query. How would recommend they do that?",
     "answers": [
@@ -7072,34 +7026,6 @@
     "idea_text": ""
   },
   {
-    "question_id": "gcp_pca_q_222",
-    "prompt": "kubectl apply -f deployment.yaml \n \n  Why not the others? \n•",
-    "answers": [
-      {
-        "text": "Use “kubectl app deploy ”: There is no kubectl app deploy command. kubectl is used for managing \nKubernetes resources, but you need to build the Docker image and push it to a registry first. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Use “gcloud app deploy ”: This is for deploying to Google App Engine, not Kubernetes Engine. Since \nyou're working with Kubernetes, the correct tool to use is kubectl, and you'll need to build and push your \nDocker image to a container registry like Container Registry. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Create a docker image from the Dockerfile and upload it to Cloud Storage: Cloud Storage is for \nstoring objects (like files), not Docker images. You should use Container Registry or Artifact Registry for \nstoring Docker images, as Kubernetes Engine integrates directly with these registries.",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [
-      "gcp_professional_cloud_architect"
-    ],
-    "question_choice_type": "multiple_choice",
-    "section_name": "cloud",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
     "question_id": "gcp_pca_q_223",
     "prompt": "You've been hired by a new tech startup, SpaceyMedia, to manage their cloud infrastructure on \nGoogle Cloud. One of your tasks is to produce a list of all the enabled Google Cloud Platform APIs for their \nGCP project. The project name is spacey-media-app. You need to use the gcloud command line within \nCloud Shell to get this information. How do you proceed?",
     "answers": [
@@ -7199,34 +7125,6 @@
     "idea_text": ""
   },
   {
-    "question_id": "gcp_pca_q_227",
-    "prompt": "Create an Ingress resource: Kubernetes Ingress can manage external access to services, typically HTTP \nor HTTPS. It allows you to define routing rules and also manage SSL certificates for secure communication. \nWhen used in combination with a Cloud Load Balancer, Kubernetes will automatically configure the load \nbalancer to route traffic to your application. \no \nIngress resources also allow you to use HTTPS by managing SSL/TLS certificates, which is ideal for \nsecuring traffic. \no \nWhen you use an Ingress with a Cloud Load Balancer, GCP will automatically provision a public IP \naddress for your service and handle HTTPS traffic for you. \n \n  Why not the others? \n\n64 \n \n•",
-    "answers": [
-      {
-        "text": "Create a Kubernetes Service of type ClusterIP for your application. Configure the public DNS name \nof your application using the IP of this Service: \no \nA ClusterIP service is only accessible within the cluster and cannot be used to expose an \napplication publicly. You would need to use NodePort or LoadBalancer services to expose an \napplication outside of the cluster. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Create a Kubernetes Service of type NodePort to expose the application on port 443 of each node \nof the Kubernetes cluster. Configure the public DNS name of your application with the IP of every \nnode of the cluster to achieve load-balancing: \no \nWhile NodePort can expose the service on each node, you do not want to manually configure the \nDNS with multiple node IPs. This approach can be cumbersome and doesn’t scale well. It's better \nto use Ingress combined with a Cloud Load Balancer to automatically handle the load balancing \nand DNS management. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Create a HAProxy pod in the cluster to load-balance the traffic to all the pods of the application. \nForward the public traffic to HAProxy with an iptable rule. Configure the DNS name of your \napplication using the public IP of the node HAProxy is running on: \no \nManaging traffic with an internal load balancer like HAProxy inside the cluster adds complexity and \nis not necessary when GCP provides built-in load balancing via Ingress and Cloud Load Balancer. \nUsing HAProxy and iptables in this manner adds unnecessary overhead and is not aligned with \nKubernetes best practices.",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [
-      "gcp_professional_cloud_architect"
-    ],
-    "question_choice_type": "multiple_choice",
-    "section_name": "cloud",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
     "question_id": "gcp_pca_q_228",
     "prompt": "A startup called \"EcoScan\" is building an app that tracks and analyzes environmental data across \nmultiple locations. They want to add a new team member, an auditor, who needs access to review all \naspects of the project but should not have permission to make changes to any of the data or settings. How \nshould EcoScan configure the auditor's permissions?",
     "answers": [
@@ -7293,34 +7191,6 @@
     "idea_text": ""
   },
   {
-    "question_id": "gcp_pca_q_232",
-    "prompt": "Deploy instances from the custom image: Once the custom image is created, you can deploy multiple \nVM instances based on that image to handle the increased user traffic. This ensures that the VMs are \nidentical and scalable. \nBy following this approach, you ensure that your infrastructure can scale efficiently with consistent configurations. \n \n  Why not the others? \n•",
-    "answers": [
-      {
-        "text": "Create a Compute Engine snapshot of the base VM. - Create your images from that snapshot.: \no \nYou cannot create a custom image directly from a snapshot. A snapshot is used to capture the \nstate of a disk, but a custom image needs to be created from the snapshot, not from the disk itself. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Create a Compute Engine snapshot of the base VM. - Create your instances from that snapshot.: \no \nYou cannot create instances directly from a snapshot. You need to create a custom image first, \nwhich is then used to create instances. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Create a custom Compute Engine image from a snapshot. - Create your images from that image.: \no \nThe second step, \"Create your images from that image,\" is redundant. You only need to create \ninstances from the custom image, not create additional images from it.",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [
-      "gcp_professional_cloud_architect"
-    ],
-    "question_choice_type": "multiple_choice",
-    "section_name": "cloud",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
     "question_id": "gcp_pca_q_233",
     "prompt": "Your company, TechStream Solutions, has deployed a custom web application called TaskFlow on \na single Compute Engine instance. TaskFlow is designed to help users manage their daily tasks and project \nworkflows. The application writes detailed logs to the local disk for tracking errors and system activities. \nRecently, users have started reporting issues when trying to submit tasks through the platform. You need to \ninvestigate and diagnose the cause of these errors to resolve the problem. What should you do?",
     "answers": [
@@ -7354,34 +7224,6 @@
     "idea_text": ""
   },
   {
-    "question_id": "gcp_pca_q_235",
-    "prompt": "View the logs in Cloud Logging: Once the logs are pushed to Cloud Logging, you can easily filter, search, \nand analyze the logs in the Cloud Console. This will help you pinpoint any errors or issues within the \napplication that might be causing the task submission problem. \nBy using Cloud Logging, you'll also benefit from features like log retention, aggregation, and enhanced searching, \nwhich are all critical for diagnosing and resolving issues quickly. \n \n  Why not the others? \n•",
-    "answers": [
-      {
-        "text": "Navigate to Cloud Logging and view the application logs: \no \nWhile Cloud Logging is indeed the right place to view logs, this option does not mention \nconfiguring the Cloud Logging Agent to send the logs from the Compute Engine instance to Cloud \nLogging in the first place. The agent is essential for logging local instance activity to Cloud Logging. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Connect to the instance's serial console and read the application logs: \no \nConnecting to the serial console allows you to see the boot-up logs and potential system-level \nissues, but it does not provide a comprehensive view of the application logs. Serial console access \nis typically used for debugging low-level OS or network issues, not for detailed application-level \nlogging. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Configure a Health Check on the instance and set a Low Healthy Threshold value: \no \nHealth checks are important for monitoring the availability of your instance or service, but they are \nnot designed for diagnosing issues related to application functionality or detailed error logs. Health \nchecks are useful for automated remediation (such as auto-healing or load balancing) but won't \ndirectly help with detailed application-level error diagnosis.",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [
-      "gcp_professional_cloud_architect"
-    ],
-    "question_choice_type": "multiple_choice",
-    "section_name": "cloud",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
     "question_id": "gcp_pca_q_236",
     "prompt": "A food delivery service called MealMetrics generates daily order reports on a Compute Engine \nvirtual machine (VM). This VM resides in the project mealmetrics-reports. Your team works solely within \nthe project mealmetrics-central-data and needs access to these daily reports, which are stored in the \nbucket mealmetrics-central-bucket. You want to configure the system so that the reports generated by the \nVM are automatically available in the bucket mealmetrics-central-bucket while using as few steps as \npossible and following Google-recommended best practices. What should you do?",
     "answers": [
@@ -7402,34 +7244,6 @@
       },
       {
         "text": "Make mealmetrics-central-bucket public and create a folder with a pseudo-randomized suffix \nname. \nShare the folder with the Reports team.",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [
-      "gcp_professional_cloud_architect"
-    ],
-    "question_choice_type": "multiple_choice",
-    "section_name": "cloud",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
-    "question_id": "gcp_pca_q_237",
-    "prompt": "Grant the VM's Service Account the necessary permissions: \n\n67 \n \no \nThe VM running in the project mealmetrics-reports will generate the daily order reports, and you \nwant to automatically store them in a Google Cloud Storage bucket (mealmetrics-central-bucket) \nin the project mealmetrics-central-data. \no \nBy granting the VM Service Account the Storage Object Creator role on the mealmetrics-central-\nbucket, you allow the VM to automatically write objects (reports) into that bucket. This is the most \nstraightforward and Google-recommended way to achieve the desired outcome while following the \nprinciple of least privilege. \n \n  Why not the others? \n•",
-    "answers": [
-      {
-        "text": "Move both projects under the same folder: \no \nWhile organizing projects under a common folder might simplify management and provide a way to \ngroup resources, this action alone will not solve the access problem between the two projects. You \nstill need to configure permissions explicitly (e.g., granting access via IAM roles), which is the core \npart of the solution. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Create a Shared VPC network between both projects. - Grant the VM Service Account the role \nStorage Object Creator on mealmetrics-reports: \no \nA Shared VPC would allow network-level communication between the projects, but it is not \nnecessary for this use case, as the requirement is to grant the VM access to a Cloud Storage \nbucket. The Storage Object Creator role is required on the target bucket (mealmetrics-central-\nbucket), not on the VM’s project itself. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Make mealmetrics-central-bucket public and create a folder with a pseudo-randomized suffix \nname. - Share the folder with the Reports team: \no \nMaking the bucket public poses a significant security risk, especially if sensitive data is involved. \nIt's a bad practice to make the bucket public unless it's absolutely necessary, and it doesn't align \nwith the principle of least privilege.",
         "isCorrect": false,
         "explanation": ""
       }
@@ -7991,34 +7805,6 @@
       },
       {
         "text": "Store course completion data in a Bigtable database partitioned by user ID.",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [
-      "gcp_professional_cloud_architect"
-    ],
-    "question_choice_type": "multiple_choice",
-    "section_name": "cloud",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
-    "question_id": "gcp_pca_q_257",
-    "prompt": "Scalability: As your e-learning platform grows in popularity, Cloud Spanner allows you to scale horizontally \nwithout the need for complex manual interventions. It can handle high throughput and large amounts of \ndata, making it ideal for a platform that needs to scale globally. \nWhy the other options are less suitable: \n•",
-    "answers": [
-      {
-        "text": "Use Cloud SQL with cross-region replication to store course completion data in the EU, US, and \nAPAC regions: \no \nWhile Cloud SQL offers cross-region replication, it's not designed to scale as efficiently as Cloud \nSpanner for large, globally distributed applications. It requires more manual configuration and \nmanagement to ensure performance and consistency, and may struggle to handle the volume of \nusers and requests in a global context. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Use BigQuery to store course completion data with a Redis on Memorystore instance in front to \nensure global consistency: \no \nBigQuery is optimized for analytics and is not a suitable solution for transactional databases that \nrequire real-time consistency, like course completion tracking. Using Redis with BigQuery would \nadd complexity and could introduce consistency challenges, as Redis is typically used for caching \nrather than persistent data storage. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Store course completion data in a Bigtable database partitioned by user ID: \n\n76 \n \no \nBigtable is designed for large-scale, low-latency, non-relational workloads. While it's excellent for \ntime-series data and scenarios where you need to process large amounts of data quickly, it doesn't \nsupport complex relational queries (e.g., JOINs), and it's not ideal for use cases that require strong \nconsistency and relational integrity like course completion tracking. \nSummary: \nCloud Spanner is the best choice for your global e-learning platform because it offers high availability, global \nconsistency, scalability, and support for relational data, all with minimal management overhead. It ensures a \nseamless learning experience for users worldwide while addressing performance and consistency concerns.",
         "isCorrect": false,
         "explanation": ""
       }
@@ -11715,34 +11501,6 @@
     "idea_text": ""
   },
   {
-    "question_id": "gcp_pca_q_385",
-    "prompt": "The application is stateless \nCloud Run with Private Service Connect provides: \n• \nPrivate internal IP access from your VPC and on-prem via Private Service Connect \n• \nFully managed, no need to manage infrastructure (ideal for rapid code updates) \n• \nSupport for stateless services \n• \nNative support for Cloud Deploy or CI/CD pipelines \n \n  Why not the other options? \n•",
-    "answers": [
-      {
-        "text": "GKE with internal ingress: Offers internal access but involves managing clusters, which goes against \nthe \"simple cloud infrastructure\" requirement. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Cloud Run with Private Google Access: This allows Cloud Run to access private services, not the \nother way around—so it doesn’t make the app accessible via internal IP. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "GKE Autopilot with Private Google Access: Still involves Kubernetes setup and management, and \nagain, Private Google Access doesn’t expose services via internal IP.",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [
-      "gcp_professional_cloud_architect"
-    ],
-    "question_choice_type": "multiple_choice",
-    "section_name": "cloud",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
     "question_id": "gcp_pca_q_386",
     "prompt": "TechNova Inc. is facing an issue where they are running out of internal IP addresses in a subnet for \ntheir custom mode VPC. The subnet currently has the IP range 10.0.1.0/20, and the IP addresses are \nprimarily allocated to their virtual machines. TechNova needs to ensure that there are enough IP addresses \navailable for their growing number of virtual machines. What should TechNova do?",
     "answers": [
@@ -11796,34 +11554,6 @@
       },
       {
         "text": "Export logs to a storage bucket and create an external view in BigQuery.",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [
-      "gcp_professional_cloud_architect"
-    ],
-    "question_choice_type": "multiple_choice",
-    "section_name": "cloud",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
-    "question_id": "gcp_pca_q_390",
-    "prompt": "You can then use BigQuery SQL to query and analyze log data directly—without needing to export logs or \ndefine schemas manually. \nThis method: \n• \nIs fully integrated and managed. \n• \nRequires no manual export or transformation. \n• \nSupports advanced analytics, joins, and dashboarding with SQL-based tools like Looker or Data Studio. \n \n  Why not the others? \n•",
-    "answers": [
-      {
-        "text": "Gemini for Google Cloud: Gemini may assist in query generation, but it’s not a mechanism for enabling \nSQL-based log analytics. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Create schema for storage bucket: You can’t query logs from a Cloud Storage bucket directly like this; \nit’s not structured or linked to BigQuery automatically. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Export logs to storage and create external view: Possible, but manual, less efficient, and not \nrecommended compared to Log Analytics.",
         "isCorrect": false,
         "explanation": ""
       }
@@ -12266,34 +11996,6 @@
     "idea_text": ""
   },
   {
-    "question_id": "gcp_pca_q_406",
-    "prompt": "Click “Migrate traffic” or “Split traffic”, and assign 100% of the traffic to that version. \nThis provides a fast rollback mechanism and minimizes downtime or user disruption. \n \n  Why not the others? \n•",
-    "answers": [
-      {
-        "text": "gcloud app restore: No such command exists. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "“Click Revert”: There is no “Revert” button in the App Engine UI. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Deploying a separate app and splitting traffic: Overly complex and unnecessary; you can route traffic \nbetween versions, not separate apps.",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [
-      "gcp_professional_cloud_architect"
-    ],
-    "question_choice_type": "multiple_choice",
-    "section_name": "cloud",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
     "question_id": "gcp_pca_q_407",
     "prompt": "You are designing a data archival solution for ChronoPix, a company that manages historical \nfinancial data. You've chosen Cloud Storage to store the archived datasets. Your analysts need to retrieve \nthis data about once every quarter to fulfill periodic regulatory audits. Which storage option should you \nchoose to ensure cost efficiency?",
     "answers": [
@@ -12591,34 +12293,6 @@
     "idea_text": ""
   },
   {
-    "question_id": "gcp_pca_q_418",
-    "prompt": "Start the VM again. \nThis gives you control to match your exact memory requirements rather than selecting from predefined types like \nn1-standard-8 (which gives you 8 vCPUs and 30 GB RAM — overprovisioned for your use case). \n \n  Why other options are wrong: \n•",
-    "answers": [
-      {
-        "text": "Live migration: It helps move VMs during host maintenance but doesn’t change VM resources like \nmemory or CPU. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Metadata keys like required-memory-size have no effect on VM resources. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "n1-standard-8 gives 8 vCPUs and 30 GB RAM — not suitable if you want only 8 GB memory.",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [
-      "gcp_professional_cloud_architect"
-    ],
-    "question_choice_type": "multiple_choice",
-    "section_name": "cloud",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
     "question_id": "gcp_pca_q_419",
     "prompt": "You are managing an online education platform called EduStream, which uses BigQuery as a data \nwarehouse to store student performance and course interaction data. A partner company, LearnAI, is \nproposing to offer a machine-learning engine that provides personalized learning recommendations based \non the data in your BigQuery warehouse. LearnAI operates its services on Google Cloud, managing its \nresources in its own project. They require access to your BigQuery dataset to generate their \nrecommendations. How can LearnAI access your dataset?",
     "answers": [
@@ -12640,34 +12314,6 @@
       {
         "text": "- Ask LearnAI to create a Service Account in their project  \n- Grant their Service Account access to the BigQuery dataset in your project.",
         "isCorrect": true,
-        "explanation": ""
-      }
-    ],
-    "tags": [
-      "gcp_professional_cloud_architect"
-    ],
-    "question_choice_type": "multiple_choice",
-    "section_name": "cloud",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
-    "question_id": "gcp_pca_q_422",
-    "prompt": "LearnAI uses that service account to authenticate and access only the resources (datasets/tables) you've \nauthorized. \nThis approach ensures least privilege, full auditability, and that LearnAI manages their own credentials. \n \n  Why the other options are incorrect: \n•",
-    "answers": [
-      {
-        "text": "You should not create a service account on behalf of a third party — they should control their own \ncredentials. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Same issue — you create the SA, but they're the consumer; it's backward. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "You're supposed to give them access to your BigQuery dataset — so they need access to your \nresources, not vice versa.",
-        "isCorrect": false,
         "explanation": ""
       }
     ],
@@ -12799,34 +12445,6 @@
       },
       {
         "text": "- Create a new revision with the updated version of the app.  \n- Set up an HTTP Load Balancer in front of both revisions.",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [
-      "gcp_professional_cloud_architect"
-    ],
-    "question_choice_type": "multiple_choice",
-    "section_name": "cloud",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
-    "question_id": "gcp_pca_q_428",
-    "prompt": "Using traffic splitting to route a percentage of requests to the new revision while the rest continue going to \nthe stable one. \n\n130 \n \nThis allows you to test changes gradually in production without affecting all users. \n \n  Why the other options are incorrect: \n•",
-    "answers": [
-      {
-        "text": "Creating a new service won't allow built-in traffic splitting — you'd need a more complex setup. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Creating a new service and managing traffic with a load balancer adds unnecessary complexity for a \ncanary deployment. \n•",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Same as C — Cloud Run handles traffic splitting without needing a separate load balancer.",
         "isCorrect": false,
         "explanation": ""
       }
@@ -20805,34 +20423,6 @@
       },
       {
         "text": "Create a temporary account for the auditor in Cloud Identity, and give that account the Security \nReviewer role on the project. \n \n\n190",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [
-      "gcp_professional_cloud_architect"
-    ],
-    "question_choice_type": "multiple_choice",
-    "section_name": "cloud",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
-    "question_id": "gcp_pca_q_681",
-    "prompt": "Your tech startup, AppifyNow, has been building a new app, and last month you noticed the \nproject’s cloud expenses were higher than expected. After investigating, you discovered that one of your \ndevelopment GKE containers generated a large number of logs, leading to the unexpected cost increase. \nYou want to quickly stop these logs with the fewest steps possible. What should you do? (Note: Stackdriver \nis now called 'Google Cloud's Operation Suite')",
-    "answers": [
-      {
-        "text": "1. Go to the Logs ingestion window in Stackdriver Logging, and disable the log source for the GKE \ncontainer resource.",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "1. Go to the Logs ingestion window in Stackdriver Logging, and disable the log source for the GKE \nCluster Operations resource.",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "1. Go to the GKE console, and delete existing clusters.",
         "isCorrect": false,
         "explanation": ""
       }

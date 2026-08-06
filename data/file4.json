@@ -341,22 +341,6 @@
     "idea_text": ""
   },
   {
-    "question_id": "9554328e4d7849069538705e",
-    "prompt": "You are an ML engineer at a mobile gaming company. A data scientist on your team recently trained a TensorFlow model, and you are responsible for deploying this model into a mobile application. You discover that the inference latency of the current model doesn't meet production requirements. You need to reduce the inference time by 50%, and you are willing to accept a small decrease in model accuracy in order to reach the latency requirement. Without training a new model, which model optimization technique for reducing latency should you try first?",
-    "answers": [
-      {
-        "text": "Weight pruningB. Dynamic range quantizationC. Model distillationD. Dimensionality reduction",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [],
-    "question_choice_type": "multiple_choice",
-    "section_name": "ai",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
     "question_id": "494c0710605c4d42b9acb9d1",
     "prompt": "You work on a data science team at a bank and are creating an ML model to predict loan default risk. You have collected and cleaned hundreds of millions of records worth of training data in a BigQuery table, and you now want to develop and compare multiple models on this data using TensorFlow and Vertex AI. You want to minimize any bottlenecks during the data ingestion state while considering scalability. What should you do?",
     "answers": [
@@ -667,22 +651,6 @@
     "idea_text": ""
   },
   {
-    "question_id": "1e0c41b190bb478e99309fb6",
-    "prompt": "You are building a TensorFlow model for a financial institution that predicts the impact of consumer spending on inflation globally. Due to the size and nature of the data, your model is long-running across all types of hardware, and you have built frequent checkpointing into the training process. Your organization has asked you to minimize cost. What hardware should you choose?",
-    "answers": [
-      {
-        "text": "A Vertex AI Workbench user-managed notebooks instance running on an n1-standard-16 with 4 NVIDIA P100 GPUsB. A Vertex AI Workbench user-managed notebooks instance running on an n1-standard-16 with an NVIDIA P100 GPUC. A Vertex AI Workbench user-managed notebooks instance running on an n1-standard-16 with a non-preemptible v3-8 TPUD. A Vertex AI Workbench user-managed notebooks instance running on an n1-standard-16 with a preemptible v3-8 TPU",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [],
-    "question_choice_type": "multiple_choice",
-    "section_name": "ai",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
     "question_id": "30f35ab290a142948314eec7",
     "prompt": "You work for a company that provides an anti-spam service that flags and hides spam posts on social media platforms. Your company currently uses a list of 200,000 keywords to identify suspected spam posts. If a post contains more than a few of these keywords, the post is identified as spam. You want to start using machine learning to flag spam posts for human review. What is the main advantage of implementing machine learning for this business case?",
     "answers": [
@@ -776,22 +744,6 @@
     "idea_text": ""
   },
   {
-    "question_id": "947f20d0253347f0b527a937",
-    "prompt": "You work for a gaming company that manages a popular online multiplayer game where teams with 6 players play against each other in 5-minute battles. There are many new players every day. You need to build a model that automatically assigns available players to teams in real time. User research indicates that the game is more enjoyable when battles have players with similar skill levels. Which business metrics should you track to measure your model's performance?",
-    "answers": [
-      {
-        "text": "Average time players wait before being assigned to a teamB. Precision and recall of assigning players to teams based on their predicted versus actual abilityC. User engagement as measured by the number of battles played daily per userD. Rate of return as measured by additional revenue generated minus the cost of developing a new model",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [],
-    "question_choice_type": "multiple_choice",
-    "section_name": "ai",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
     "question_id": "e2d4349eb8b041eb85159901",
     "prompt": "You are building an ML model to predict trends in the stock market based on a wide range of factors. While exploring the data, you notice that some features have a large range. You want to ensure that the features with the largest magnitude don't overfit the model. What should you do?",
     "answers": [
@@ -823,22 +775,6 @@
     "idea_text": ""
   },
   {
-    "question_id": "5dda8eba99fa4dc282f4d3f1",
-    "prompt": "You work for a biotech startup that is experimenting with deep learning ML models based on properties of biological organisms. Your team frequently works on early-stage experiments with new architectures of ML models, and writes custom TensorFlow ops in C++. You train your models on large datasets and large batch sizes. Your typical batch size has 1024 examples, and each example is about 1 MB in size. The average size of a network with all weights and embeddings is 20 GB. What hardware should you choose for your models?",
-    "answers": [
-      {
-        "text": "A cluster with 2 n1-highcpu-64 machines, each with 8 NVIDIA Tesla V100 GPUs (128 GB GPU memory in total), and a n1-highcpu-64 machine with 64 vCPUs and 58 GB RAMB. A cluster with 2 a2-megagpu-16g machines, each with 16 NVIDIA Tesla A100 GPUs (640 GB GPU memory in total), 96 vCPUs, and 1.4 TB RAMC. A cluster with an n1-highcpu-64 machine with a v2-8 TPU and 64 GB RAMD. A cluster with 4 n1-highcpu-96 machines, each with 96 vCPUs and 86 GB RAM",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [],
-    "question_choice_type": "multiple_choice",
-    "section_name": "ai",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
     "question_id": "d7a868afc4ec4376b14e1340",
     "prompt": "During batch training of a neural network, you notice that there is an oscillation in the loss. How should you adjust your model to ensure that it converges?",
     "answers": [
@@ -859,22 +795,6 @@
       },
       {
         "text": "Increase the size of the training batch.",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [],
-    "question_choice_type": "multiple_choice",
-    "section_name": "ai",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
-    "question_id": "87b35606508d47c5912907c6",
-    "prompt": "You work for a toy manufacturer that has been experiencing a large increase in demand. You need to build an ML model to reduce the amount of time spent by quality control inspectors checking for product defects. Faster defect detection is a priority. The factory does not have reliable Wi-Fi. Your company wants to implement the new ML model as soon as possible. Which model should you use?",
-    "answers": [
-      {
-        "text": "AutoML Vision Edge mobile-high-accuracy-1 modelB. AutoML Vision Edge mobile-low-latency-1 modelC. AutoML Vision modelD. AutoML Vision Edge mobile-versatile-1 model",
         "isCorrect": false,
         "explanation": ""
       }
@@ -963,22 +883,6 @@
       },
       {
         "text": "Embed the model in the streaming Dataflow pipeline. Make predictions after every in-app purchase event is published in Pub/Sub, and push the data to Cloud SQL.",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [],
-    "question_choice_type": "multiple_choice",
-    "section_name": "ai",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
-    "question_id": "ebc943bc74d7465ba4d488f8",
-    "prompt": "You are an ML engineer at a bank that has a mobile application. Management has asked you to build an ML-based biometric authentication for the app that verifies a customer's identity based on their fingerprint. Fingerprints are considered highly sensitive personal information and cannot be downloaded and stored into the bank databases. Which learning strategy should you recommend to train and deploy this ML mode?",
-    "answers": [
-      {
-        "text": "Data Loss Prevention APIB. Federated learningC. MD5 to encrypt dataD. Differential privacy",
         "isCorrect": false,
         "explanation": ""
       }
@@ -1409,22 +1313,6 @@
     "idea_text": ""
   },
   {
-    "question_id": "5a1cbf8115394ef6b9027b37",
-    "prompt": "You are working on a binary classification ML algorithm that detects whether an image of a classified scanned document contains a company's logo. In the dataset, 96% of examples don't have the logo, so the dataset is very skewed. Which metrics would give you the most confidence in your model?",
-    "answers": [
-      {
-        "text": "F-score where recall is weighed more than precisionB. RMSEC. F1 scoreD. F-score where precision is weighed more than recall",
-        "isCorrect": true,
-        "explanation": ""
-      }
-    ],
-    "tags": [],
-    "question_choice_type": "multiple_choice",
-    "section_name": "ai",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
     "question_id": "22750dac8a3d4d11b2fb846f",
     "prompt": "You work on the data science team for a multinational beverage company. You need to develop an ML model to predict the company's profitability for a new line of naturally flavored bottled waters in different locations. You are provided with historical data that includes product types, product sales volumes, expenses, and profits for all regions. What should you use as the input and output for your model?",
     "answers": [
@@ -1476,27 +1364,6 @@
       },
       {
         "text": "Train a custom TensorFlow model and convert it to TensorFlow Lite (TFLite).",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [],
-    "question_choice_type": "multiple_choice",
-    "section_name": "ai",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
-    "question_id": "2540d80867e5456b8e783e2c",
-    "prompt": "You work for a large social network service provider whose users post articles and discuss news. Millions of comments are posted online each day, and more than 200 human moderators constantly review comments and flag those that are inappropriate. Your team is building an ML model to help human moderators check content on the platform. The model scores each comment and flags suspicious comments to be reviewed by a human. Which metric(s) should you use to monitor the model's performance?",
-    "answers": [
-      {
-        "text": "Number of messages flagged by the model per minuteB. Number of messages flagged by the model per minute confirmed as being inappropriate by humans.",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Precision and recall estimates based on a random sample of 0.1% of raw messages each minute sent to a human for reviewD. Precision and recall estimates based on a sample of messages flagged by the model as potentially inappropriate each minute",
         "isCorrect": false,
         "explanation": ""
       }
@@ -1590,22 +1457,6 @@
       },
       {
         "text": "Vary features independently to identify the threshold per feature that changes the classification.",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [],
-    "question_choice_type": "multiple_choice",
-    "section_name": "ai",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
-    "question_id": "db2277e8192640228ef8a551",
-    "prompt": "Your data science team has requested a system that supports scheduled model retraining, Docker containers, and a service that supports autoscaling and monitoring for online prediction requests. Which platform components should you choose for this system?",
-    "answers": [
-      {
-        "text": "Vertex AI Pipelines and App EngineB. Vertex AI Pipelines, Vertex AI Prediction, and Vertex AI Model MonitoringC. Cloud Composer, BigQuery ML, and Vertex AI PredictionD. Cloud Composer, Vertex AI Training with custom containers, and App Engine",
         "isCorrect": false,
         "explanation": ""
       }
@@ -2051,32 +1902,6 @@
     "idea_text": ""
   },
   {
-    "question_id": "e3b1a1455dba4fd7ae42d68c",
-    "prompt": "You need to train a regression model based on a dataset containing 50,000 records that is stored in BigQuery. The data includes a total of 20 categorical and numerical features with a target variable that can include negative values. You need to minimize effort and training time while maximizing model performance. What approach should you take to train this regression model?",
-    "answers": [
-      {
-        "text": "Create a custom TensorFlow DNN modelB. Use BQML XGBoost regression to train the model.",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Use AutoML Tables to train the model without early stopping.",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "Use AutoML Tables to train the model with RMSLE as the optimization objective.",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [],
-    "question_choice_type": "multiple_choice",
-    "section_name": "ai",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
     "question_id": "a0f94d4741304589aa1de492",
     "prompt": "You are building a linear model with over 100 input features, all with values between -1 and 1. You suspect that many features are non-informative. You want to remove the non-informative features from your model while keeping the informative ones in their original form. Which technique should you use?",
     "answers": [
@@ -2097,22 +1922,6 @@
       },
       {
         "text": "Use an iterative dropout technique to identify which features do not degrade the model when removed.",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [],
-    "question_choice_type": "multiple_choice",
-    "section_name": "ai",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
-    "question_id": "c9d19009c2324597baa467aa",
-    "prompt": "While monitoring your model training's GPU utilization, you discover that you have a native synchronous implementation. The training data is split into multiple files. You want to reduce the execution time of your input pipeline. What should you do?",
-    "answers": [
-      {
-        "text": "Increase the CPU loadB. Add caching to the pipelineC. Increase the network bandwidthD. Add parallel interleave to the pipeline",
         "isCorrect": false,
         "explanation": ""
       }
@@ -2175,48 +1984,6 @@
       },
       {
         "text": "Create a TensorFlow model using Google's BERT pre-trained model. Build and test a classifier, and deploy the model using Vertex AI.",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [],
-    "question_choice_type": "multiple_choice",
-    "section_name": "ai",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
-    "question_id": "f64100537ca34053bf157120",
-    "prompt": "You need to quickly build and train a model to predict the sentiment of customer reviews with custom categories without writing code. You do not have enough data to train a model from scratch. The resulting model should have high predictive performance. Which service should you use?",
-    "answers": [
-      {
-        "text": "AutoML Natural LanguageB. Cloud Natural Language APIC. AI Hub pre-made Jupyter NotebooksD. AI Platform Training built-in algorithms",
-        "isCorrect": true,
-        "explanation": ""
-      }
-    ],
-    "tags": [],
-    "question_choice_type": "multiple_choice",
-    "section_name": "ai",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
-    "question_id": "8c1c367ba4634bd2b90ec630",
-    "prompt": "You are using transfer learning to train an image classifier based on a pre-trained EfficientNet model. Your training dataset has 20,000 images. You plan to retrain the model once per day. You need to minimize the cost of infrastructure. What platform components and configuration environment should you use?",
-    "answers": [
-      {
-        "text": "A Deep Learning VM with 4 V100 GPUs and local storage.",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "A Deep Learning VM with 4 V100 GPUs and Cloud Storage.",
-        "isCorrect": false,
-        "explanation": ""
-      },
-      {
-        "text": "A Google Kubernetes Engine cluster with a V100 GPU Node Pool and an NFS ServerD. An AI Platform Training job using a custom scale tier with 4 V100 GPUs and Cloud Storage",
         "isCorrect": false,
         "explanation": ""
       }
@@ -2537,22 +2304,6 @@
       },
       {
         "text": "Ensure that feature expectations are captured in the schema.",
-        "isCorrect": false,
-        "explanation": ""
-      }
-    ],
-    "tags": [],
-    "question_choice_type": "multiple_choice",
-    "section_name": "ai",
-    "bloom_level": "",
-    "idea_text": ""
-  },
-  {
-    "question_id": "d0567333a3df42fa9fe8ea0c",
-    "prompt": "You work for a credit card company and have been asked to create a custom fraud detection model based on historical data using AutoML Tables. You need to prioritize detection of fraudulent transactions while minimizing false positives. Which optimization objective should you use when training the model?",
-    "answers": [
-      {
-        "text": "An optimization objective that minimizes Log lossB. An optimization objective that maximizes the Precision at a Recall value of 0.50C. An optimization objective that maximizes the area under the precision-recall curve (AUC PR) valueD. An optimization objective that maximizes the area under the receiver operating characteristic curve (AUC ROC) value",
         "isCorrect": false,
         "explanation": ""
       }
