@@ -61,8 +61,6 @@ def load_questions(data_dir=DATA_DIR):
         
     for file in os.listdir(data_dir):
         if file.endswith(".json") or file.endswith(".jsonl"):
-            if file in ["file3.json"]:
-                continue
             try:
                 with open(os.path.join(data_dir, file), "r", encoding="utf-8") as f:
                     data = json.load(f)
@@ -190,25 +188,38 @@ st.markdown("<br>", unsafe_allow_html=True)
 if not display_answers:
     st.info("This question has no multiple choice options.")
 else:
-    # Use index=None so no option is pre-selected
-    selected = st.radio(
-        "**Select your answer:**",
-        [a["text"] for a in display_answers],
-        key=f"answer_{index}",
-        index=None
-    )
+    correct_answers = [a for a in display_answers if a.get("isCorrect")]
+    num_correct = len(correct_answers)
+    
+    selected_options = []
+    if num_correct > 1:
+        st.write(f"**Select {num_correct} answers:**")
+        for a in display_answers:
+            if st.checkbox(a["text"], key=f"check_{index}_{a['text']}"):
+                selected_options.append(a["text"])
+    else:
+        selected = st.radio(
+            "**Select your answer:**",
+            [a["text"] for a in display_answers],
+            key=f"answer_{index}",
+            index=None
+        )
+        if selected is not None:
+            selected_options.append(selected)
 
     if st.button("Check Answer", type="primary", key=f"check_{index}"):
-        if selected is None:
+        if not selected_options:
             st.warning("Please select an answer first.")
         else:
-            correct_answers = [a for a in display_answers if a.get("isCorrect")]
-            
             if not correct_answers:
                 st.warning("This question does not have a designated correct answer in the dataset.")
             else:
                 correct_texts = [a["text"] for a in correct_answers]
-                is_correct = selected in correct_texts
+                
+                if num_correct > 1:
+                    is_correct = set(selected_options) == set(correct_texts)
+                else:
+                    is_correct = selected_options[0] in correct_texts
 
                 # Store results
                 st.session_state.results.append(is_correct)
@@ -217,17 +228,18 @@ else:
                 # Feedback
                 if is_correct:
                     st.success("✅ Correct!")
-                    correct_obj = next(a for a in correct_answers if a["text"] == selected)
-                    if correct_obj.get("explanation"):
-                        st.info(f"**Explanation:** {correct_obj['explanation']}")
+                    for c_ans in correct_answers:
+                        if c_ans.get("explanation"):
+                            st.info(f"**Explanation:** {c_ans['explanation']}")
                 else:
                     st.error("❌ Incorrect!")
-                    chosen_obj = next((a for a in display_answers if a["text"] == selected), None)
-                    if chosen_obj and chosen_obj.get("explanation"):
-                        st.warning(f"**Why your answer is wrong:** {chosen_obj['explanation']}")
+                    for s in selected_options:
+                        if s not in correct_texts:
+                            chosen_obj = next((a for a in display_answers if a["text"] == s), None)
+                            if chosen_obj and chosen_obj.get("explanation"):
+                                st.warning(f"**Why '{s}' is wrong:** {chosen_obj['explanation']}")
                     
                     st.info(f"**Correct answer(s):** {', '.join(correct_texts)}")
-                    # Display correct answer's explanation if available
                     for c_ans in correct_answers:
                         if c_ans.get("explanation"):
                             st.caption(f"*Explanation for {c_ans['text']}:* {c_ans['explanation']}")
@@ -241,9 +253,13 @@ with st.expander("📚 View Question Metadata"):
     st.write(f"**ID:** `{question.get('question_id', 'N/A')}`")
     st.write(f"**Section:** `{question.get('section_name', 'N/A')}`")
     st.write(f"**Bloom Level:** `{question.get('bloom_level', 'N/A')}`")
+    if 'question_choice_type' in question:
+        st.write(f"**Choice Type:** `{question.get('question_choice_type')}`")
     tags = question.get('tags', [])
     if tags:
         st.write(f"**Tags:** {', '.join(tags)}")
+    if question.get('idea_text'):
+        st.write(f"**Idea Text:** {question.get('idea_text')}")
 
 st.markdown("<br>", unsafe_allow_html=True)
 col1, col2, col3 = st.columns([1, 2, 1])
